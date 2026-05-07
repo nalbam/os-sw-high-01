@@ -43,12 +43,16 @@ layout: default
 layout: default
 ---
 
-<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
+<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] overflow-hidden">
 
+<div class="absolute top-12 left-16 right-16">
 <SectionLabel section="RECAP" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
+<div class="text-3xl mt-2 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
+</div>
 
-<div class="grid grid-cols-9 gap-2 items-center mt-12">
+<div class="absolute top-32 bottom-20 left-16 right-16 flex flex-col justify-center">
+
+<div class="grid grid-cols-8 gap-2 items-center">
 <div class="col-span-2 text-center bg-white p-5 rounded shadow-sm">
 <div class="text-3xl font-bold text-[#F96167] mb-2">불편함</div>
 <div class="text-xs text-[#6B6E80] uppercase tracking-widest font-mono">Discomfort</div>
@@ -69,8 +73,8 @@ layout: default
 <div class="text-4xl font-bold text-[#1A1A2E]">=</div>
 </div>
 
-<div class="flex justify-center">
-<div class="bg-[#1A1A2E] text-white px-12 py-6 rounded-lg text-center">
+<div class="grid grid-cols-8 gap-2">
+<div class="col-start-4 col-span-2 bg-[#1A1A2E] text-white py-6 rounded-lg text-center">
 <div class="text-3xl font-bold mb-2">좋은 시작</div>
 <div class="text-xs text-[#FBE3E4] uppercase tracking-widest font-mono">Good start</div>
 </div>
@@ -89,6 +93,8 @@ layout: default
 <span class="text-2xl text-[#F96167]">·</span>
 <span class="text-sm text-[#2A2D43]">직접 써 보며 고친다.</span>
 </div>
+</div>
+
 </div>
 
 <PageFooter light />
