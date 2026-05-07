@@ -25,7 +25,7 @@ pnpm run export   # PDF 내보내기
 
 ```
 slides.md             진입점 (페이지 임포트만 담당)
-pages/                슬라이드 본문 (총 33쪽)
+pages/                슬라이드 본문 (총 34쪽)
   01-cover.md         · 커버
   01b-about.md        · 발표자 소개
   03b-intro-personal.md   · 당근 / AWS Hero 소개
