@@ -31,7 +31,7 @@ layout: default
 <SectionLabel section="CASE STUDY 01" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">문제는 단순했습니다</div>
 
-<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">차가 지나갈 때마다<br/><span class="text-[#F96167]">랩타임을 정확하게</span> 재고 싶다.</div>
+<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">차가 지나갈 때마다<br/><span class="text-[#F96167]">한 바퀴 시간(랩타임)을 정확하게</span> 재고 싶다.</div>
 
 <div class="text-sm text-[#6B6E80] mb-12">사람이 수동으로 재면 — 늦거나 놓칠 수 있습니다.</div>
 
@@ -125,7 +125,7 @@ layout: default
 </div>
 <div class="bg-white p-6 rounded shadow-sm">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DISTANCE</div>
-<div class="text-base text-[#2A2D43] leading-snug">거리 문제를 줄이기 위해 — <strong>배선 방식을 바꿨다</strong></div>
+<div class="text-base text-[#2A2D43] leading-snug">거리 문제를 줄이기 위해 — <strong>전선 연결 방식을 바꿨다</strong></div>
 </div>
 <div class="bg-white p-6 rounded shadow-sm">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">ENV</div>
@@ -161,7 +161,7 @@ layout: default
 <div class="space-y-5 mt-10">
 <div class="flex items-start gap-4">
 <span class="text-2xl text-[#F96167] font-bold mt-1">→</span>
-<span class="text-lg text-[#CADCFC]">센서와 라즈베리파이로 해결할 수 있다.</span>
+<span class="text-lg text-[#CADCFC]">센서와 작은 컴퓨터(라즈베리파이)로 해결할 수 있다.</span>
 </div>
 <div class="flex items-start gap-4">
 <span class="text-2xl text-[#F96167] font-bold mt-1">→</span>

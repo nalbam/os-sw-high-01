@@ -31,7 +31,7 @@ layout: default
 <SectionLabel section="CASE STUDY 03" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">이번엔 이런 불편함이 있었습니다</div>
 
-<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">터미널을 계속 보고 있지 않아도<br/><span class="text-[#F96167]">상태를 알 수 없을까?</span></div>
+<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">검은 글자 화면(터미널)을 계속 보고 있지 않아도<br/><span class="text-[#F96167]">상태를 알 수 없을까?</span></div>
 
 <div class="text-sm text-[#6B6E80] mb-12">작은 LCD 화면에서 시작한 아이디어였습니다.</div>
 
@@ -84,7 +84,7 @@ layout: default
 
 <div class="mt-12 p-6 border-l-4 border-[#F96167] bg-white/5">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">PRINCIPLE</div>
-<div class="text-2xl font-semibold text-white">작게 만들어 본 뒤에,<br/>정말 쓸 만하면 <span class="text-[#F96167]">확장</span>합니다.</div>
+<div class="text-2xl font-semibold text-white">작게 만들어 본 뒤에,<br/>정말 쓸 만하면 <span class="text-[#F96167]">더 키워 갑니다.</span></div>
 <div class="text-sm text-[#AAB1C7] mt-4">처음부터 큰 그림을 다 그릴 필요는 없습니다.</div>
 </div>
 

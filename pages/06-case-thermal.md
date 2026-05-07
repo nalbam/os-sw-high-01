@@ -33,16 +33,16 @@ layout: default
 
 <div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">누군가가 계속 옆에 서서<br/><span class="text-[#F96167]">화면을 보고 있어야</span> 했다.</div>
 
-<div class="text-sm text-[#6B6E80] mb-12">사람이 계속 감시해야 하는 일은 — 좋은 자동화 후보입니다.</div>
+<div class="text-sm text-[#6B6E80] mb-12">사람이 계속 지켜봐야 하는 일은 — 좋은 자동화 후보입니다.</div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">BEYOND HARDWARE</div>
-<div class="text-base text-[#2A2D43]">열화상 카메라만 있다고 끝이 아니다.</div>
+<div class="text-base text-[#2A2D43]">열화상 카메라(체온이 색으로 보이는 카메라)만 있다고 끝이 아니다.</div>
 </div>
 <div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RESPONSE TIME</div>
-<div class="text-base text-[#2A2D43]">이상 상황을 빨리 알려줘야 한다.</div>
+<div class="text-base text-[#2A2D43]">이상이 생긴 상황을 빨리 알려줘야 한다.</div>
 </div>
 <div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RECORDS</div>

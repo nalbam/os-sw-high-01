@@ -15,7 +15,7 @@ layout: default
 </div>
 <div class="text-center">
 <div class="w-16 h-16 rounded-full bg-[#F96167] text-white text-2xl font-bold mx-auto flex items-center justify-center mb-3 font-mono">02</div>
-<div class="text-sm font-bold text-[#1A1A2E] uppercase tracking-wider">설계</div>
+<div class="text-sm font-bold text-[#1A1A2E] uppercase tracking-wider">시작</div>
 <div class="text-sm text-[#2A2D43] mt-2">작게 만든다</div>
 </div>
 <div class="text-center">

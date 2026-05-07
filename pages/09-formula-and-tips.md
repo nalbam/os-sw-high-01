@@ -25,11 +25,11 @@ layout: default
 <div class="grid grid-cols-2 gap-3 items-stretch">
 <div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DON'T</div>
-<div class="text-sm text-[#CADCFC]">AI가 준 답을 그대로 믿지 않고 직접 실행하기</div>
+<div class="text-sm text-[#CADCFC]">AI가 준 답을 그대로 믿어 버리기</div>
 </div>
 <div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-2">DO</div>
-<div class="text-sm text-white">틀린 부분을 고치면서 배우기</div>
+<div class="text-sm text-white">직접 실행해 보고, 틀린 부분을 고치면서 배우기</div>
 </div>
 </div>
 
@@ -63,7 +63,7 @@ layout: default
 </div>
 <div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
 <div class="text-2xl font-bold text-[#F96167] font-mono">02</div>
-<div class="text-base text-[#2A2D43] pt-1">GitHub나 블로그에 기록 남기기</div>
+<div class="text-base text-[#2A2D43] pt-1">GitHub(코드를 올리는 사이트)나 블로그에 기록 남기기</div>
 </div>
 <div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
 <div class="text-2xl font-bold text-[#F96167] font-mono">03</div>
@@ -117,7 +117,7 @@ layout: default
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">README</div>
-<div class="text-sm text-[#CADCFC]">짧은 README 하나</div>
+<div class="text-sm text-[#CADCFC]">짧은 프로젝트 설명서 한 장</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">RETRO</div>
