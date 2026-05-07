@@ -39,36 +39,13 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="MY STORY" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이런 일을 해왔습니다</div>
+<div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이렇게 시작했습니다</div>
 
-<div class="grid grid-cols-5 gap-3 mt-8">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
-<div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">01</div>
-<div class="text-sm text-[#CADCFC]">웹 서비스 만들기</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
-<div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">02</div>
-<div class="text-sm text-[#CADCFC]">백엔드 개발</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
-<div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">03</div>
-<div class="text-sm text-[#CADCFC]">클라우드와 자동화</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
-<div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">04</div>
-<div class="text-sm text-[#CADCFC]">작은 장치와 실험 프로젝트</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
-<div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">05</div>
-<div class="text-sm text-[#CADCFC]">만든 것을 블로그에 기록하기</div>
-</div>
-</div>
+<div class="grid grid-cols-2 gap-10 items-center mt-12">
 
-<div class="grid grid-cols-2 gap-8 items-start mt-12">
-
-<div class="space-y-4">
-<p class="text-lg leading-relaxed text-[#CADCFC]">처음부터 <span class="text-[#F96167] font-semibold">"이 직업을 해야지"</span> 하고 시작하지 않았습니다.</p>
-<p class="text-lg leading-relaxed text-[#CADCFC]">재미있는 문제를 만나면 <strong>직접 만들어 보고</strong>,<br/>안되면 <strong>고쳐 왔습니다</strong>.</p>
+<div class="space-y-6">
+<p class="text-2xl leading-relaxed text-[#CADCFC]">처음부터 <span class="text-[#F96167] font-semibold">"이 직업을 해야지"</span> 하고 시작하지 않았습니다.</p>
+<p class="text-2xl leading-relaxed text-[#CADCFC]">재미있는 문제를 만나면 <strong class="text-white">직접 만들어 보고</strong>,<br/>안 되면 <strong class="text-white">고쳐 왔습니다</strong>.</p>
 </div>
 
 <div class="rounded-lg overflow-hidden">

@@ -66,19 +66,19 @@ layout: default
 <div class="grid grid-cols-4 gap-4 mt-12">
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">1</div>
-<div class="text-sm text-[#CADCFC]">작은 화면<br/>프로토타입</div>
+<div class="text-sm text-[#CADCFC]">작은 화면으로<br/>먼저 만들어 봤다</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">2</div>
-<div class="text-sm text-[#CADCFC]">웹<br/>시뮬레이터</div>
+<div class="text-sm text-[#CADCFC]">웹에서<br/>미리 보게 했다</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">3</div>
-<div class="text-sm text-[#CADCFC]">데스크톱<br/>앱</div>
+<div class="text-sm text-[#CADCFC]">내 컴퓨터에서<br/>쓰는 앱으로 키웠다</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">4</div>
-<div class="text-sm text-[#CADCFC]">웹<br/>대시보드</div>
+<div class="text-sm text-[#CADCFC]">웹사이트로<br/>누구나 보게 했다</div>
 </div>
 </div>
 

@@ -25,19 +25,19 @@ pnpm run export   # PDF 내보내기
 
 ```
 slides.md             진입점 (페이지 임포트만 담당)
-pages/                슬라이드 본문 (총 37쪽)
+pages/                슬라이드 본문 (총 33쪽)
   01-cover.md         · 커버
   01b-about.md        · 발표자 소개
+  03b-intro-personal.md   · 당근 / AWS Hero 소개
   02-introduction.md  · 도입
   03-mindset.md       · 프로그래머의 정의
-  03b-intro-personal.md   · SRE / AWS Hero / 당근 소개
   03c-mindset-philosophy.md  · 5단계 사이클
   04-fundamentals.md  · 자동화의 신호
   05-case-deepracer.md    · 사례 1: DeepRacer Timer
   06-case-thermal.md      · 사례 2: 체온 알람
   07-case-vibemon.md      · 사례 3: VibeMon
-  08-recap-and-your-turn.md  · 정리·과제
-  09-formula-and-tips.md     · 공식·팁
+  08-recap-and-your-turn.md  · 정리·공식·과제
+  09-formula-and-tips.md     · 팁·기록
   10-closing.md       · 마무리
 components/           재사용 컴포넌트
   SectionLabel.vue    · 섹션 헤더 (`{currentPage} · SECTION`)

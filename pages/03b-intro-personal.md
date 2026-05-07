@@ -40,90 +40,6 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<SectionLabel section="ABOUT ME" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">Cloud Engineer · DevOps · SRE는 어떻게 다를까?</div>
-
-<div class="grid grid-cols-3 gap-5 mt-8">
-
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">Cloud Engineer</div>
-<div class="text-lg font-bold text-[#1A1A2E] mb-3">클라우드 컴퓨터를<br/>잘 만드는 사람</div>
-<div class="text-sm text-[#2A2D43] leading-relaxed">서버·네트워크·클라우드 구조를 설계하고 준비합니다.</div>
-</div>
-
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DevOps</div>
-<div class="text-lg font-bold text-[#1A1A2E] mb-3">개발과 운영이<br/>빨라지게 돕는 사람</div>
-<div class="text-sm text-[#2A2D43] leading-relaxed">배포, 협업, 자동화 흐름을 더 매끄럽게 만듭니다.</div>
-</div>
-
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">SRE</div>
-<div class="text-lg font-bold text-[#1A1A2E] mb-3">서비스가 계속<br/>잘 돌아가게 돕는 사람</div>
-<div class="text-sm text-[#2A2D43] leading-relaxed">안정성, 장애 대응, 반복 작업 자동화에 더 집중합니다.</div>
-</div>
-
-</div>
-
-<div class="mt-10 p-5 bg-[#1A1A2E] text-white rounded-lg">
-<div class="text-base">저는 이 셋이 <span class="text-[#F96167] font-semibold">겹치는 지점</span>에서 일합니다. 그래서 코드를 이해하면서도, 클라우드와 운영 자동화를 함께 봅니다.</div>
-</div>
-
-<PageFooter light />
-
-</div>
-
----
-layout: default
----
-
-<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
-
-<SectionLabel section="ABOUT ME" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">AWS AI Hero란?</div>
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">어떤 사람?</div>
-<div class="space-y-2 text-base text-[#2A2D43]">
-<div>· AWS가 인정한 커뮤니티 리더</div>
-<div>· 잘 아는 것을 잘 설명하고 나누는 사람</div>
-<div>· 혼자만 아는 게 아니라 커뮤니티를 키우는 사람</div>
-</div>
-</div>
-
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">대표적인 혜택</div>
-<div class="space-y-2 text-base text-[#2A2D43]">
-<div>· AWS 행사와 기술 정보에 더 빨리 접근</div>
-<div>· 전 세계 Hero들과 교류</div>
-<div>· 발표·콘텐츠 활동 기회 확대</div>
-<div>· AWS 팀과 더 직접적으로 소통</div>
-</div>
-</div>
-
-</div>
-
-<div class="mt-8 grid grid-cols-2 gap-6">
-<div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">스스로 지원해서 되는 프로그램이 아니라, AWS 내부 추천과 심사를 거쳐 선정됩니다.</div>
-</div>
-<div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">저는 2020년부터 DeepRacer와 AI/ML 경험을 공유하고, 발표·블로그·샘플 코드를 만들며 활동해 왔습니다.</div>
-</div>
-</div>
-
-<PageFooter light />
-
-</div>
-
----
-layout: default
----
-
-<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
-
 <SectionLabel section="WHERE I WORK" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">당근은 어떤 회사일까요?</div>
 
@@ -152,6 +68,51 @@ layout: default
 <img src="./images/intro-karrot.png" class="w-full h-auto" />
 </div>
 
+</div>
+
+<PageFooter light />
+
+</div>
+
+---
+layout: default
+---
+
+<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
+
+<SectionLabel section="ABOUT ME" />
+<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">AWS AI Hero란?</div>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">어떤 사람?</div>
+<div class="space-y-2 text-base text-[#2A2D43]">
+<div>· AWS(아마존의 클라우드 서비스)가 인정한 사람</div>
+<div>· 잘 아는 것을 쉽게 설명하고 나누는 사람</div>
+<div>· 혼자 알기보다 함께 배우는 사람들을 키우는 사람</div>
+</div>
+</div>
+
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">대표적인 혜택</div>
+<div class="space-y-2 text-base text-[#2A2D43]">
+<div>· AWS 행사와 새 기술 정보를 더 빨리 본다</div>
+<div>· 전 세계의 다른 Hero들과 친하게 지낸다</div>
+<div>· 발표나 영상·글로 더 많은 사람을 만날 수 있다</div>
+<div>· AWS 팀과 직접 이야기할 기회가 많아진다</div>
+</div>
+</div>
+
+</div>
+
+<div class="mt-8 grid grid-cols-2 gap-6">
+<div class="bg-[#1A1A2E] text-white rounded-lg p-5">
+<div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천하고 뽑는 프로그램입니다.</div>
+</div>
+<div class="bg-[#1A1A2E] text-white rounded-lg p-5">
+<div class="text-sm leading-relaxed">저는 2020년부터 DeepRacer(AWS의 인공지능 자동차)와 AI 경험을 발표·블로그·예제 코드로 나누며 활동해 왔습니다.</div>
+</div>
 </div>
 
 <PageFooter light />

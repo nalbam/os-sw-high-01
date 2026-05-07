@@ -15,12 +15,27 @@ layout: default
 
 <div class="text-lg leading-relaxed text-[#CADCFC] mb-8">매번 같은 일을 사람 손으로 하고 있다면<br/>그건 <strong class="text-white">코드를 써 볼 좋은 신호</strong>입니다.</div>
 
-<div class="space-y-2">
-<div class="flex items-center gap-3 text-sm"><span class="w-2 h-2 bg-[#F96167] rounded-full"></span><span>클릭 여러 번</span></div>
-<div class="flex items-center gap-3 text-sm"><span class="w-2 h-2 bg-[#F96167] rounded-full"></span><span>같은 형식 정리</span></div>
-<div class="flex items-center gap-3 text-sm"><span class="w-2 h-2 bg-[#F96167] rounded-full"></span><span>시간 재기</span></div>
-<div class="flex items-center gap-3 text-sm"><span class="w-2 h-2 bg-[#F96167] rounded-full"></span><span>상태 확인</span></div>
-<div class="flex items-center gap-3 text-sm"><span class="w-2 h-2 bg-[#F96167] rounded-full"></span><span>잊지 않기 위한 알림</span></div>
+<div class="grid grid-cols-5 gap-2">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="text-xl mb-1">👀</div>
+<div class="text-xs text-[#CADCFC] leading-tight">계속 확인해야 한다</div>
+</div>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="text-xl mb-1">🖱️</div>
+<div class="text-xs text-[#CADCFC] leading-tight">계속 눌러야 한다</div>
+</div>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="text-xl mb-1">📝</div>
+<div class="text-xs text-[#CADCFC] leading-tight">계속 기록해야 한다</div>
+</div>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="text-xl mb-1">🤔</div>
+<div class="text-xs text-[#CADCFC] leading-tight">자주 잊어버린다</div>
+</div>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="text-xl mb-1">⚠️</div>
+<div class="text-xs text-[#CADCFC] leading-tight">사람이 하면 실수한다</div>
+</div>
 </div>
 
 <div class="text-xs text-[#AAB1C7] mt-6 font-mono">이런 신호가 보이면 — 자동화를 떠올려 보세요.</div>
@@ -67,62 +82,5 @@ layout: default
 </div>
 
 <PageFooter light />
-
-</div>
-
----
-layout: default
----
-
-<div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
-
-<SectionLabel section="FUNDAMENTALS" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">작은 불편함은 이렇게 보입니다</div>
-
-<div class="grid grid-cols-5 gap-3 mt-8">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded text-center">
-<div class="text-2xl mb-2">👀</div>
-<div class="text-sm text-[#CADCFC]">계속 확인해야 한다</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded text-center">
-<div class="text-2xl mb-2">🖱️</div>
-<div class="text-sm text-[#CADCFC]">계속 눌러야 한다</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded text-center">
-<div class="text-2xl mb-2">📝</div>
-<div class="text-sm text-[#CADCFC]">계속 기록해야 한다</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded text-center">
-<div class="text-2xl mb-2">🤔</div>
-<div class="text-sm text-[#CADCFC]">자주 잊어버린다</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded text-center">
-<div class="text-2xl mb-2">⚠️</div>
-<div class="text-sm text-[#CADCFC]">사람이 하면 실수한다</div>
-</div>
-</div>
-
-<div class="grid grid-cols-4 gap-2 mt-12">
-<div class="text-center p-4 border-r border-[#AAB1C7]/20">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STEP 01</div>
-<div class="text-base font-semibold">문제 발견</div>
-</div>
-<div class="text-center p-4 border-r border-[#AAB1C7]/20">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STEP 02</div>
-<div class="text-base font-semibold">작은 코드</div>
-</div>
-<div class="text-center p-4 border-r border-[#AAB1C7]/20">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STEP 03</div>
-<div class="text-base font-semibold">직접 사용</div>
-</div>
-<div class="text-center p-4">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STEP 04</div>
-<div class="text-base font-semibold">수정</div>
-</div>
-</div>
-
-<div class="mt-10 text-center text-base text-[#CADCFC]">이 다섯 가지 중 하나라도 보이면, <span class="text-[#F96167] font-semibold">자동화를 떠올려 봅시다.</span></div>
-
-<PageFooter />
 
 </div>

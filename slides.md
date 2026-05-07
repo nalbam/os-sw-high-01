@@ -26,15 +26,15 @@ src: ./pages/01b-about.md
 ---
 
 ---
+src: ./pages/03b-intro-personal.md
+---
+
+---
 src: ./pages/02-introduction.md
 ---
 
 ---
 src: ./pages/03-mindset.md
----
-
----
-src: ./pages/03b-intro-personal.md
 ---
 
 ---

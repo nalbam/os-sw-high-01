@@ -76,7 +76,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PROCESS</div>
-<div class="text-sm text-[#CADCFC]">라즈베리파이가<br/>처리한다</div>
+<div class="text-sm text-[#CADCFC]">작은 컴퓨터가<br/>처리한다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]">→</div>
@@ -84,7 +84,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">03</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STORE</div>
-<div class="text-sm text-[#CADCFC]">클라우드가<br/>저장한다</div>
+<div class="text-sm text-[#CADCFC]">인터넷 서버에<br/>저장한다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]">→</div>
@@ -92,7 +92,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">04</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">NOTIFY</div>
-<div class="text-sm text-[#CADCFC]">슬랙으로<br/>알려준다</div>
+<div class="text-sm text-[#CADCFC]">메신저로<br/>알려준다</div>
 </div>
 
 </div>
