@@ -16,14 +16,14 @@ layout: default
 <div class="space-y-5">
 
 <div class="flex items-center gap-4">
-<div class="text-3xl">🥕</div>
+<img src="./images/ico-karrot.png" class="w-12 h-12 object-contain" />
 <div>
 <div class="text-2xl font-semibold text-white">당근마켓 SRE</div>
 </div>
 </div>
 
 <div class="flex items-center gap-4">
-<div class="text-3xl">🦸🏻</div>
+<img src="./images/ico-aws-hero.png" class="w-12 h-12 object-contain" />
 <div>
 <div class="text-2xl font-semibold text-white">AWS AI Hero</div>
 </div>
