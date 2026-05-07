@@ -43,6 +43,68 @@ layout: default
 layout: default
 ---
 
+<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] overflow-hidden">
+
+<div class="absolute top-12 left-16 right-16">
+<SectionLabel section="RECAP" />
+<div class="text-3xl mt-2 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
+</div>
+
+<div class="absolute top-32 bottom-20 left-16 right-16 flex flex-col justify-center">
+
+<div class="grid grid-cols-8 gap-2 items-center">
+<div class="col-span-2 text-center bg-white p-5 rounded shadow-sm">
+<div class="text-3xl font-bold text-[#F96167] mb-2">불편함</div>
+<div class="text-xs text-[#6B6E80] uppercase tracking-widest font-mono">Discomfort</div>
+</div>
+<div class="text-center text-4xl font-bold text-[#F96167]">+</div>
+<div class="col-span-2 text-center bg-white p-5 rounded shadow-sm">
+<div class="text-3xl font-bold text-[#F96167] mb-2">반복</div>
+<div class="text-xs text-[#6B6E80] uppercase tracking-widest font-mono">Repetition</div>
+</div>
+<div class="text-center text-4xl font-bold text-[#F96167]">+</div>
+<div class="col-span-2 text-center bg-white p-5 rounded shadow-sm">
+<div class="text-3xl font-bold text-[#F96167] mb-2">작게 해결</div>
+<div class="text-xs text-[#6B6E80] uppercase tracking-widest font-mono">Small fix</div>
+</div>
+</div>
+
+<div class="flex justify-center my-6">
+<div class="text-4xl font-bold text-[#1A1A2E]">=</div>
+</div>
+
+<div class="grid grid-cols-8 gap-2">
+<div class="col-start-4 col-span-2 bg-[#1A1A2E] text-white py-6 rounded-lg text-center">
+<div class="text-3xl font-bold mb-2">좋은 시작</div>
+<div class="text-xs text-[#FBE3E4] uppercase tracking-widest font-mono">Good start</div>
+</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 mt-10">
+<div class="flex items-center gap-3">
+<span class="text-2xl text-[#F96167]">·</span>
+<span class="text-sm text-[#2A2D43]">처음부터 크게 만들지 않는다</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-2xl text-[#F96167]">·</span>
+<span class="text-sm text-[#2A2D43]">내가 이해할 수 있는 범위에서 시작한다</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-2xl text-[#F96167]">·</span>
+<span class="text-sm text-[#2A2D43]">직접 써 보며 고친다</span>
+</div>
+</div>
+
+</div>
+
+<PageFooter light />
+
+</div>
+
+---
+layout: default
+---
+
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
 
 <img src="./images/image2.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
@@ -53,9 +115,9 @@ layout: default
 
 <SectionLabel section="YOUR TURN" class="mb-8" />
 
-<div class="text-5xl leading-tight font-semibold text-[#CADCFC] mb-12">이제 — <span class="text-[#F96167]">여러분 차례</span>입니다.</div>
+<div class="text-5xl leading-tight font-semibold text-[#CADCFC] mb-12">이제 — <span class="text-[#F96167]">여러분 차례</span>입니다</div>
 
-<div class="text-6xl leading-tight font-bold text-white">학교에서<br/><span class="text-[#F96167]">자동화할 수 있는</span><br/>일을 찾아 봅시다.</div>
+<div class="text-6xl leading-tight font-bold text-white">학교에서<br/><span class="text-[#F96167]">자동화할 수 있는</span><br/>일을 찾아 봅시다</div>
 
 </div>
 
@@ -101,7 +163,7 @@ layout: default
 </div>
 
 <div class="mt-12 p-5 bg-[#1A1A2E] text-white rounded-lg text-center">
-<div class="text-base">정답은 없습니다. <span class="text-[#F96167] font-semibold">내가 자주 불편한 것</span>을 찾는 것이 먼저입니다.</div>
+<div class="text-base">정답은 없습니다 <span class="text-[#F96167] font-semibold">내가 자주 불편한 것</span>을 찾는 것이 먼저입니다</div>
 </div>
 
 <PageFooter light />
