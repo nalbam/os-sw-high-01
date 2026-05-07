@@ -81,17 +81,17 @@ layout: default
 </div>
 
 <div class="grid grid-cols-3 gap-4 mt-10">
-<div class="flex items-start gap-3">
+<div class="flex items-center gap-3">
 <span class="text-2xl text-[#F96167]">·</span>
-<span class="text-sm text-[#2A2D43]">처음부터 크게 만들지 않는다.</span>
+<span class="text-sm text-[#2A2D43]">처음부터 크게 만들지 않는다</span>
 </div>
-<div class="flex items-start gap-3">
+<div class="flex items-center gap-3">
 <span class="text-2xl text-[#F96167]">·</span>
-<span class="text-sm text-[#2A2D43]">내가 이해할 수 있는 범위에서 시작한다.</span>
+<span class="text-sm text-[#2A2D43]">내가 이해할 수 있는 범위에서 시작한다</span>
 </div>
-<div class="flex items-start gap-3">
+<div class="flex items-center gap-3">
 <span class="text-2xl text-[#F96167]">·</span>
-<span class="text-sm text-[#2A2D43]">직접 써 보며 고친다.</span>
+<span class="text-sm text-[#2A2D43]">직접 써 보며 고친다</span>
 </div>
 </div>
 
@@ -115,9 +115,9 @@ layout: default
 
 <SectionLabel section="YOUR TURN" class="mb-8" />
 
-<div class="text-5xl leading-tight font-semibold text-[#CADCFC] mb-12">이제 — <span class="text-[#F96167]">여러분 차례</span>입니다.</div>
+<div class="text-5xl leading-tight font-semibold text-[#CADCFC] mb-12">이제 — <span class="text-[#F96167]">여러분 차례</span>입니다</div>
 
-<div class="text-6xl leading-tight font-bold text-white">학교에서<br/><span class="text-[#F96167]">자동화할 수 있는</span><br/>일을 찾아 봅시다.</div>
+<div class="text-6xl leading-tight font-bold text-white">학교에서<br/><span class="text-[#F96167]">자동화할 수 있는</span><br/>일을 찾아 봅시다</div>
 
 </div>
 
@@ -163,7 +163,7 @@ layout: default
 </div>
 
 <div class="mt-12 p-5 bg-[#1A1A2E] text-white rounded-lg text-center">
-<div class="text-base">정답은 없습니다. <span class="text-[#F96167] font-semibold">내가 자주 불편한 것</span>을 찾는 것이 먼저입니다.</div>
+<div class="text-base">정답은 없습니다 <span class="text-[#F96167] font-semibold">내가 자주 불편한 것</span>을 찾는 것이 먼저입니다</div>
 </div>
 
 <PageFooter light />

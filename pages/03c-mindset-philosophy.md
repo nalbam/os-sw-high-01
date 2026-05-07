@@ -36,7 +36,7 @@ layout: default
 </div>
 
 <div class="mt-16 p-6 bg-[#1A1A2E] text-white rounded-lg text-center">
-<div class="text-lg">멋진 기술보다 먼저 필요한 것 — <span class="text-[#F96167] font-semibold">불편함을 그냥 지나치지 않는 태도.</span></div>
+<div class="text-lg">멋진 기술보다 먼저 필요한 것 — <span class="text-[#F96167] font-semibold">불편함을 그냥 지나치지 않는 태도</span></div>
 </div>
 
 <PageFooter light />

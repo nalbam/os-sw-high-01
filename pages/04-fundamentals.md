@@ -11,9 +11,9 @@ layout: default
 
 <div>
 
-<div class="text-4xl leading-tight font-bold mb-6"><span class="text-[#F96167]">반복된 일</span>의 자동화.</div>
+<div class="text-4xl leading-tight font-bold mb-6"><span class="text-[#F96167]">반복된 일</span>의 자동화</div>
 
-<div class="text-lg leading-relaxed text-[#CADCFC] mb-8">매번 같은 일을 사람 손으로 하고 있다면<br/>그건 <strong class="text-white">코드를 써 볼 좋은 신호</strong>입니다.</div>
+<div class="text-lg leading-relaxed text-[#CADCFC] mb-8">매번 같은 일을 사람 손으로 하고 있다면<br/>그건 <strong class="text-white">코드를 써 볼 좋은 신호</strong>입니다</div>
 
 <div class="grid grid-cols-5 gap-2">
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
@@ -38,7 +38,7 @@ layout: default
 </div>
 </div>
 
-<div class="text-xs text-[#AAB1C7] mt-6 font-mono">이런 신호가 보이면 — 자동화를 떠올려 보세요.</div>
+<div class="text-xs text-[#AAB1C7] mt-6 font-mono">이런 신호가 보이면 — 자동화를 떠올려 보세요</div>
 
 </div>
 
@@ -65,12 +65,12 @@ layout: default
 
 <div>
 
-<div class="text-5xl leading-tight font-bold text-[#1A1A2E] mb-6">거창하지<br/><span class="text-[#F96167]">않아도 됩니다.</span></div>
+<div class="text-5xl leading-tight font-bold text-[#1A1A2E] mb-6">거창하지<br/><span class="text-[#F96167]">않아도 됩니다</span></div>
 
-<div class="text-xl leading-relaxed text-[#2A2D43] mt-8">시작은 대부분<br/><span class="px-2 py-1 bg-[#F96167] text-white font-semibold">"이거 너무 귀찮다"</span><br/>에서 나옵니다.</div>
+<div class="text-xl leading-relaxed text-[#2A2D43] mt-8">시작은 대부분<br/><span class="px-2 py-1 bg-[#F96167] text-white font-semibold">"이거 너무 귀찮다"</span><br/>에서 나옵니다</div>
 
 <div class="mt-10 p-5 border-l-4 border-[#F96167] bg-white">
-<div class="text-base text-[#2A2D43]">큰 아이디어보다 — <strong>작은 불편함</strong>이 더 좋은 출발점입니다.</div>
+<div class="text-base text-[#2A2D43]">큰 아이디어보다 — <strong>작은 불편함</strong>이 더 좋은 출발점입니다</div>
 </div>
 
 </div>

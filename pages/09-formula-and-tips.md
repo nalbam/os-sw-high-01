@@ -52,7 +52,7 @@ layout: default
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="YOUR TURN" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">고1 때 하면 좋은 5가지</div>
+<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">고1 때 하면 좋은 다섯 가지</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 
@@ -101,7 +101,7 @@ layout: default
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
 
 <div>
-<div class="text-3xl leading-snug font-bold text-[#CADCFC] mb-8">만든 것을 기록하면<br/><span class="text-[#F96167]">경험이 실력</span>이 됩니다.</div>
+<div class="text-3xl leading-snug font-bold text-[#CADCFC] mb-8">만든 것을 기록하면<br/><span class="text-[#F96167]">경험이 실력</span>이 됩니다</div>
 </div>
 
 <div class="rounded-lg overflow-hidden">

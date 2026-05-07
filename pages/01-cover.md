@@ -10,12 +10,12 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<SectionLabel class="mb-8">OSAN SW HIGH SCHOOL · CLASS OF 1</SectionLabel>
+<SectionLabel class="mb-8">오산소프트웨어고등학교 · 1학년</SectionLabel>
 
 <div class="text-7xl leading-tight font-bold text-white">
 프로그래머는<br/>
 귀찮은 일을<br/>
-<span class="text-[#F96167]">그냥 두지 않는다.</span>
+<span class="text-[#F96167]">그냥 두지 않는다</span>
 </div>
 
 <div class="text-xl text-[#CADCFC] mt-10">개발자의 기본기 — 자동화의 시작</div>
