@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">03 · INTRODUCTION</div>
+<SectionLabel section="INTRODUCTION" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">오늘 강연을 시작하며</div>
 
 <div class="text-2xl leading-snug font-semibold text-[#2A2D43] mb-12">
@@ -32,9 +32,7 @@ layout: default
 <div class="text-2xl font-semibold">반복되는 일은 <span class="text-[#F96167]">컴퓨터에게 맡길 수 있습니다.</span></div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>03 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -44,7 +42,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">04 · INTRODUCTION</div>
+<SectionLabel section="INTRODUCTION" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">손들어 봅시다</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
@@ -74,8 +72,6 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>04 / 37</span>
-</div>
+<PageFooter />
 
 </div>

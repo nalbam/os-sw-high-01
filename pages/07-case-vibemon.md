@@ -10,7 +10,7 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono mb-8">CASE STUDY · 03</div>
+<SectionLabel class="mb-8">CASE STUDY · 03</SectionLabel>
 
 <div class="text-7xl leading-tight font-bold text-white"><span class="text-[#F96167]">VibeMon</span></div>
 
@@ -18,9 +18,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>26 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -30,7 +28,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">27 · CASE STUDY 03</div>
+<SectionLabel section="CASE STUDY 03" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">이번엔 이런 불편함이 있었습니다</div>
 
 <div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">터미널을 계속 보고 있지 않아도<br/><span class="text-[#F96167]">상태를 알 수 없을까?</span></div>
@@ -52,9 +50,7 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>27 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -64,7 +60,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">28 · CASE STUDY 03</div>
+<SectionLabel section="CASE STUDY 03" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">작은 시작이 점점 커졌습니다</div>
 
 <div class="grid grid-cols-4 gap-4 mt-12">
@@ -92,9 +88,7 @@ layout: default
 <div class="text-sm text-[#AAB1C7] mt-4">처음부터 큰 그림을 다 그릴 필요는 없습니다.</div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>28 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -104,7 +98,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">29 · CASE STUDY 03</div>
+<SectionLabel section="CASE STUDY 03" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">이 프로젝트에서 배운 것</div>
 
 <div class="text-4xl leading-tight font-bold text-[#1A1A2E] mt-12 mb-12">작은 장난감처럼 시작한 것도<br/><span class="text-[#F96167]">진짜 프로젝트</span>가 될 수 있습니다.</div>
@@ -124,8 +118,6 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>29 / 37</span>
-</div>
+<PageFooter light />
 
 </div>

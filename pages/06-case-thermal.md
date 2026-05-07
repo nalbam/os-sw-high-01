@@ -10,7 +10,7 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono mb-8">CASE STUDY · 02</div>
+<SectionLabel class="mb-8">CASE STUDY · 02</SectionLabel>
 
 <div class="text-7xl leading-tight font-bold text-white">체온 알람<br/><span class="text-[#F96167]">서비스</span></div>
 
@@ -18,9 +18,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>22 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -30,7 +28,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">23 · CASE STUDY 02</div>
+<SectionLabel section="CASE STUDY 02" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">문제는 여기에도 있었습니다</div>
 
 <div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">누군가가 계속 옆에 서서<br/><span class="text-[#F96167]">화면을 보고 있어야</span> 했다.</div>
@@ -52,9 +50,7 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>23 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -64,7 +60,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">24 · CASE STUDY 02</div>
+<SectionLabel section="CASE STUDY 02" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">아이디어는 이렇게 흘러갑니다</div>
 
 <div class="grid grid-cols-7 gap-2 items-center mt-16">
@@ -103,9 +99,7 @@ layout: default
 
 <div class="mt-16 text-center text-lg text-[#CADCFC]">핵심은 기술의 이름이 아니라 — <span class="text-[#F96167] font-semibold">흐름</span>입니다.</div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>24 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -115,7 +109,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">25 · CASE STUDY 02</div>
+<SectionLabel section="CASE STUDY 02" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">이 프로젝트에서 배운 것</div>
 
 <div class="text-4xl leading-tight font-bold text-[#1A1A2E] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람이 계속 지켜보는 일"</span>을<br/>줄여 줍니다.</div>
@@ -135,8 +129,6 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>25 / 37</span>
-</div>
+<PageFooter light />
 
 </div>

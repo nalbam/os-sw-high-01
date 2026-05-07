@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">05 · MINDSET</div>
+<SectionLabel section="MINDSET" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">프로그래머는 무엇을 하는 사람일까요?</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-12">
@@ -28,9 +28,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>05 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -40,7 +38,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">06 · MY STORY</div>
+<SectionLabel section="MY STORY" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이런 일을 해왔습니다</div>
 
 <div class="grid grid-cols-5 gap-3 mt-8">
@@ -79,8 +77,6 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>06 / 37</span>
-</div>
+<PageFooter />
 
 </div>

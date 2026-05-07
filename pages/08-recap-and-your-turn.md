@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">30 · RECAP</div>
+<SectionLabel section="RECAP" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">세 프로젝트의 공통점</div>
 
 <div class="grid grid-cols-5 gap-3 mt-12">
@@ -35,9 +35,7 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>30 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -53,7 +51,7 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono mb-8">31 · YOUR TURN</div>
+<SectionLabel section="YOUR TURN" class="mb-8" />
 
 <div class="text-5xl leading-tight font-semibold text-[#CADCFC] mb-12">이제 — <span class="text-[#F96167]">여러분 차례</span>입니다.</div>
 
@@ -61,9 +59,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>31 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -73,7 +69,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">32 · YOUR TURN</div>
+<SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">학교에서 떠올려 볼 수 있는 자동화</div>
 
 <div class="grid grid-cols-5 gap-3 mt-10">
@@ -108,8 +104,6 @@ layout: default
 <div class="text-base">정답은 없습니다. <span class="text-[#F96167] font-semibold">내가 자주 불편한 것</span>을 찾는 것이 먼저입니다.</div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>32 / 37</span>
-</div>
+<PageFooter light />
 
 </div>

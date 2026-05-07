@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">07 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">Hero는 어떤 사람이고, 어떤 혜택이 있을까?</div>
 
 <div class="grid grid-cols-2 gap-8 mt-8">
@@ -35,9 +35,7 @@ layout: default
 <div class="text-base">전 세계적으로는 <span class="text-[#F96167] font-semibold">수백 명 규모의 매우 작은 커뮤니티</span>로 알려져 있고,<br/>한국에서도 손에 꼽을 정도만 활동하고 있습니다.</div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>07 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -53,7 +51,7 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono mb-6">08 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" class="mb-6" />
 <div class="text-4xl leading-tight font-bold text-white mb-8">AWS AI Hero란?</div>
 
 <div class="text-2xl leading-snug font-semibold text-[#CADCFC] mb-4"><span class="text-[#F96167]">AWS가 인정한</span> 커뮤니티 리더</div>
@@ -72,9 +70,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>08 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -84,7 +80,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">09 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">Cloud Engineer · DevOps · SRE는 어떻게 다를까?</div>
 
 <div class="grid grid-cols-3 gap-5 mt-8">
@@ -113,9 +109,7 @@ layout: default
 <div class="text-base">저는 이 셋이 <span class="text-[#F96167] font-semibold">겹치는 지점</span>에서 일합니다. 그래서 코드를 이해하면서도, 클라우드와 운영 자동화를 함께 봅니다.</div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>09 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -125,7 +119,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">10 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">SRE를 쉬운 말로 바꾸면</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
@@ -155,9 +149,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>10 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -167,7 +159,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">11 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">당근은 어떤 회사일까요?</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
@@ -197,9 +189,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>11 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -209,7 +199,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">12 · ABOUT ME</div>
+<SectionLabel section="ABOUT ME" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">저를 한 줄로 소개하면</div>
 
 <div class="grid grid-cols-3 gap-5 mt-12">
@@ -235,8 +225,6 @@ layout: default
 <img src="./images/intro-sre.png" class="w-full h-auto opacity-90" />
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>12 / 37</span>
-</div>
+<PageFooter />
 
 </div>

@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">14 · FUNDAMENTALS</div>
+<SectionLabel section="FUNDAMENTALS" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">프로그래머의 기본</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
@@ -33,9 +33,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>14 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -45,7 +43,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">15 · FUNDAMENTALS</div>
+<SectionLabel section="FUNDAMENTALS" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">좋은 프로젝트는</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-12">
@@ -68,9 +66,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>15 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -80,7 +76,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">16 · FUNDAMENTALS</div>
+<SectionLabel section="FUNDAMENTALS" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">작은 불편함은 이렇게 보입니다</div>
 
 <div class="grid grid-cols-5 gap-3 mt-8">
@@ -127,8 +123,6 @@ layout: default
 
 <div class="mt-10 text-center text-base text-[#CADCFC]">이 다섯 가지 중 하나라도 보이면, <span class="text-[#F96167] font-semibold">자동화를 떠올려 봅시다.</span></div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>16 / 37</span>
-</div>
+<PageFooter />
 
 </div>

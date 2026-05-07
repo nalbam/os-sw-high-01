@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">33 · RECAP</div>
+<SectionLabel section="RECAP" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
 
 <div class="grid grid-cols-9 gap-2 items-center mt-12">
@@ -50,9 +50,7 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>33 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -62,7 +60,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">34 · YOUR TURN</div>
+<SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">AI는 이렇게 쓰면 좋습니다</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
@@ -99,9 +97,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>34 / 37</span>
-</div>
+<PageFooter />
 
 </div>
 
@@ -111,7 +107,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">35 · YOUR TURN</div>
+<SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">고1 때 하면 좋은 5가지</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
@@ -145,9 +141,7 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#6B6E80] font-mono">
-<span>35 / 37</span>
-</div>
+<PageFooter light />
 
 </div>
 
@@ -157,7 +151,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">36 · YOUR TURN</div>
+<SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">그리고 — 꼭 남겨 보세요</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
@@ -191,8 +185,6 @@ layout: default
 </div>
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>36 / 37</span>
-</div>
+<PageFooter />
 
 </div>

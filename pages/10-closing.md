@@ -9,7 +9,7 @@ layout: default
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 
 <div class="absolute top-12 left-16 right-16">
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono">CLOSING · 오늘의 마지막 문장</div>
+<SectionLabel>CLOSING · 오늘의 마지막 문장</SectionLabel>
 </div>
 
 <div class="absolute top-24 bottom-28 left-16 right-16 flex flex-col justify-center">
@@ -29,7 +29,7 @@ layout: default
 <div class="text-xl font-semibold text-white">Thank you</div>
 <div class="text-xs text-[#AAB1C7] mt-1 font-mono">유정열 · nalbam</div>
 </div>
-<div class="font-mono text-xs text-[#AAB1C7]">37 / 37</div>
+<div class="font-mono text-xs text-[#AAB1C7]">{{ $nav.currentPage }} / {{ $nav.total }}</div>
 </div>
 
 </div>

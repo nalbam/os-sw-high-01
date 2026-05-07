@@ -10,7 +10,7 @@ layout: default
 
 <div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
 
-<div class="text-xs tracking-[0.3em] text-[#F96167] font-mono mb-8">OSAN SW HIGH SCHOOL · CLASS OF 1</div>
+<SectionLabel class="mb-8">OSAN SW HIGH SCHOOL · CLASS OF 1</SectionLabel>
 
 <div class="text-7xl leading-tight font-bold text-white">
 프로그래머는<br/>
@@ -22,8 +22,6 @@ layout: default
 
 </div>
 
-<div class="absolute bottom-4 left-16 right-16 flex justify-end text-xs text-[#AAB1C7] font-mono">
-<span>01 / 37</span>
-</div>
+<PageFooter />
 
 </div>
