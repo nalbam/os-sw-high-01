@@ -65,7 +65,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/daangn.png" class="w-full h-auto" />
+<img src="./images/intro-daangn.png" class="w-full h-auto" />
 </div>
 
 </div>
