@@ -55,11 +55,11 @@ layout: default
 </div>
 
 <div class="grid grid-cols-2 gap-3 text-sm">
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📋 급식 확인</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📚 숙제 체크</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">✅ 출석</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📷 사진·카톡 정리</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded col-span-2">📅 시간표 챙기기</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📝 수행평가 마감</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">🧹 청소·정리 당번</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">⏰ 학원·야자·방과후</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📚 매일 복습·노트 정리</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded col-span-2">💬 단톡방·학교 공지 챙기기</div>
 </div>
 
 <div class="text-xs text-[#AAB1C7] mt-6 font-mono">예시 — 어떤 게 가장 마음에 와닿나요?</div>
