@@ -44,11 +44,11 @@ layout: default
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
 <div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-1">예시 2</div>
-<div class="text-xs text-[#CADCFC]">"급식 메뉴 매일 확인하기 귀찮다"</div>
+<div class="text-xs text-[#CADCFC]">"단톡방 공지 놓쳐서 곤란할 때가 있다"</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
 <div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-1">예시 3</div>
-<div class="text-xs text-[#CADCFC]">"동아리 출석 체크가 매번 번거롭다"</div>
+<div class="text-xs text-[#CADCFC]">"청소 당번 차례 자꾸 잊어버린다"</div>
 </div>
 </div>
 
@@ -70,8 +70,8 @@ layout: default
 
 예시:
 - '수행평가 마감일을 자꾸 까먹는다'
-- '급식 메뉴 매일 확인하기 귀찮다'
-- '동아리 출석 체크가 매번 번거롭다'
+- '단톡방 공지 놓쳐서 곤란할 때가 있다'
+- '청소 당번 차례 자꾸 잊어버린다'
 
 이름 안 적어도 돼요. 한 줄로 충분합니다. 정답 없어요.
 -->

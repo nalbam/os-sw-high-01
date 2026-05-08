@@ -175,29 +175,29 @@ layout: default
 
 <div class="grid grid-cols-5 gap-3 mt-10">
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">MENU</div>
-<div class="text-base font-semibold text-[#1A1A2E] mb-2">급식 메뉴 알림</div>
-<div class="text-xs text-[#6B6E80]">"오늘 점심 뭐지?"</div>
-</div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">SCHEDULE</div>
-<div class="text-base font-semibold text-[#1A1A2E] mb-2">시간표 / 변경 사항 확인</div>
-<div class="text-xs text-[#6B6E80]">"다음 시간 뭐였지?"</div>
-</div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DEADLINE</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">수행평가 마감 알림</div>
 <div class="text-xs text-[#6B6E80]">"마감일 자주 놓쳐요"</div>
 </div>
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">ATTENDANCE</div>
-<div class="text-base font-semibold text-[#1A1A2E] mb-2">동아리 출석 체크</div>
-<div class="text-xs text-[#6B6E80]">"출석 체크가 번거로워"</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DUTY</div>
+<div class="text-base font-semibold text-[#1A1A2E] mb-2">청소 당번 알림</div>
+<div class="text-xs text-[#6B6E80]">"내 차례 자꾸 잊어요"</div>
 </div>
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">LOST&amp;FOUND</div>
-<div class="text-base font-semibold text-[#1A1A2E] mb-2">분실물 찾기 게시판</div>
-<div class="text-xs text-[#6B6E80]">"어디 갔는지 모르겠어요"</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">SCHEDULE</div>
+<div class="text-base font-semibold text-[#1A1A2E] mb-2">학원·방과후 시간</div>
+<div class="text-xs text-[#6B6E80]">"오늘 어디 가야 하지?"</div>
+</div>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">STUDY</div>
+<div class="text-base font-semibold text-[#1A1A2E] mb-2">매일 복습·과제 체크</div>
+<div class="text-xs text-[#6B6E80]">"오늘 뭐 해야 하지?"</div>
+</div>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">NOTICE</div>
+<div class="text-base font-semibold text-[#1A1A2E] mb-2">단톡방·공지 챙기기</div>
+<div class="text-xs text-[#6B6E80]">"공지 놓치면 큰일"</div>
 </div>
 </div>
 
@@ -212,13 +212,13 @@ layout: default
 <!--
 **[학교에서 떠올려볼 수 있는 자동화 · 약 1분]**
 
-예시예요.
+예시예요. 아까 손들기에서 봤던 다섯 가지를 그대로 자동화 후보로 옮겨봤어요.
 
-- **MENU** — 급식 메뉴 알림. '오늘 점심 뭐지?' 매번 검색하기 귀찮잖아요.
-- **SCHEDULE** — 시간표나 변경 사항 확인.
-- **DEADLINE** — 수행평가 마감 알림.
-- **ATTENDANCE** — 동아리 출석 체크.
-- **LOST&FOUND** — 분실물 찾기 게시판.
+- **DEADLINE** — 수행평가 마감 알림. "마감일 자주 놓쳐요"
+- **DUTY** — 청소 당번 알림. "내 차례 자꾸 잊어요"
+- **SCHEDULE** — 학원·방과후 시간. "오늘 어디 가야 하지?"
+- **STUDY** — 매일 복습·과제 체크. "오늘 뭐 해야 하지?"
+- **NOTICE** — 단톡방·공지 챙기기. "공지 놓치면 큰일"
 
 정답은 없어요. **내가 자주 불편한 것** 을 찾는 게 먼저입니다.
 다른 사람이 안 불편해도 — 내가 매일 불편하면 그게 좋은 출발점이에요.
