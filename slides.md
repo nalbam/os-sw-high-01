@@ -66,5 +66,13 @@ src: ./pages/09-formula-and-tips.md
 ---
 
 ---
-src: ./pages/10-closing.md
+src: ./pages/10a-closing-message.md
+---
+
+---
+src: ./pages/11-handson-and-demo.md
+---
+
+---
+src: ./pages/10b-thanks-qna.md
 ---
