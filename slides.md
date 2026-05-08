@@ -5,7 +5,7 @@ info: |
   ## 프로그래머는 귀찮은 일을 그냥 두지 않는다
   개발자의 기본기 — 자동화의 시작
 
-  유정열 (nalbam) · Karrot SRE · AWS ML Hero
+  유정열 (nalbam) · Karrot SRE · AWS AI Hero
 author: Jungyoul Yu (nalbam)
 keywords: 자동화,개발,프로그래밍,청소년,오산고등학교
 class: text-center
