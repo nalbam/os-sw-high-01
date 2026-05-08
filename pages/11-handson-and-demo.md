@@ -71,48 +71,8 @@ layout: default
 
 <div class="flex flex-col items-center">
 
-<div class="bg-white p-6 rounded-lg shadow-md">
-<svg width="240" height="240" viewBox="0 0 29 29" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-  <rect width="29" height="29" fill="#ffffff"/>
-  <g fill="#1A1A2E">
-    <rect x="0" y="0" width="7" height="7"/>
-    <rect x="1" y="1" width="5" height="5" fill="#ffffff"/>
-    <rect x="2" y="2" width="3" height="3"/>
-    <rect x="22" y="0" width="7" height="7"/>
-    <rect x="23" y="1" width="5" height="5" fill="#ffffff"/>
-    <rect x="24" y="2" width="3" height="3"/>
-    <rect x="0" y="22" width="7" height="7"/>
-    <rect x="1" y="23" width="5" height="5" fill="#ffffff"/>
-    <rect x="2" y="24" width="3" height="3"/>
-    <rect x="8" y="0" width="1" height="1"/><rect x="10" y="0" width="2" height="1"/><rect x="14" y="0" width="1" height="1"/><rect x="17" y="0" width="3" height="1"/>
-    <rect x="9" y="1" width="1" height="1"/><rect x="12" y="1" width="2" height="1"/><rect x="16" y="1" width="1" height="1"/><rect x="20" y="1" width="1" height="1"/>
-    <rect x="8" y="2" width="2" height="1"/><rect x="11" y="2" width="1" height="1"/><rect x="13" y="2" width="3" height="1"/><rect x="18" y="2" width="2" height="1"/>
-    <rect x="9" y="3" width="1" height="1"/><rect x="11" y="3" width="2" height="1"/><rect x="15" y="3" width="1" height="1"/><rect x="17" y="3" width="2" height="1"/><rect x="20" y="3" width="1" height="1"/>
-    <rect x="8" y="4" width="1" height="1"/><rect x="10" y="4" width="1" height="1"/><rect x="13" y="4" width="2" height="1"/><rect x="16" y="4" width="3" height="1"/><rect x="20" y="4" width="1" height="1"/>
-    <rect x="9" y="5" width="2" height="1"/><rect x="12" y="5" width="1" height="1"/><rect x="14" y="5" width="1" height="1"/><rect x="17" y="5" width="1" height="1"/><rect x="19" y="5" width="2" height="1"/>
-    <rect x="8" y="6" width="1" height="1"/><rect x="11" y="6" width="3" height="1"/><rect x="15" y="6" width="2" height="1"/><rect x="18" y="6" width="1" height="1"/><rect x="20" y="6" width="1" height="1"/>
-    <rect x="0" y="8" width="1" height="1"/><rect x="2" y="8" width="2" height="1"/><rect x="6" y="8" width="2" height="1"/><rect x="10" y="8" width="1" height="1"/><rect x="13" y="8" width="2" height="1"/><rect x="16" y="8" width="1" height="1"/><rect x="18" y="8" width="3" height="1"/><rect x="23" y="8" width="2" height="1"/><rect x="27" y="8" width="2" height="1"/>
-    <rect x="1" y="9" width="2" height="1"/><rect x="5" y="9" width="1" height="1"/><rect x="8" y="9" width="2" height="1"/><rect x="11" y="9" width="2" height="1"/><rect x="15" y="9" width="1" height="1"/><rect x="17" y="9" width="1" height="1"/><rect x="20" y="9" width="2" height="1"/><rect x="24" y="9" width="2" height="1"/><rect x="27" y="9" width="1" height="1"/>
-    <rect x="0" y="10" width="2" height="1"/><rect x="4" y="10" width="3" height="1"/><rect x="9" y="10" width="1" height="1"/><rect x="12" y="10" width="1" height="1"/><rect x="14" y="10" width="3" height="1"/><rect x="19" y="10" width="2" height="1"/><rect x="22" y="10" width="1" height="1"/><rect x="25" y="10" width="2" height="1"/>
-    <rect x="2" y="11" width="1" height="1"/><rect x="5" y="11" width="2" height="1"/><rect x="8" y="11" width="2" height="1"/><rect x="11" y="11" width="1" height="1"/><rect x="14" y="11" width="2" height="1"/><rect x="17" y="11" width="3" height="1"/><rect x="22" y="11" width="2" height="1"/><rect x="26" y="11" width="2" height="1"/>
-    <rect x="0" y="12" width="1" height="1"/><rect x="3" y="12" width="2" height="1"/><rect x="7" y="12" width="3" height="1"/><rect x="11" y="12" width="2" height="1"/><rect x="15" y="12" width="1" height="1"/><rect x="18" y="12" width="2" height="1"/><rect x="21" y="12" width="1" height="1"/><rect x="24" y="12" width="3" height="1"/>
-    <rect x="1" y="13" width="2" height="1"/><rect x="4" y="13" width="1" height="1"/><rect x="6" y="13" width="2" height="1"/><rect x="10" y="13" width="1" height="1"/><rect x="12" y="13" width="3" height="1"/><rect x="16" y="13" width="2" height="1"/><rect x="20" y="13" width="2" height="1"/><rect x="23" y="13" width="1" height="1"/><rect x="26" y="13" width="2" height="1"/>
-    <rect x="0" y="14" width="2" height="1"/><rect x="5" y="14" width="2" height="1"/><rect x="8" y="14" width="1" height="1"/><rect x="11" y="14" width="2" height="1"/><rect x="14" y="14" width="1" height="1"/><rect x="17" y="14" width="2" height="1"/><rect x="20" y="14" width="3" height="1"/><rect x="25" y="14" width="1" height="1"/><rect x="28" y="14" width="1" height="1"/>
-    <rect x="2" y="15" width="3" height="1"/><rect x="7" y="15" width="2" height="1"/><rect x="10" y="15" width="2" height="1"/><rect x="13" y="15" width="1" height="1"/><rect x="15" y="15" width="3" height="1"/><rect x="19" y="15" width="2" height="1"/><rect x="22" y="15" width="1" height="1"/><rect x="24" y="15" width="2" height="1"/><rect x="27" y="15" width="1" height="1"/>
-    <rect x="0" y="16" width="1" height="1"/><rect x="3" y="16" width="1" height="1"/><rect x="5" y="16" width="2" height="1"/><rect x="9" y="16" width="2" height="1"/><rect x="12" y="16" width="2" height="1"/><rect x="16" y="16" width="1" height="1"/><rect x="18" y="16" width="2" height="1"/><rect x="21" y="16" width="3" height="1"/><rect x="26" y="16" width="2" height="1"/>
-    <rect x="1" y="17" width="2" height="1"/><rect x="4" y="17" width="3" height="1"/><rect x="8" y="17" width="1" height="1"/><rect x="11" y="17" width="2" height="1"/><rect x="14" y="17" width="2" height="1"/><rect x="17" y="17" width="3" height="1"/><rect x="20" y="17" width="1" height="1"/><rect x="22" y="17" width="2" height="1"/><rect x="25" y="17" width="1" height="1"/><rect x="27" y="17" width="2" height="1"/>
-    <rect x="2" y="18" width="1" height="1"/><rect x="5" y="18" width="3" height="1"/><rect x="9" y="18" width="2" height="1"/><rect x="13" y="18" width="2" height="1"/><rect x="16" y="18" width="2" height="1"/><rect x="19" y="18" width="1" height="1"/><rect x="21" y="18" width="2" height="1"/><rect x="24" y="18" width="3" height="1"/>
-    <rect x="0" y="19" width="2" height="1"/><rect x="3" y="19" width="1" height="1"/><rect x="6" y="19" width="2" height="1"/><rect x="10" y="19" width="1" height="1"/><rect x="12" y="19" width="3" height="1"/><rect x="17" y="19" width="2" height="1"/><rect x="20" y="19" width="2" height="1"/><rect x="23" y="19" width="2" height="1"/><rect x="26" y="19" width="1" height="1"/>
-    <rect x="1" y="20" width="3" height="1"/><rect x="5" y="20" width="2" height="1"/><rect x="8" y="20" width="2" height="1"/><rect x="11" y="20" width="2" height="1"/><rect x="14" y="20" width="3" height="1"/><rect x="18" y="20" width="1" height="1"/><rect x="20" y="20" width="2" height="1"/><rect x="24" y="20" width="2" height="1"/><rect x="28" y="20" width="1" height="1"/>
-    <rect x="8" y="22" width="2" height="1"/><rect x="11" y="22" width="1" height="1"/><rect x="13" y="22" width="3" height="1"/><rect x="17" y="22" width="1" height="1"/><rect x="19" y="22" width="2" height="1"/><rect x="22" y="22" width="3" height="1"/><rect x="26" y="22" width="1" height="1"/><rect x="28" y="22" width="1" height="1"/>
-    <rect x="9" y="23" width="1" height="1"/><rect x="12" y="23" width="2" height="1"/><rect x="15" y="23" width="2" height="1"/><rect x="18" y="23" width="2" height="1"/><rect x="22" y="23" width="1" height="1"/><rect x="25" y="23" width="2" height="1"/>
-    <rect x="8" y="24" width="3" height="1"/><rect x="13" y="24" width="1" height="1"/><rect x="15" y="24" width="3" height="1"/><rect x="19" y="24" width="2" height="1"/><rect x="22" y="24" width="3" height="1"/><rect x="27" y="24" width="2" height="1"/>
-    <rect x="10" y="25" width="1" height="1"/><rect x="12" y="25" width="2" height="1"/><rect x="16" y="25" width="2" height="1"/><rect x="20" y="25" width="1" height="1"/><rect x="22" y="25" width="1" height="1"/><rect x="25" y="25" width="2" height="1"/>
-    <rect x="8" y="26" width="2" height="1"/><rect x="11" y="26" width="3" height="1"/><rect x="15" y="26" width="2" height="1"/><rect x="18" y="26" width="3" height="1"/><rect x="23" y="26" width="1" height="1"/><rect x="26" y="26" width="2" height="1"/>
-    <rect x="9" y="27" width="1" height="1"/><rect x="13" y="27" width="2" height="1"/><rect x="17" y="27" width="1" height="1"/><rect x="20" y="27" width="2" height="1"/><rect x="24" y="27" width="3" height="1"/>
-    <rect x="8" y="28" width="3" height="1"/><rect x="12" y="28" width="1" height="1"/><rect x="14" y="28" width="3" height="1"/><rect x="19" y="28" width="1" height="1"/><rect x="22" y="28" width="2" height="1"/><rect x="26" y="28" width="2" height="1"/>
-  </g>
-</svg>
+<div class="bg-white p-4 rounded-lg shadow-md">
+<img src="./images/qr-padlet.png" class="w-[240px] h-[240px] block" alt="QR · padlet" />
 </div>
 
 <div class="mt-4 text-xs uppercase tracking-widest text-[#6B6E80] font-mono">QR — 패들렛 보드</div>
