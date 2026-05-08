@@ -8,13 +8,27 @@ layout: default
 
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 
-<div class="absolute inset-0 px-16 py-12 flex flex-col justify-center">
+<div class="absolute inset-0 px-16 py-12">
 
 <SectionLabel class="mb-8">CASE STUDY · 02</SectionLabel>
+
+<div class="grid grid-cols-2 gap-12 items-center h-full pb-16">
+
+<div class="flex flex-col justify-center">
 
 <div class="text-7xl leading-tight font-bold text-white">체온 알람<br/><span class="text-[#F96167]">서비스</span></div>
 
 <div class="text-2xl text-[#CADCFC] mt-8 leading-snug">사람이 계속 보고 있던 화면을<br/><strong class="text-white">컴퓨터가 보게</strong> 만들기</div>
+
+</div>
+
+<div class="flex justify-center items-center">
+<div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#F96167]/30 max-w-md">
+<img src="./images/doorman.jpg" class="w-full h-auto" />
+</div>
+</div>
+
+</div>
 
 </div>
 
