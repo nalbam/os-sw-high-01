@@ -5,7 +5,7 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="ABOUT ME" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">저를 한 줄로 소개하면</div>
+<div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이런 사람입니다</div>
 
 <div class="grid grid-cols-3 gap-5 mt-12">
 
@@ -114,7 +114,7 @@ layout: default
 <div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천하고 뽑는 프로그램입니다</div>
 </div>
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">저는 2020년부터 DeepRacer(AWS의 인공지능 자동차)와 AI 경험을 발표·블로그·예제 코드로 나누며 활동해 왔습니다</div>
+<div class="text-sm leading-relaxed">DeepRacer(AWS의 인공지능 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다</div>
 </div>
 </div>
 
