@@ -35,7 +35,7 @@ layout: default
 
 <div class="flex justify-center items-center">
 <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#F96167]/30 max-w-md">
-<img src="./images/nalbam-2022.jpg" class="w-full h-auto" />
+<img src="./images/nalbam-2022.png" class="w-full h-auto" />
 </div>
 </div>
 

@@ -81,7 +81,10 @@ layout: default
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="ABOUT ME" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">AWS AI Hero란?</div>
+<div class="flex items-center gap-3 mt-2 mb-8">
+<img src="./images/ico-aws-hero.png" class="w-10 h-10 object-contain" />
+<div class="text-3xl font-bold text-[#1A1A2E]">AWS AI Hero란?</div>
+</div>
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 
