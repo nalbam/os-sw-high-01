@@ -48,18 +48,18 @@ layout: default
 <div class="space-y-4">
 
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">판교마켓에서 시작</div>
-<div class="text-base text-[#2A2D43]">2015년에 판교 지역에서 이웃끼리 물건을 사고파는 서비스로 시작했습니다</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">2015년 판교에서 시작</div>
+<div class="text-base text-[#2A2D43]">카카오 직원 3명이 사내 중고거래 게시판 <span class="font-semibold">'판교장터'</span>로 시작했습니다</div>
 </div>
 
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">이름의 뜻</div>
-<div class="text-base text-[#2A2D43]">'당근'은 <span class="text-[#F96167] font-semibold">'당신 근처'</span>의 줄임말입니다 가까운 동네 사람을 연결하자는 생각이 담겨 있습니다</div>
+<div class="text-base text-[#2A2D43]">'당근'은 <span class="text-[#F96167] font-semibold">'당신 근처'</span>의 줄임말입니다 2023년 '당근마켓'에서 '당근'으로 줄였습니다</div>
 </div>
 
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">지금은</div>
-<div class="text-base text-[#2A2D43]">중고거래만이 아니라 지역생활과 커뮤니티까지 넓어진 서비스입니다</div>
+<div class="text-base text-[#2A2D43]">중고거래에서 시작해 이웃과 동네 가게까지 연결하는 <span class="font-semibold">동네 생활 플랫폼</span>으로 넓어졌습니다</div>
 </div>
 
 </div>
