@@ -86,7 +86,7 @@ layout: default
 
 <div class="text-5xl leading-tight font-bold text-[#1A1A2E] mb-6">거창하지<br/><span class="text-[#F96167]">않아도 됩니다</span></div>
 
-<div class="text-xl leading-relaxed text-[#2A2D43] mt-8">시작은 대부분<br/><span class="px-2 py-1 bg-[#F96167] text-white font-semibold">"이거 너무 귀찮다"</span><br/>에서 나옵니다</div>
+<div class="text-xl leading-relaxed text-[#2A2D43] mt-8">시작은 대부분<br/><span class="px-2 py-1 bg-[#F96167] text-white font-semibold">"아 이거 너무 귀찮아"</span><br/>한 마디에서 나옵니다</div>
 
 <div class="mt-10 p-5 border-l-4 border-[#F96167] bg-white">
 <div class="text-base text-[#2A2D43]">큰 아이디어보다 — <strong>작은 불편함</strong>이 더 좋은 출발점입니다</div>
@@ -109,7 +109,7 @@ layout: default
 
 좋은 프로젝트는요 — 거창하지 않아도 됩니다.
 
-시작은 거의 다 — '이거 너무 귀찮다' 한 마디에서 나와요.
+시작은 거의 다 — '아 이거 너무 귀찮아' 한 마디에서 나와요.
 
 큰 아이디어보다 — **작은 불편함이 더 좋은 출발점** 입니다.
 이거 진짜예요. 제가 만든 도구들도 다 그랬어요.

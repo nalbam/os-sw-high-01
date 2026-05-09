@@ -37,7 +37,7 @@ layout: default
 <!--
 **[저는 이런 사람입니다 · 약 1분]**
 
-제가 어떤 사람인지 — 세 가지로 나눠서 풀어 볼게요.
+먼저 제가 어떤 사람인지 — 세 가지로 나눠서 풀어 볼게요.
 
 **1. 당근 SRE** — 당근 앱 들어가서 동네에서 물건 사고팔아 본 분 있어요?
 (손드는 거 확인) 네, 그 당근이 매일 안 멈추고 잘 돌아가게 만드는 게 제 일입니다.
@@ -76,7 +76,7 @@ layout: default
 
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">지금은</div>
-<div class="text-base text-[#2A2D43]">중고거래에서 시작해 이웃과 동네 가게까지 연결하는 <span class="font-semibold">동네 생활 플랫폼</span>으로 넓어졌습니다</div>
+<div class="text-base text-[#2A2D43]">중고거래에서 시작해 이웃과 동네 가게까지 연결하는 — <span class="text-[#F96167] font-semibold">4,000만명</span>이 사용하는 <span class="font-semibold">동네 생활 플랫폼</span>으로 커졌습니다</div>
 </div>
 
 </div>
@@ -102,7 +102,7 @@ layout: default
 처음엔 '당근마켓' 이었는데 2023년에 '당근'으로 줄였어요.
 
 지금은 중고거래에서 시작해서 이웃이랑 동네 가게까지 연결하는 —
-동네 생활 플랫폼으로 커졌습니다.
+4,000만명이 사용하는 **동네 생활 플랫폼**으로 커졌습니다.
 
 → 다음 슬라이드 전환: "다음으로 AWS AI Hero가 뭔지 설명할게요."
 -->
@@ -141,10 +141,10 @@ layout: default
 
 <div class="mt-8 grid grid-cols-2 gap-6">
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천하고 뽑는 프로그램입니다</div>
+<div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천해서 받게 되는 <strong class="text-[#F96167]">명예</strong>입니다</div>
 </div>
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">DeepRacer(AWS의 인공지능 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다 — <strong class="text-[#F96167]">올해로 햇수로 6년차</strong></div>
+<div class="text-sm leading-relaxed">DeepRacer(AWS의 자율주행 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다 — <strong class="text-[#F96167]">올해로 햇수로 6년차</strong></div>
 </div>
 </div>
 
@@ -155,16 +155,16 @@ layout: default
 <!--
 **[AWS AI Hero란? · 약 1분 30초]**
 
-AWS는 아마존이 만든 클라우드 서비스예요.
+AWS(아마존 웹 서비스)는 아마존이 만든 클라우드 서비스예요.
 인터넷 서비스의 절반 이상이 이 위에서 돌아갑니다.
 
 AWS AI Hero는 — **AWS가 직접 알아보고 뽑는** 사람들이에요.
-제가 신청해서 되는 게 아니라, AWS 쪽에서 추천해서 받게 되는 활동입니다.
+제가 신청해서 되는 게 아니라, AWS 에서 추천해서 받게 되는 명예입니다.
 
 어떤 사람을 뽑냐면요 — 기술을 직접 **써 보고, 배우고, 나누는** 사람들이에요.
-혼자 잘하는 사람보다 — 같이 배우는 동료를 만드는 사람들입니다.
+혼자 잘하는 사람보다 — 기술을 널리 알리는걸 좋아하는 사람들입니다.
 
-이따 첫 번째 사례로 나올 'DeepRacer' — AWS의 인공지능 자동차가
+이따 첫 번째 사례로 나올 'DeepRacer' — AWS의 자율주행 자동차가
 **2018년에 처음 나왔어요**. 저는 그때부터 발표하고, 블로그 쓰고,
 예제 코드 공유하면서 계속 활동해 왔고요 — 그게 인정돼서
 **2020년에 AWS AI Hero가 됐습니다**. 올해로 햇수로 6년차예요.
