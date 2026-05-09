@@ -106,7 +106,7 @@ layout: default
 
 <div class="bg-white p-5 rounded shadow-sm border-l-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">EXAMPLE</div>
-<div class="text-base text-[#2A2D43] leading-relaxed">"수행평가 마감일 자꾸 까먹어서<br/>늦게 낸 적이 있다"</div>
+<div class="text-base text-[#2A2D43] leading-relaxed">"수행평가 마감일을 자꾸 까먹는다"</div>
 </div>
 
 <div class="grid grid-cols-3 gap-2 text-xs">

@@ -18,7 +18,7 @@ layout: default
 <div class="flex items-center gap-4">
 <img src="./images/ico-karrot.png" class="w-12 h-12 object-contain" />
 <div>
-<div class="text-2xl font-semibold text-white">당근마켓 SRE</div>
+<div class="text-2xl font-semibold text-white">당근 SRE</div>
 </div>
 </div>
 

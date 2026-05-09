@@ -21,7 +21,7 @@ layout: default
 
 <div class="bg-white/5 border border-[#AAB1C7]/30 p-6 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">AWS AI Hero</div>
-<div class="text-base text-[#CADCFC] leading-relaxed">AWS 기술을 써 보고, 배우고, <strong class="text-white">다른 사람에게 설명하고 공유</strong>하는 활동도 하고 있습니다</div>
+<div class="text-base text-[#CADCFC] leading-relaxed">AWS 기술을 <strong class="text-white">써 보고, 배우고, 나누는</strong> 활동을 하고 있습니다</div>
 </div>
 
 </div>
@@ -46,7 +46,7 @@ layout: default
 **2. 개발자** — 저는 문제가 보이면 그냥 두지 못해서, 직접 도구를 만들어서
 반복되는 일을 줄이는 걸 좋아합니다. 오늘 강연의 절반은 사실 이 얘기예요.
 
-**3. AWS AI Hero** — 이건 좀 이따 따로 설명할게요.
+**3. AWS AI Hero** — AWS 기술을 **써 보고, 배우고, 나누는** 활동입니다. 이건 좀 이따 따로 설명할게요.
 
 → 다음 슬라이드 전환: "당근이라는 회사 좀 더 익숙하게 소개해 드릴게요."
 -->
@@ -125,18 +125,15 @@ layout: default
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">어떤 사람?</div>
 <div class="space-y-2 text-base text-[#2A2D43]">
 <div>· AWS(아마존의 클라우드 서비스)가 인정한 사람</div>
-<div>· 잘 아는 것을 쉽게 설명하고 나누는 사람</div>
-<div>· 혼자 알기보다 함께 배우는 사람들을 키우는 사람</div>
+<div>· 기술을 <strong>써 보고, 배우고, 나누는</strong> 사람</div>
 </div>
 </div>
 
 <div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">대표적인 혜택</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">AWS는?</div>
 <div class="space-y-2 text-base text-[#2A2D43]">
-<div>· AWS 행사와 새 기술 정보를 더 빨리 본다</div>
-<div>· 전 세계의 다른 Hero들과 친하게 지낸다</div>
-<div>· 발표나 영상·글로 더 많은 사람을 만날 수 있다</div>
-<div>· AWS 팀과 직접 이야기할 기회가 많아진다</div>
+<div>· 아마존이 만든 <strong>클라우드 서비스</strong></div>
+<div>· 인터넷 서비스의 절반 이상이 이 위에서 돌아갑니다</div>
 </div>
 </div>
 
@@ -147,7 +144,7 @@ layout: default
 <div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천하고 뽑는 프로그램입니다</div>
 </div>
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">DeepRacer(AWS의 인공지능 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다</div>
+<div class="text-sm leading-relaxed">DeepRacer(AWS의 인공지능 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다 — <strong class="text-[#F96167]">올해로 햇수로 6년차</strong></div>
 </div>
 </div>
 
@@ -164,8 +161,8 @@ AWS는 아마존이 만든 클라우드 서비스예요.
 AWS AI Hero는 — **AWS가 직접 알아보고 뽑는** 사람들이에요.
 제가 신청해서 되는 게 아니라, AWS 쪽에서 추천해서 받게 되는 활동입니다.
 
-어떤 사람을 뽑냐면요 — 잘 아는 걸 **쉽게 설명하고 나누는 사람**,
-혼자 알기보다 같이 배우는 사람들을 키우는 사람들입니다.
+어떤 사람을 뽑냐면요 — 기술을 직접 **써 보고, 배우고, 나누는** 사람들이에요.
+혼자 잘하는 사람보다 — 같이 배우는 동료를 만드는 사람들입니다.
 
 이따 첫 번째 사례로 나올 'DeepRacer' — AWS의 인공지능 자동차가
 **2018년에 처음 나왔어요**. 저는 그때부터 발표하고, 블로그 쓰고,
