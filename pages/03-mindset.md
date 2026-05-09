@@ -55,11 +55,17 @@ layout: default
 <SectionLabel section="MY STORY" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이렇게 시작했습니다</div>
 
-<div class="grid grid-cols-2 gap-10 items-center mt-12">
+<div class="grid grid-cols-2 gap-10 items-start mt-12">
 
-<div class="space-y-6">
-<p class="text-2xl leading-relaxed text-[#CADCFC]">처음부터 <span class="text-[#F96167] font-semibold">"이 직업을 해야지"</span> 하고 시작하지 않았습니다</p>
-<p class="text-2xl leading-relaxed text-[#CADCFC]">재미있는 문제를 만나면 <strong class="text-white">직접 만들어 보고</strong>,<br/>안 되면 <strong class="text-white">고쳐 왔습니다</strong></p>
+<div class="space-y-5">
+<p class="text-2xl leading-relaxed text-[#CADCFC]">저는 어려서부터 컴퓨터를 접했고</p>
+<p class="text-2xl leading-relaxed text-[#CADCFC]">어려운 문제를 만나면 <span class="text-[#F96167] font-semibold">직접 만들어 보고, 고쳐 왔습니다</span></p>
+<p class="text-2xl leading-relaxed text-[#CADCFC]">그러다 보니 — <strong class="text-white">프로그래머가 되어 있더라고요</strong></p>
+
+<div class="mt-6 p-4 border-l-4 border-[#F96167] bg-white/5">
+<div class="text-lg font-semibold text-[#F96167]">여러분도 늦지 않았어요</div>
+<div class="text-sm text-[#CADCFC] mt-2">요즘은 다들 어려서부터 컴퓨터 접해 봤고,<br/>휴대폰은 누구나 갖고 있으니까요</div>
+</div>
 </div>
 
 <div class="rounded-lg overflow-hidden">
@@ -75,13 +81,14 @@ layout: default
 <!--
 **[저는 이렇게 시작했습니다 · 약 1분 30초]**
 
-솔직히 말씀드리면 — 저는 처음부터
-'나는 프로그래머가 될 거야!' 하고 시작한 게 아니에요.
+저는 어려서부터 컴퓨터를 접했어요.
+어려운 문제를 만나면 직접 만들어 보고, 안 되면 고쳐 보고 —
+그러다 보니 어느새 **프로그래머가 되어 있더라고요**.
 
-그냥 재미있어 보이는 문제가 있으면 직접 해보고,
-안 되면 고쳐 보고 — 그렇게 하다 보니 어느새 직업이 되어 있었습니다.
+그러니까 여러분도 — **늦지 않았어요**.
+요즘은 다들 어려서부터 컴퓨터 접해 보셨고, 휴대폰은 누구나 갖고 계시잖아요.
 
-그러니까 여러분도 — 지금 **'나는 진짜 개발자 체질일까?'** 고민하고 있다면,
+지금 **'나는 진짜 개발자 체질일까?'** 고민하고 있다면,
 답은 단순해요. 작은 문제 하나만 직접 해결해 보세요.
 그게 **답을 가장 빨리 찾는 방법** 입니다.
 -->

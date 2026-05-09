@@ -42,6 +42,9 @@ layout: default
 두 번째 — **체온 알람 서비스** 입니다.
 
 이건 코로나 시기에 만든 거예요.
+**열화상카메라로 체온을 재고, 일반 카메라로 안면인식을 해서,
+정해둔 온도를 넘으면 알림을 보내는** 시스템이에요.
+
 한 줄로 정리하면 — **사람이 계속 보고 있던 화면을, 컴퓨터가 보게 만든 이야기**.
 -->
 
@@ -105,7 +108,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">01</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DETECT</div>
-<div class="text-sm text-[#CADCFC]">카메라가<br/>감지한다</div>
+<div class="text-sm text-[#CADCFC]">열화상카메라로<br/>체온을 본다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]">→</div>
@@ -113,7 +116,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PROCESS</div>
-<div class="text-sm text-[#CADCFC]">작은 컴퓨터가<br/>처리한다</div>
+<div class="text-sm text-[#CADCFC]">안면인식 +<br/>온도 비교</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]">→</div>
@@ -121,7 +124,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">03</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STORE</div>
-<div class="text-sm text-[#CADCFC]">인터넷 서버에<br/>저장한다</div>
+<div class="text-sm text-[#CADCFC]">기록을<br/>서버에 남긴다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]">→</div>
@@ -129,7 +132,7 @@ layout: default
 <div class="col-span-1 text-center">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">04</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">NOTIFY</div>
-<div class="text-sm text-[#CADCFC]">메신저로<br/>알려준다</div>
+<div class="text-sm text-[#CADCFC]">온도 초과 시<br/>메신저 알림</div>
 </div>
 
 </div>
@@ -145,10 +148,10 @@ layout: default
 
 그래서 흐름을 이렇게 만들었어요.
 
-- **01 DETECT** — 카메라가 감지하고.
-- **02 PROCESS** — 작은 컴퓨터가 처리하고.
-- **03 STORE** — 인터넷 서버에 저장하고.
-- **04 NOTIFY** — 메신저로 알려준다.
+- **01 DETECT** — 열화상카메라로 체온을, 일반 카메라로 얼굴을 본다.
+- **02 PROCESS** — 작은 컴퓨터가 안면인식을 하고, 정해둔 온도와 비교한다.
+- **03 STORE** — 누가 언제 어떤 체온이었는지 서버에 기록한다.
+- **04 NOTIFY** — 온도를 넘으면 메신저로 바로 알려준다.
 
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
 무엇을 감지해서, 어디에 저장하고, 누구한테 어떻게 알릴지 —
