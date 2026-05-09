@@ -137,7 +137,18 @@ layout: default
 
 </div>
 
-<div class="mt-16 text-center text-lg text-[#CADCFC]">핵심은 기술의 이름이 아니라 — <span class="text-[#F96167] font-semibold">흐름</span>입니다</div>
+<div class="mt-12 grid grid-cols-2 gap-4">
+<div class="bg-white/5 border-l-4 border-[#F96167] p-4 rounded">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">왜 라즈베리파이?</div>
+<div class="text-sm text-[#CADCFC]"><strong class="text-white">열화상 카메라 + 일반 카메라</strong> 둘 다 연결하려고요</div>
+</div>
+<div class="bg-white/5 border-l-4 border-[#F96167] p-4 rounded">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">열화상 카메라</div>
+<div class="text-sm text-[#CADCFC]"><strong class="text-white">FLIR Lepton 3.5</strong> — 사람 체온을 또렷이 볼 수 있는 열화상 센서</div>
+</div>
+</div>
+
+<div class="mt-6 text-center text-lg text-[#CADCFC]">핵심은 기술의 이름이 아니라 — <span class="text-[#F96167] font-semibold">흐름</span>입니다</div>
 
 <PageFooter />
 
@@ -152,6 +163,10 @@ layout: default
 - **02 PROCESS** — 작은 컴퓨터가 안면인식을 하고, 정해둔 온도와 비교한다.
 - **03 STORE** — 누가 언제 어떤 체온이었는지 서버에 기록한다.
 - **04 NOTIFY** — 온도를 넘으면 메신저로 바로 알려준다.
+
+라즈베리파이(작은 컴퓨터)를 쓴 이유는 — **열화상 카메라랑 일반 카메라, 둘 다 연결**해야 했거든요.
+
+열화상 카메라는 — **FLIR Lepton 3.5**. 사람 체온을 또렷하게 볼 수 있는 센서예요.
 
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
 무엇을 감지해서, 어디에 저장하고, 누구한테 어떻게 알릴지 —

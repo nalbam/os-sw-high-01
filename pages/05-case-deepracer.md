@@ -114,15 +114,15 @@ layout: default
 <div class="text-3xl font-bold text-[#F96167] font-mono">01</div>
 <div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">관찰</div>
-<div class="text-base text-[#CADCFC]">센서 민감도를 다시 봤다</div>
+<div class="text-base text-[#CADCFC]">디지털 핀에 직결했더니 — 감도가 약했다</div>
 </div>
 </div>
 
 <div class="flex gap-4 items-start">
 <div class="text-3xl font-bold text-[#F96167] font-mono">02</div>
 <div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">연결</div>
-<div class="text-base text-[#CADCFC]">연결 방식도 다시 생각했다</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">발견</div>
+<div class="text-base text-[#CADCFC]">소리 모듈의 <strong class="text-white">ADC(아날로그 변환기)</strong>를 빌려와 해결</div>
 </div>
 </div>
 
@@ -130,7 +130,7 @@ layout: default
 <div class="text-3xl font-bold text-[#F96167] font-mono">03</div>
 <div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">질문</div>
-<div class="text-base text-[#CADCFC]">문제가 생기면 "왜?"를 더 구체적으로 본다</div>
+<div class="text-base text-[#CADCFC]">"왜?"를 더 구체적으로 본다</div>
 </div>
 </div>
 
@@ -157,8 +157,8 @@ layout: default
 '왜 안 되지?' 하고 그냥 두면 거기서 끝이에요.
 
 그래서 세 가지를 다시 봤습니다.
-- **01 관찰** — 센서 민감도를 다시 봤다.
-- **02 연결** — 연결 방식을 다시 생각했다.
+- **01 관찰** — 압력 센서를 라즈베리파이 디지털 핀에 직결했더니 감도가 약했어요.
+- **02 발견** — 책상에 굴러다니던 소리(Sound) 모듈에 ADC라는 변환기가 붙어 있길래, 그걸 빌려 와서 연결했더니 — 됐어요.
 - **03 질문** — 문제가 생기면 '왜?' 를 더 구체적으로 봤다.
 
 '왜?' 를 한 번 더 묻는 거 — 이게 디버깅의 시작입니다.
@@ -176,11 +176,11 @@ layout: default
 <div class="grid grid-cols-3 gap-4 mt-10">
 <div class="bg-white p-6 rounded shadow-sm">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">WIDTH</div>
-<div class="text-base text-[#2A2D43] leading-snug">센서 폭이 짧아서 — <strong>두 개를 연결</strong>했다</div>
+<div class="text-base text-[#2A2D43] leading-snug">트랙 폭 60cm vs 센서 40cm — <strong>두 개를 양면테이프로</strong> 연결</div>
 </div>
 <div class="bg-white p-6 rounded shadow-sm">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DISTANCE</div>
-<div class="text-base text-[#2A2D43] leading-snug">거리 문제를 줄이기 위해 — <strong>전선 연결 방식을 바꿨다</strong></div>
+<div class="text-base text-[#2A2D43] leading-snug">센서 ↔ 변환기 <strong>1m 이내</strong>,<br/>변환기 ↔ 컴퓨터 <strong>랜선 20m</strong></div>
 </div>
 <div class="bg-white p-6 rounded shadow-sm">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">ENV</div>
@@ -207,9 +207,11 @@ layout: default
 
 결국 이렇게 고쳤어요.
 
-- **WIDTH** — 센서 폭이 짧아서 두 개를 연결했고요.
-- **DISTANCE** — 거리 문제 줄이려고 전선 연결 방식을 바꿨고요.
+- **WIDTH** — 트랙 폭이 60cm인데 센서는 40cm밖에 안 됐어요. 두 개를 양면테이프로 이어 붙였습니다.
+- **DISTANCE** — 센서랑 변환기 사이가 1m만 넘어가도 신호가 흔들려요. 그래서 변환기는 센서 바로 옆에 두고, 거기서 컴퓨터까지는 랜선 20m로 길게 빼는 식으로 바꿨어요.
 - **ENV** — 마지막엔 실제 대회 환경에서 다시 테스트했습니다.
+
+그리고 작은 일화 하나 — 차가 트랙 밖으로 튕겨 나갔다가 센서를 밟는 경우가 있었어요. 이건 자동으론 못 거르니까 — 진행자가 누를 수 있는 **숨겨진 단축키 'Y'** 를 만들어 뒀습니다. 완벽하지 않으면 — 임시 수단으로 사는 거예요.
 
 여기서 한 가지만 가져가세요.
 **개발은 한 번에 완성하는 일이 아니라, 실패한 이유를 보고 다시 만드는 일** 입니다.
@@ -242,6 +244,11 @@ layout: default
 </div>
 </div>
 
+<div class="mt-10 p-4 bg-white/5 border-l-4 border-[#F96167] rounded">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">실제 사용처</div>
+<div class="text-sm text-[#CADCFC]"><strong class="text-[#F96167]">AWS re:Invent DeepRacer Final 2022 · 2023 · 2024</strong> — 글로벌 결승에서 공식 타이머로 사용</div>
+</div>
+
 <PageFooter />
 
 </div>
@@ -254,6 +261,11 @@ layout: default
 - 센서랑 작은 컴퓨터(라즈베리파이라고 부르는 손바닥만한 컴퓨터예요)로 해결할 수 있다.
 - 문제를 직접 겪어야 좋은 도구가 나온다.
 - 테스트는 책상에서 말고 — 실제 상황에서 해야 한다.
+
+그리고 — 이거 진짜 큰 무대에서 썼어요.
+**AWS re:Invent DeepRacer Final 2022, 2023, 2024**.
+re:Invent는 AWS가 매년 라스베이거스에서 여는 글로벌 컨퍼런스예요.
+거기 결승에서 — 제 타이머가 공식으로 쓰였습니다.
 
 → 다음 슬라이드 전환: "두 번째 사례입니다."
 -->

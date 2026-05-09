@@ -41,7 +41,10 @@ layout: default
 
 세 번째 — **VibeMon** 입니다. Vibe + Monitor — 분위기를 보여준다는 뜻이에요.
 
-한 줄로 — **AI가 지금 뭘 하고 있는지, 한눈에 보이게 만든 이야기**.
+시작은 정말 단순했어요 — **"이 작은 LCD 화면에 뭘 띄울까?"**.
+그 한 마디에서 시작한 프로젝트입니다.
+
+한 줄로 — **AI가 코드 짜는 동안 다른 일 할 수 있게, 상태를 한눈에 보이게 만든 이야기**.
 -->
 
 ---
@@ -121,10 +124,24 @@ layout: default
 </div>
 </div>
 
-<div class="mt-12 p-6 border-l-4 border-[#F96167] bg-white/5">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">PRINCIPLE</div>
-<div class="text-2xl font-semibold text-white">작게 만들어 본 뒤에,<br/>정말 쓸 만하면 <span class="text-[#F96167]">더 키워 갑니다</span></div>
-<div class="text-sm text-[#AAB1C7] mt-4">처음부터 큰 그림을 다 그릴 필요는 없습니다</div>
+<div class="mt-8 grid grid-cols-3 gap-3">
+<div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
+<div class="text-3xl font-bold text-[#F96167] font-mono">16일</div>
+<div class="text-xs text-[#CADCFC] mt-1">총 작업 기간</div>
+</div>
+<div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
+<div class="text-3xl font-bold text-[#F96167] font-mono">600+</div>
+<div class="text-xs text-[#CADCFC] mt-1">커밋(작업 기록)</div>
+</div>
+<div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
+<div class="text-3xl font-bold text-[#F96167] font-mono">vibemon.io</div>
+<div class="text-xs text-[#CADCFC] mt-1">지금도 운영 중</div>
+</div>
+</div>
+
+<div class="mt-6 p-5 border-l-4 border-[#F96167] bg-white/5">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PRINCIPLE</div>
+<div class="text-xl font-semibold text-white">작게 만들어 본 뒤에, 정말 쓸 만하면 <span class="text-[#F96167]">더 키워 갑니다</span></div>
 </div>
 
 <PageFooter />
@@ -139,12 +156,94 @@ layout: default
 - **1단계** — 손바닥만 한 작은 LCD 화면 하나로 먼저 만들어 봤어요. 진짜 장난감 같았어요.
 - **2단계** — 그게 되니까, 웹에서 미리 보게 만들었어요.
 - **3단계** — 또 그게 되니까, 내 컴퓨터에서 항상 띄워두는 앱으로 키웠어요.
-- **4단계** — 결국엔 누구나 쓸 수 있는 웹사이트가 됐어요.
+- **4단계** — 결국엔 누구나 쓸 수 있는 웹사이트가 됐어요. **vibemon.io** — 지금도 돌아갑니다.
+
+그리고 — 이거 다 합쳐서 **16일 만에** 만들었어요. 600개 넘는 커밋(작업 기록).
+"작게 시작해서 빨리 만든다"가 진짜 뭔지 — 이 숫자가 보여줍니다.
 
 이 과정에서 배운 한 가지 — **작게 만들어 보고, 정말 쓸 만하면 더 키워간다**.
 
 처음부터 큰 그림을 다 그릴 필요 없어요.
 사실 다 그려놓고 시작하면 — 거의 다 안 끝납니다.
+-->
+
+---
+layout: default
+---
+
+<div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
+
+<SectionLabel section="CASE STUDY 03" />
+<div class="text-3xl mt-2 mb-6 font-bold text-white">VibeMon은 <span class="text-[#F96167]">표정</span>으로 말합니다</div>
+
+<div class="text-sm text-[#AAB1C7] mb-8">AI가 지금 뭘 하는지 — 한 번 보면 바로 알 수 있게</div>
+
+<div class="grid grid-cols-5 gap-4 mt-8">
+
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
+<div class="text-4xl font-mono text-[#CADCFC] mb-3">■ ■</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">IDLE</div>
+<div class="text-xs text-[#CADCFC]">대기 중<br/>(깜빡깜빡)</div>
+</div>
+
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
+<div class="text-4xl mb-3">💭</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">THINKING</div>
+<div class="text-xs text-[#CADCFC]">생각 중<br/>(말풍선)</div>
+</div>
+
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
+<div class="text-4xl mb-3">🕶️</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">WORKING</div>
+<div class="text-xs text-[#CADCFC]">작업 중<br/>(매트릭스 모드)</div>
+</div>
+
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
+<div class="text-4xl font-mono text-[#CADCFC] mb-3">&gt; &lt;</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">DONE</div>
+<div class="text-xs text-[#CADCFC]">끝<br/>(뿌듯한 눈)</div>
+</div>
+
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center">
+<div class="text-4xl font-mono text-[#CADCFC] mb-3">─ ─ Z</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">SLEEP</div>
+<div class="text-xs text-[#CADCFC]">잠<br/>(5분 비활성)</div>
+</div>
+
+</div>
+
+<div class="mt-12 grid grid-cols-2 gap-6">
+<div class="p-4 border-l-4 border-[#F96167] bg-white/5">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">왜 표정으로?</div>
+<div class="text-sm text-[#CADCFC]">텍스트보다 표정이 — <strong class="text-white">한눈에 보입니다</strong>. 멀리서 봐도 상태가 잡혀요</div>
+</div>
+<div class="p-4 border-l-4 border-[#F96167] bg-white/5">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">재미있는 건</div>
+<div class="text-sm text-[#CADCFC]">VibeMon은 — <strong class="text-white">AI랑 같이 만든 도구</strong>예요. 그 도구가 지금 — 그 AI를 보고 있는 거고요</div>
+</div>
+</div>
+
+<PageFooter />
+
+</div>
+
+<!--
+**[VibeMon은 표정으로 말합니다 · 약 30초]**
+
+VibeMon이 뭐 어떻게 보여주냐면요 — **표정** 으로 말해요.
+
+- ■ ■ 깜빡깜빡 — 대기 중
+- 💭 말풍선 — 생각 중
+- 🕶️ 매트릭스 선글라스 — 작업 중
+- > < 뿌듯한 눈 — 끝
+- ─ ─ Z — 5분 동안 안 쓰면 잠
+
+텍스트로 "thinking", "working" 이렇게 적어 두면 — 한 번에 안 들어와요.
+근데 표정으로 보여주면 — 멀리서 슬쩍 봐도 상태가 잡혀요.
+
+그리고 재미있는 게 하나 있어요. VibeMon은 — **AI랑 같이 만든 도구**입니다.
+Claude Code랑 같이 코드 짜면서 만들었거든요.
+그 도구가 지금 — 그 AI를 보고 있는 거예요. 좀 메타하죠.
 -->
 
 ---
