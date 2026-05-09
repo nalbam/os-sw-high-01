@@ -19,13 +19,13 @@ pnpm run build    # → dist/
 pnpm run export   # PDF 내보내기
 ```
 
-`netlify.toml`, `vercel.json`이 모두 포함되어 있어 양쪽 모두에 배포 가능.
+`netlify.toml`, `vercel.json`, `amplify.yml`이 모두 포함되어 있어 세 곳 모두에 배포 가능.
 
 ## 구조
 
 ```
 slides.md             진입점 (페이지 임포트만 담당)
-pages/                슬라이드 본문 (총 34쪽)
+pages/                슬라이드 본문 (총 39쪽)
   01-cover.md         · 커버
   01b-about.md        · 발표자 소개
   03b-intro-personal.md   · 당근 / AWS Hero 소개
@@ -38,7 +38,9 @@ pages/                슬라이드 본문 (총 34쪽)
   07-case-vibemon.md      · 사례 3: VibeMon
   08-recap-and-your-turn.md  · 정리·공식·과제
   09-formula-and-tips.md     · 팁·기록
-  10-closing.md       · 마무리
+  10a-closing-message.md  · 마무리 메시지
+  11-handson-and-demo.md  · 핸즈온 / 데모
+  10b-thanks-qna.md       · 감사 / Q&A
 components/           재사용 컴포넌트
   SectionLabel.vue    · 섹션 헤더 (`{currentPage} · SECTION`)
   PageFooter.vue      · 우하단 페이지 번호 (`{currentPage} / {total}`)
