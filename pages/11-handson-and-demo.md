@@ -5,7 +5,7 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="HANDS-ON" />
-<div class="text-3xl mt-2 mb-6 font-bold text-white">핸드폰을 꺼내 — <span class="text-[#F96167]">패들렛에 한 줄 올려봅시다</span></div>
+<div class="text-3xl mt-2 mb-6 font-bold text-white">핸드폰을 꺼내 — <span class="text-[#F96167]">슬리도에서 답해봅시다</span></div>
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 
@@ -19,14 +19,14 @@ layout: default
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
 <div class="text-2xl font-bold text-[#F96167] font-mono mb-2">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">WRITE</div>
-<div class="text-lg font-bold text-white mb-1">한 줄 적기</div>
+<div class="text-lg font-bold text-white mb-1">의견 남기기</div>
 <div class="text-xs text-[#CADCFC]">자주 불편한 것 한 가지</div>
 </div>
 
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
 <div class="text-2xl font-bold text-[#F96167] font-mono mb-2">03</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">POST</div>
-<div class="text-lg font-bold text-white mb-1">올리기</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">SUBMIT</div>
+<div class="text-lg font-bold text-white mb-1">제출하기</div>
 <div class="text-xs text-[#CADCFC]">이름 없이도 OK</div>
 </div>
 
@@ -59,12 +59,12 @@ layout: default
 </div>
 
 <!--
-**[패들렛에 한 줄 · 약 5분 — 인터랙션]**
+**[슬리도에서 의견 나누기 · 약 5분 — 인터랙션]**
 
 핸드폰 꺼내 주세요. 5분만 시간 드릴 거예요.
 
-다음 슬라이드에 QR 코드 띄울 테니까 — 패들렛이라는 사이트로 들어와서 —
-**자기가 자주 불편한 거 한 가지** 를 한 줄로 올려 주세요.
+다음 슬라이드에 QR 코드 띄울 테니까 — 슬리도(Slido)로 들어와서 —
+**자기가 자주 불편한 거 한 가지** 를 한 줄로 남겨 주세요.
 
 형식: **'내가 자주 불편한 것 한 가지 — 한 줄'**.
 
@@ -82,7 +82,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
-<SectionLabel section="PADLET" />
+<SectionLabel section="SLIDO" />
 <div class="text-3xl mt-2 mb-6 font-bold text-[#1A1A2E]">한 줄이면 <span class="text-[#F96167]">충분합니다</span></div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-4">
@@ -90,11 +90,10 @@ layout: default
 <div class="flex flex-col items-center">
 
 <div class="bg-white p-4 rounded-lg shadow-md">
-<img src="./images/qr-padlet.png" class="w-[240px] h-[240px] block" alt="QR · padlet" />
+<img src="./images/qr-slido.png" class="w-[240px] h-[240px] block" alt="QR · slido" />
 </div>
 
-<div class="mt-4 text-xs uppercase tracking-widest text-[#6B6E80] font-mono">QR — 패들렛 보드</div>
-<div class="mt-1 text-sm text-[#2A2D43] font-mono">padlet.com/nalbam/os-sw-high</div>
+<div class="mt-4 text-xs uppercase tracking-widest text-[#6B6E80] font-mono">QR — 슬리도 (Slido)</div>
 
 </div>
 
@@ -127,11 +126,11 @@ layout: default
 <!--
 **[QR · 한 줄이면 충분합니다 — QR 띄우는 동안]**
 
-QR 찍고 들어오세요. **padlet.com/nalbam/os-sw-high**.
+QR 찍고 슬리도(Slido)로 들어오세요.
 
 시간 5분 드립니다. 다 적으면 알려주세요.
 
-(5분 대기. 학생들이 적는 동안 화면 주기적으로 새로고침해서 보여주기)
+(5분 대기. 학생들이 답을 올리는 동안 슬리도 화면 보여주기)
 
 → 적당히 올라오면: "오, 벌써 많이 올라오네요. 이거 보세요 — (한두 개 읽어주기) — 이거 진짜 공감 가는데요."
 -->
@@ -190,7 +189,7 @@ layout: default
 <!--
 **[지금 만들어 봅니다 · 약 10분 — 라이브 코딩]**
 
-자, 그러면 — 패들렛에 올라온 아이디어 중에 하나 골라서 — **지금 같이 만들어 볼 거예요.**
+자, 그러면 — 슬리도에 올라온 아이디어 중에 하나 골라서 — **지금 같이 만들어 볼 거예요.**
 
 어떤 도구 쓸 거냐면 — **Claude Code** 라는 도구입니다. 말로 시키면 코드를 짜줘요.
 
@@ -204,7 +203,7 @@ layout: default
 
 자, 화면 전환할게요.
 
-(라이브 코딩 진행 — 화면을 코드 에디터로 전환. 패들렛에서 한 아이디어 선택해서 Claude Code로 한 화면 만들기. 막히는 부분도 솔직하게 보여주기.)
+(라이브 코딩 진행 — 화면을 코드 에디터로 전환. 슬리도에서 한 아이디어 선택해서 Claude Code로 한 화면 만들기. 막히는 부분도 솔직하게 보여주기.)
 -->
 
 ---
