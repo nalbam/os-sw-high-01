@@ -227,7 +227,7 @@ layout: default
 <SectionLabel section="CASE STUDY 01" />
 <div class="text-3xl mt-2 mb-8 font-bold text-white">이 프로젝트에서 배운 것</div>
 
-<div class="text-4xl leading-tight font-bold text-[#CADCFC] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람 대신 정확하게<br/>하게 만드는 것"</span></div>
+<div class="text-4xl leading-tight font-bold text-[#CADCFC] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람 대신 정확하게 하게 만드는 것"</span></div>
 
 <div class="space-y-5 mt-10">
 <div class="flex items-center gap-4">
@@ -246,7 +246,7 @@ layout: default
 
 <div class="mt-10 p-4 bg-white/5 border-l-4 border-[#F96167] rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">실제 사용처</div>
-<div class="text-sm text-[#CADCFC]"><strong class="text-[#F96167]">AWS re:Invent DeepRacer Final 2022 · 2023 · 2024</strong> — 글로벌 결승에서 공식 타이머로 사용</div>
+<div class="text-sm text-[#CADCFC]"><strong class="text-[#F96167]">AWS re:Invent DeepRacer League Final 2022 · 2023 · 2024</strong> — 글로벌 결승에서 공식 타이머로 사용</div>
 </div>
 
 <PageFooter />
@@ -266,6 +266,9 @@ layout: default
 **AWS re:Invent DeepRacer Final 2022, 2023, 2024**.
 re:Invent는 AWS가 매년 라스베이거스에서 여는 글로벌 컨퍼런스예요.
 거기 결승에서 — 제 타이머가 공식으로 쓰였습니다.
+
+근데 시작은 — 압력 센서 하나였어요. 그 한 조각에서 시작한 거예요.
+여러분도 — 시작은 늘 한 조각입니다.
 
 → 다음 슬라이드 전환: "두 번째 사례입니다."
 -->

@@ -174,9 +174,9 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="CASE STUDY 03" />
-<div class="text-3xl mt-2 mb-6 font-bold text-white">VibeMon은 <span class="text-[#F96167]">표정</span>으로 말합니다</div>
+<div class="text-3xl mt-2 mb-6 font-bold text-white">그리고 — 한 가지 더 신경 썼어요. <span class="text-[#F96167]">어떻게 보여줄지.</span></div>
 
-<div class="text-sm text-[#AAB1C7] mb-8">AI가 지금 뭘 하는지 — 한 번 보면 바로 알 수 있게</div>
+<div class="text-sm text-[#AAB1C7] mb-8">VibeMon은 <strong class="text-white">표정</strong>으로 말합니다 — AI가 지금 뭘 하는지, 한 번 보면 바로 알 수 있게</div>
 
 <div class="grid grid-cols-5 gap-4 mt-8">
 
@@ -228,9 +228,11 @@ layout: default
 </div>
 
 <!--
-**[VibeMon은 표정으로 말합니다 · 약 30초]**
+**[표정으로 말합니다 · 약 30초]**
 
-VibeMon이 뭐 어떻게 보여주냐면요 — **표정** 으로 말해요.
+이렇게 키워가면서 — 한 가지 더 신경 쓴 게 있어요. **어떻게 보여줄지.**
+
+VibeMon은 — **표정** 으로 말해요.
 
 - ■ ■ 깜빡깜빡 — 대기 중
 - 💭 말풍선 — 생각 중

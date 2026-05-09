@@ -85,9 +85,9 @@ layout: default
 <div class="text-2xl font-bold text-[#F96167] font-mono">03</div>
 <div class="text-base text-[#2A2D43] pt-1">친구와 같이 써 볼 프로젝트 해 보기</div>
 </div>
-<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
-<div class="text-2xl font-bold text-[#F96167] font-mono">04</div>
-<div class="text-base text-[#2A2D43] pt-1">실패한 이유를 적어 보기</div>
+<div class="flex items-start gap-4 bg-[#F96167] p-4 rounded shadow-md">
+<div class="text-2xl font-bold text-white font-mono">04</div>
+<div class="text-base text-white pt-1 font-semibold">실패한 이유를 적어 보기</div>
 </div>
 <div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
 <div class="text-2xl font-bold text-[#F96167] font-mono">05</div>
