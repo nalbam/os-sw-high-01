@@ -278,7 +278,7 @@ layout: default
 </div>
 
 <div class="mt-3 text-xs uppercase tracking-widest text-[#F96167] font-mono">SLIDES</div>
-<div class="mt-1 text-sm text-[#CADCFC] font-mono break-all text-center">os-sw-high-01.nalbam.com</div>
+<div class="mt-1 text-sm text-[#CADCFC] font-mono break-all text-center">nalbam.github.io/os-sw-high-01</div>
 
 </div>
 
@@ -345,7 +345,7 @@ layout: default
 **[자료실 · 약 1분]**
 
 오늘 슬라이드는 여기 QR로 들어오시면 다 보실 수 있어요.
-**os-sw-high-01.nalbam.com**.
+**nalbam.github.io/os-sw-high-01**.
 
 시작 도구 세 가지만 추천드릴게요.
 - **ChatGPT** — 모르는 거 물어보기.
