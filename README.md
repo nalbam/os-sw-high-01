@@ -19,7 +19,7 @@ pnpm run build    # → dist/
 pnpm run export   # PDF 내보내기
 ```
 
-`netlify.toml`, `vercel.json`, `amplify.yml`이 모두 포함되어 있어 세 곳 모두에 배포 가능.
+`netlify.toml`, `vercel.json`, `amplify.yml`, `.github/workflows/deploy-pages.yml`이 포함되어 Netlify·Vercel·AWS Amplify·GitHub Pages 모두에 배포 가능.
 
 ## 구조
 
