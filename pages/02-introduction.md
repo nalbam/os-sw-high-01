@@ -13,21 +13,21 @@ layout: default
 </div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<div class="border-l-4 border-[#F96167] pl-4">
+<div class="border-l-4 border-[#F96167] pl-4" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">진로</div>
 <div class="text-base text-[#2A2D43]">아직 진로를 몰라도 괜찮습니다</div>
 </div>
-<div class="border-l-4 border-[#F96167] pl-4">
+<div class="border-l-4 border-[#F96167] pl-4" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">관점</div>
 <div class="text-base text-[#2A2D43]">코딩보다 중요한 건 문제를 보는 눈입니다</div>
 </div>
-<div class="border-l-4 border-[#F96167] pl-4">
+<div class="border-l-4 border-[#F96167] pl-4" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">시작</div>
 <div class="text-base text-[#2A2D43]">반복되는 일을 줄이는 것이 프로그래밍의 시작입니다</div>
 </div>
 </div>
 
-<div class="mt-12 p-6 bg-[#1A1A2E] text-white rounded-lg">
+<div class="mt-12 p-6 bg-[#1A1A2E] text-white rounded-lg" v-click.scale>
 <div class="text-xs uppercase tracking-widest text-[#F96167] mb-2">오늘 기억할 한 문장</div>
 <div class="text-2xl font-semibold">반복되는 일은 <span class="text-[#F96167]">컴퓨터에게 맡길 수 있습니다</span></div>
 </div>
@@ -70,11 +70,11 @@ layout: default
 </div>
 
 <div class="grid grid-cols-2 gap-3 text-sm">
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📝 수행평가 마감</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">🧹 청소·정리 당번</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">⏰ 학원·야자·방과후</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded">📚 매일 복습·노트 정리</div>
-<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded col-span-2">💬 단톡방·학교 공지 챙기기</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded" v-click>📝 수행평가 마감</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded" v-click>🧹 청소·정리 당번</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded" v-click>⏰ 학원·야자·방과후</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded" v-click>📚 매일 복습·노트 정리</div>
+<div class="border border-[#AAB1C7]/30 px-4 py-3 rounded col-span-2" v-click>💬 단톡방·학교 공지 챙기기</div>
 </div>
 
 <div class="text-xs text-[#AAB1C7] mt-6 font-mono">예시 — 어떤 게 가장 마음에 와닿나요?</div>

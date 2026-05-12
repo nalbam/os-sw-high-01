@@ -12,22 +12,22 @@ layout: default
 <div class="space-y-4">
 
 <div class="grid grid-cols-2 gap-3 items-stretch">
-<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded">
+<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded" v-click="1">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DON'T</div>
 <div class="text-sm text-[#CADCFC]">코드를 대신 짜 달라고만 하지 않기</div>
 </div>
-<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded">
+<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded" v-click="2">
 <div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-2">DO</div>
 <div class="text-sm text-white">먼저 내가 뭘 만들고 싶은지 한 줄로 적기</div>
 </div>
 </div>
 
 <div class="grid grid-cols-2 gap-3 items-stretch">
-<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded">
+<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded" v-click="3">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DON'T</div>
 <div class="text-sm text-[#CADCFC]">AI가 준 답을 그대로 믿어 버리기</div>
 </div>
-<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded">
+<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded" v-click="4">
 <div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-2">DO</div>
 <div class="text-sm text-white">직접 실행해 보고, 틀린 부분을 고치면서 배우기</div>
 </div>
@@ -73,23 +73,23 @@ layout: default
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 
 <div class="space-y-3">
-<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
+<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm" v-click>
 <div class="text-2xl font-bold text-[#F96167] font-mono">01</div>
 <div class="text-base text-[#2A2D43] pt-1">작은 것 하나라도 만들어 보기</div>
 </div>
-<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
+<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm" v-click>
 <div class="text-2xl font-bold text-[#F96167] font-mono">02</div>
 <div class="text-base text-[#2A2D43] pt-1">GitHub(코드를 올리는 사이트)나 블로그에 기록 남기기</div>
 </div>
-<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
+<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm" v-click>
 <div class="text-2xl font-bold text-[#F96167] font-mono">03</div>
 <div class="text-base text-[#2A2D43] pt-1">친구와 같이 써 볼 프로젝트 해 보기</div>
 </div>
-<div class="flex items-start gap-4 bg-[#F96167] p-4 rounded shadow-md">
+<div class="flex items-start gap-4 bg-[#F96167] p-4 rounded shadow-md" v-click.scale>
 <div class="text-2xl font-bold text-white font-mono">04</div>
 <div class="text-base text-white pt-1 font-semibold">실패한 이유를 적어 보기</div>
 </div>
-<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm">
+<div class="flex items-start gap-4 bg-white p-4 rounded shadow-sm" v-click>
 <div class="text-2xl font-bold text-[#F96167] font-mono">05</div>
 <div class="text-base text-[#2A2D43] pt-1">반복되는 일을 그냥 넘기지 않기</div>
 </div>
@@ -141,19 +141,19 @@ layout: default
 </div>
 
 <div class="grid grid-cols-4 gap-3 mt-12">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">BLOG</div>
 <div class="text-sm text-[#CADCFC]">블로그 글 한 편</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">README</div>
 <div class="text-sm text-[#CADCFC]">짧은 프로젝트 설명서 한 장</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">RETRO</div>
 <div class="text-sm text-[#CADCFC]">실패한 이유 메모</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">NEXT</div>
 <div class="text-sm text-[#CADCFC]">다음에 고칠 점</div>
 </div>

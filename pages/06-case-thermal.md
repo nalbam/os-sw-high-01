@@ -1,5 +1,6 @@
 ---
 layout: default
+transition: slide-up
 ---
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
@@ -62,15 +63,15 @@ layout: default
 <div class="text-sm text-[#6B6E80] mb-12">사람이 계속 지켜봐야 하는 일은 — 좋은 자동화 후보입니다</div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">BEYOND HARDWARE</div>
 <div class="text-base text-[#2A2D43]">열화상 카메라(체온이 색으로 보이는 카메라)만 있다고 끝이 아니다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RESPONSE TIME</div>
 <div class="text-base text-[#2A2D43]">이상이 생긴 상황을 빨리 알려줘야 한다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]">
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RECORDS</div>
 <div class="text-base text-[#2A2D43]">기록도 남아야 나중에 확인할 수 있다</div>
 </div>
@@ -105,31 +106,31 @@ layout: default
 
 <div class="grid grid-cols-7 gap-2 items-center mt-16">
 
-<div class="col-span-1 text-center">
+<div class="col-span-1 text-center" v-click="1">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">01</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DETECT</div>
 <div class="text-sm text-[#CADCFC]">열화상카메라로<br/>체온을 본다</div>
 </div>
 
-<div class="text-center text-3xl text-[#F96167]">→</div>
+<div class="text-center text-3xl text-[#F96167]" v-click="2">→</div>
 
-<div class="col-span-1 text-center">
+<div class="col-span-1 text-center" v-click="2">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PROCESS</div>
 <div class="text-sm text-[#CADCFC]">안면인식 +<br/>온도 비교</div>
 </div>
 
-<div class="text-center text-3xl text-[#F96167]">→</div>
+<div class="text-center text-3xl text-[#F96167]" v-click="3">→</div>
 
-<div class="col-span-1 text-center">
+<div class="col-span-1 text-center" v-click="3">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">03</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STORE</div>
 <div class="text-sm text-[#CADCFC]">기록을<br/>서버에 남긴다</div>
 </div>
 
-<div class="text-center text-3xl text-[#F96167]">→</div>
+<div class="text-center text-3xl text-[#F96167]" v-click="4">→</div>
 
-<div class="col-span-1 text-center">
+<div class="col-span-1 text-center" v-click="4">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">04</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">NOTIFY</div>
 <div class="text-sm text-[#CADCFC]">온도 초과 시<br/>메신저 알림</div>
@@ -185,15 +186,15 @@ layout: default
 <div class="text-4xl leading-tight font-bold text-[#1A1A2E] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람이 계속 지켜보는 일"</span>을<br/>줄여 줍니다</div>
 
 <div class="space-y-5 mt-10">
-<div class="flex items-center gap-4">
+<div class="flex items-center gap-4" v-click>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">센서 + 코드 + 알림이 연결되면 — 유용해진다</span>
 </div>
-<div class="flex items-center gap-4">
+<div class="flex items-center gap-4" v-click>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">문제 해결은 한 가지 기술이 아니라 — 여러 조각의 연결이다</span>
 </div>
-<div class="flex items-center gap-4">
+<div class="flex items-center gap-4" v-click>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">사람을 편하게 하는 것이 — 좋은 개발이다</span>
 </div>

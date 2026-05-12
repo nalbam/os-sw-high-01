@@ -16,23 +16,23 @@ layout: default
 <div class="text-lg leading-relaxed text-[#CADCFC] mb-8">매번 같은 일을 사람 손으로 하고 있다면<br/>그건 <strong class="text-white">코드를 써 볼 좋은 신호</strong>입니다</div>
 
 <div class="grid grid-cols-5 gap-2">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center" v-click>
 <div class="text-xl mb-1">👀</div>
 <div class="text-xs text-[#CADCFC] leading-tight">계속 확인해야 한다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center" v-click>
 <div class="text-xl mb-1">🖱️</div>
 <div class="text-xs text-[#CADCFC] leading-tight">계속 눌러야 한다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center" v-click>
 <div class="text-xl mb-1">📝</div>
 <div class="text-xs text-[#CADCFC] leading-tight">계속 기록해야 한다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center" v-click>
 <div class="text-xl mb-1">🤔</div>
 <div class="text-xs text-[#CADCFC] leading-tight">자주 잊어버린다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center">
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded text-center" v-click>
 <div class="text-xl mb-1">⚠️</div>
 <div class="text-xs text-[#CADCFC] leading-tight">사람이 하면 실수한다</div>
 </div>
