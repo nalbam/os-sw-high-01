@@ -22,57 +22,57 @@ src: ./pages/01-cover.md
 ---
 
 ---
-src: ./pages/01b-about.md
+src: ./pages/02-about.md
 ---
 
 ---
-src: ./pages/03b-intro-personal.md
+src: ./pages/03-intro-personal.md
 ---
 
 ---
-src: ./pages/02-introduction.md
+src: ./pages/04-introduction.md
 ---
 
 ---
-src: ./pages/03-mindset.md
+src: ./pages/05-mindset.md
 ---
 
 ---
-src: ./pages/03c-mindset-philosophy.md
+src: ./pages/06-mindset-philosophy.md
 ---
 
 ---
-src: ./pages/04-fundamentals.md
+src: ./pages/07-fundamentals.md
 ---
 
 ---
-src: ./pages/05-case-deepracer.md
+src: ./pages/08-case-deepracer.md
 ---
 
 ---
-src: ./pages/06-case-thermal.md
+src: ./pages/09-case-thermal.md
 ---
 
 ---
-src: ./pages/07-case-vibemon.md
+src: ./pages/10-case-vibemon.md
 ---
 
 ---
-src: ./pages/08-recap-and-your-turn.md
+src: ./pages/11-recap-and-your-turn.md
 ---
 
 ---
-src: ./pages/09-formula-and-tips.md
+src: ./pages/12-formula-and-tips.md
 ---
 
 ---
-src: ./pages/10a-closing-message.md
+src: ./pages/13-closing-message.md
 ---
 
 ---
-src: ./pages/11-handson-and-demo.md
+src: ./pages/14-handson-and-demo.md
 ---
 
 ---
-src: ./pages/10b-thanks-qna.md
+src: ./pages/15-thanks-qna.md
 ---

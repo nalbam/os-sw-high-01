@@ -27,22 +27,22 @@ pnpm run export   # PDF 내보내기
 
 ```
 slides.md             진입점 (페이지 임포트만 담당)
-pages/                슬라이드 본문 (총 39쪽)
-  01-cover.md         · 커버
-  01b-about.md        · 발표자 소개
-  03b-intro-personal.md   · 당근 / AWS Hero 소개
-  02-introduction.md  · 도입
-  03-mindset.md       · 프로그래머의 정의
-  03c-mindset-philosophy.md  · 5단계 사이클
-  04-fundamentals.md  · 자동화의 신호
-  05-case-deepracer.md    · 사례 1: DeepRacer Timer
-  06-case-thermal.md      · 사례 2: 체온 알람
-  07-case-vibemon.md      · 사례 3: VibeMon
-  08-recap-and-your-turn.md  · 정리·공식·과제
-  09-formula-and-tips.md     · 팁·기록
-  10a-closing-message.md  · 마무리 메시지
-  11-handson-and-demo.md  · 핸즈온 / 데모
-  10b-thanks-qna.md       · 감사 / Q&A
+pages/                슬라이드 본문 (발표 순서대로 정렬)
+  01-cover.md                  · 커버
+  02-about.md                  · 발표자 소개
+  03-intro-personal.md         · 당근 / AWS Hero 소개
+  04-introduction.md           · 도입
+  05-mindset.md                · 프로그래머의 정의
+  06-mindset-philosophy.md     · 5단계 사이클
+  07-fundamentals.md           · 자동화의 신호
+  08-case-deepracer.md         · 사례 1: DeepRacer Timer
+  09-case-thermal.md           · 사례 2: 체온 알람
+  10-case-vibemon.md           · 사례 3: VibeMon
+  11-recap-and-your-turn.md    · 정리·공식·과제
+  12-formula-and-tips.md       · 팁·기록
+  13-closing-message.md        · 마무리 메시지
+  14-handson-and-demo.md       · 핸즈온 / 데모
+  15-thanks-qna.md             · 감사 / Q&A
 components/           재사용 컴포넌트
   SectionLabel.vue    · 섹션 헤더 (`{currentPage} · SECTION`)
   PageFooter.vue      · 우하단 페이지 번호 (`{currentPage} / {total}`)
