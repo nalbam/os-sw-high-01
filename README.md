@@ -5,6 +5,8 @@
 
 발표자: 유정열 (nalbam) — 당근 SRE / AWS AI Hero
 
+청중·톤 가이드는 [`AUDIENCE.md`](./AUDIENCE.md)를 참고하세요.
+
 ## 실행
 
 ```bash
