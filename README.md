@@ -46,6 +46,7 @@ pages/                슬라이드 본문 (발표 순서대로 정렬)
 components/           재사용 컴포넌트
   SectionLabel.vue    · 섹션 헤더 (`{currentPage} · SECTION`)
   PageFooter.vue      · 우하단 페이지 번호 (`{currentPage} / {total}`)
+  CountUp.vue         · 숫자 카운트업 애니메이션
 pages/images/         슬라이드 이미지
 ```
 
@@ -54,7 +55,7 @@ pages/images/         슬라이드 이미지
 페이지 번호와 총 페이지 수는 Slidev의 `$nav.currentPage` / `$nav.total`로 자동 계산됩니다.
 페이지를 추가·삭제할 때 다른 슬라이드의 번호를 손볼 필요가 없습니다.
 
-새 슬라이드 안에서 다음 두 컴포넌트를 사용하세요.
+새 슬라이드 안에서 다음 컴포넌트들을 사용하세요.
 
 ```vue
 <SectionLabel section="FUNDAMENTALS" />   <!-- → 14 · FUNDAMENTALS -->
@@ -62,7 +63,12 @@ pages/images/         슬라이드 이미지
 
 <PageFooter />        <!-- 다크 배경용 (기본) -->
 <PageFooter light />  <!-- 라이트 배경용 -->
+
+<CountUp :to="4000" suffix="만명" />        <!-- 0 → 4,000만명 -->
+<CountUp :to="600" prefix="+" suffix="개" />  <!-- 0 → +600개 -->
 ```
+
+`CountUp` 은 `to`(필수), `duration`(기본 1500ms), `prefix`, `suffix`, `start`(기본 true) props 를 받습니다.
 
 ## 더 알아보기
 
