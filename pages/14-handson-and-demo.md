@@ -150,7 +150,7 @@ layout: default
 
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">TOOL</div>
-<div class="text-xl font-bold text-white">Claude Code</div>
+<div class="text-xl font-bold text-white">Codex</div>
 <div class="text-xs text-[#CADCFC] mt-1">말로 시키면 코드를 짜 줍니다</div>
 </div>
 
@@ -191,7 +191,7 @@ layout: default
 
 자, 그러면 — 슬리도에 올라온 아이디어 중에 하나 골라서 — **지금 같이 만들어 볼 거예요.**
 
-어떤 도구 쓸 거냐면 — **Claude Code** 라는 도구입니다. 말로 시키면 코드를 짜줘요.
+어떤 도구 쓸 거냐면 — **Codex** 라는 도구입니다. 말로 시키면 코드를 짜줘요.
 
 목표는 작아요.
 - 완성된 앱이 아니라 — **아주 작은 화면 한 장**.
@@ -203,7 +203,7 @@ layout: default
 
 자, 화면 전환할게요.
 
-(라이브 코딩 진행 — 화면을 코드 에디터로 전환. 슬리도에서 한 아이디어 선택해서 Claude Code로 한 화면 만들기. 막히는 부분도 솔직하게 보여주기.)
+(라이브 코딩 진행 — 화면을 코드 에디터로 전환. 슬리도에서 한 아이디어 선택해서 Codex로 한 화면 만들기. 막히는 부분도 솔직하게 보여주기.)
 -->
 
 ---
@@ -292,7 +292,7 @@ layout: default
 <div class="text-xs text-[#AAB1C7] mt-1">물어보기</div>
 </div>
 <div class="bg-white/5 p-3 rounded text-center">
-<div class="text-base font-bold text-white">Claude Code</div>
+<div class="text-base font-bold text-white">Codex</div>
 <div class="text-xs text-[#AAB1C7] mt-1">말로 만들기</div>
 </div>
 <div class="bg-white/5 p-3 rounded text-center">
@@ -349,7 +349,7 @@ layout: default
 
 시작 도구 세 가지만 추천드릴게요.
 - **ChatGPT** — 모르는 거 물어보기.
-- **Claude Code** — 말로 만들기.
+- **Codex** — 말로 만들기.
 - **GitHub** — 기록 남기기.
 
 그리고 — 오늘 보여드린 세 사례 — **제작기를 블로그에 다 올려뒀어요**.
