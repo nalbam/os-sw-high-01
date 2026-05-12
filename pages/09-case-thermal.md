@@ -172,6 +172,70 @@ layout: default
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
 무엇을 감지해서, 어디에 저장하고, 누구한테 어떻게 알릴지 —
 이 흐름만 머릿속에 그려지면, 어떤 도구로 만들지는 그 다음 문제예요.
+
+(슬라이드의 'FLIR Lepton 3.5' 는 현재 V2 시스템 기준 — 다음 슬라이드에서 V1 → V2 진화를 같이 보겠습니다.)
+-->
+
+---
+layout: default
+---
+
+<div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
+
+<SectionLabel section="CASE STUDY 02" />
+<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">직접 써보니 — <span class="text-[#F96167]">더 키우게 됐어요</span></div>
+
+<div class="grid grid-cols-2 gap-8 items-stretch mt-8">
+
+<div class="bg-white p-6 rounded shadow-sm border-l-4 border-[#AAB1C7]" v-click.fade>
+<div class="text-xs uppercase tracking-widest text-[#6B6E80] font-mono mb-2">V1 · 2020.02</div>
+<div class="text-xl font-bold text-[#2A2D43] mb-4">"되긴 됐다"</div>
+<div class="space-y-3 text-sm text-[#2A2D43]">
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>AMG8833</strong> (8×8 픽셀)</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>한 대 — 한 출입구</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람 얼굴이 격자 한두 칸 — <strong>흐릿함</strong></span></div>
+</div>
+</div>
+
+<div class="bg-white p-6 rounded shadow-sm border-l-4 border-[#F96167]" v-click.fade>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">V2 · 2020.06 (4개월 뒤)</div>
+<div class="text-xl font-bold text-[#1A1A2E] mb-4">직접 써보고 키웠다</div>
+<div class="space-y-3 text-sm text-[#2A2D43]">
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>FLIR Lepton 3.5</strong></span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>여러 곳에 설치 가능</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람별 — 한 달 안에 어디 갔는지 추적</span></div>
+</div>
+</div>
+
+</div>
+
+<div class="mt-10 p-5 bg-[#1A1A2E] text-white rounded-lg" v-click.scale>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PRINCIPLE</div>
+<div class="text-xl font-semibold">직접 써보면 — <span class="text-[#F96167]">부족한 게 보입니다</span></div>
+</div>
+
+<PageFooter light />
+
+</div>
+
+<!--
+**[직접 써보니 — 더 키우게 됐어요 · 약 1분 30초]**
+
+근데 처음 만든 V1 는 — 솔직히 좀 거칠었어요.
+
+첫 센서가 **AMG8833** 이라는 거였는데 — 8×8, 그러니까 가로 8칸 세로 8칸 격자입니다.
+손바닥에 그릴 수 있는 크기죠. 사람 얼굴이 한두 칸 안에 들어가요.
+**되긴 되는데 흐릿했습니다.**
+
+그리고 한 곳에만 설치돼 있었어요. 누가 어디 갔는지 추적이 안 됐고요.
+
+그래서 **4개월 뒤 V2** 를 만들었어요.
+- 센서를 **FLIR Lepton 3.5** 로 바꿨어요. 사람 체온이 또렷이 보이는 센서.
+- 여러 곳에 설치할 수 있게 만들었고요.
+- 사람별로 — 한 달 안에 어디 갔다 왔는지 기록을 봤어요.
+
+여기서 배운 한 가지가 — **직접 써봐야 부족한 게 보인다**.
+머리로만 생각하면 모릅니다. 작게 만들어 보고, 직접 써보고 — 그래야 다음 단계가 보여요.
 -->
 
 ---
