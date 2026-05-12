@@ -201,7 +201,7 @@ layout: default
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">V2 · 2020.06 (4개월 뒤)</div>
 <div class="text-xl font-bold text-[#1A1A2E] mb-4">직접 써보고 키웠다</div>
 <div class="space-y-3 text-sm text-[#2A2D43]">
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>FLIR Lepton 3.5</strong></span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>FLIR Lepton 3.5</strong> (160×120 픽셀)</span></div>
 <div class="flex gap-2"><span class="text-[#F96167]">·</span><span>여러 곳에 설치 가능</span></div>
 <div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람별 — 한 달 안에 어디 갔는지 추적</span></div>
 </div>
@@ -230,7 +230,7 @@ layout: default
 그리고 한 곳에만 설치돼 있었어요. 누가 어디 갔는지 추적이 안 됐고요.
 
 그래서 **4개월 뒤 V2** 를 만들었어요.
-- 센서를 **FLIR Lepton 3.5** 로 바꿨어요. 사람 체온이 또렷이 보이는 센서.
+- 센서를 **FLIR Lepton 3.5** 로 바꿨어요. **160×120 픽셀** — 8×8 (64 픽셀) 에서 19,200 픽셀로, **약 300배** 정밀해졌어요. 사람 얼굴 표정까지 또렷이 보입니다.
 - 여러 곳에 설치할 수 있게 만들었고요.
 - 사람별로 — 한 달 안에 어디 갔다 왔는지 기록을 봤어요.
 
