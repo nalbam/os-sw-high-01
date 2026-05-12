@@ -8,27 +8,27 @@ layout: default
 <div class="text-3xl mt-2 mb-8 font-bold text-white">세 프로젝트의 공통점</div>
 
 <div class="grid grid-cols-5 gap-3 mt-12">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">01</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DISCOVER</div>
 <div class="text-sm text-[#CADCFC]">사람이 반복해서 하던 일을 발견했다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">START SMALL</div>
 <div class="text-sm text-[#CADCFC]">아주 작은 해결부터 시작했다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">03</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">FIX</div>
 <div class="text-sm text-[#CADCFC]">잘 안 되는 부분을 고쳤다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">04</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">USE</div>
 <div class="text-sm text-[#CADCFC]">직접 써 보고 더 좋게 만들었다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">05</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RECORD</div>
 <div class="text-sm text-[#CADCFC]">만든 것을 기록으로 남겼다</div>
@@ -97,15 +97,15 @@ layout: default
 </div>
 
 <div class="grid grid-cols-3 gap-4 mt-10">
-<div class="flex items-center gap-3" v-click>
+<div class="flex items-center gap-3" v-click.fade>
 <span class="text-2xl text-[#F96167]">·</span>
 <span class="text-sm text-[#2A2D43]">처음부터 크게 만들지 않는다</span>
 </div>
-<div class="flex items-center gap-3" v-click>
+<div class="flex items-center gap-3" v-click.fade>
 <span class="text-2xl text-[#F96167]">·</span>
 <span class="text-sm text-[#2A2D43]">내가 이해할 수 있는 범위에서 시작한다</span>
 </div>
-<div class="flex items-center gap-3" v-click>
+<div class="flex items-center gap-3" v-click.fade>
 <span class="text-2xl text-[#F96167]">·</span>
 <span class="text-sm text-[#2A2D43]">직접 써 보며 고친다</span>
 </div>
@@ -174,27 +174,27 @@ layout: default
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">학교에서 떠올려 볼 수 있는 자동화</div>
 
 <div class="grid grid-cols-5 gap-3 mt-10">
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DEADLINE</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">수행평가 마감 알림</div>
 <div class="text-xs text-[#6B6E80]">"마감일 자주 놓쳐요"</div>
 </div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DUTY</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">청소 당번 알림</div>
 <div class="text-xs text-[#6B6E80]">"내 차례 자꾸 잊어요"</div>
 </div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">SCHEDULE</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">학원·방과후 시간</div>
 <div class="text-xs text-[#6B6E80]">"오늘 어디 가야 하지?"</div>
 </div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">STUDY</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">매일 복습·과제 체크</div>
 <div class="text-xs text-[#6B6E80]">"오늘 뭐 해야 하지?"</div>
 </div>
-<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">NOTICE</div>
 <div class="text-base font-semibold text-[#1A1A2E] mb-2">단톡방·공지 챙기기</div>
 <div class="text-xs text-[#6B6E80]">"공지 놓치면 큰일"</div>

@@ -111,7 +111,7 @@ layout: default
 
 <div class="space-y-4 mt-6">
 
-<div class="flex gap-4 items-start" v-click>
+<div class="flex gap-4 items-start" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] font-mono">01</div>
 <div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">관찰</div>
@@ -119,7 +119,7 @@ layout: default
 </div>
 </div>
 
-<div class="flex gap-4 items-start" v-click>
+<div class="flex gap-4 items-start" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] font-mono">02</div>
 <div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">발견</div>
@@ -127,7 +127,7 @@ layout: default
 </div>
 </div>
 
-<div class="flex gap-4 items-start" v-click>
+<div class="flex gap-4 items-start" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] font-mono">03</div>
 <div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">질문</div>
@@ -175,15 +175,15 @@ layout: default
 <div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">고친 방법</div>
 
 <div class="grid grid-cols-3 gap-4 mt-10">
-<div class="bg-white p-6 rounded shadow-sm" v-click>
+<div class="bg-white p-6 rounded shadow-sm" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">WIDTH</div>
 <div class="text-base text-[#2A2D43] leading-snug">트랙 폭 60cm vs 센서 40cm — <strong>두 개를 양면테이프로</strong> 연결</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm" v-click>
+<div class="bg-white p-6 rounded shadow-sm" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DISTANCE</div>
 <div class="text-base text-[#2A2D43] leading-snug">센서 ↔ 변환기 <strong>1m 이내</strong>,<br/>변환기 ↔ 컴퓨터 <strong>랜선 20m</strong></div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm" v-click>
+<div class="bg-white p-6 rounded shadow-sm" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">ENV</div>
 <div class="text-base text-[#2A2D43] leading-snug">실제 대회 환경에서 — <strong>다시 테스트</strong>했다</div>
 </div>
@@ -229,15 +229,15 @@ layout: default
 <div class="text-4xl leading-tight font-bold text-[#CADCFC] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람 대신 정확하게 하게 만드는 것"</span></div>
 
 <div class="space-y-5 mt-10">
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#CADCFC]">센서와 작은 컴퓨터(라즈베리파이)로 해결할 수 있다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#CADCFC]">문제를 직접 겪어야 더 좋은 도구가 나온다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#CADCFC]">테스트는 실제 상황에서 해야 한다</span>
 </div>

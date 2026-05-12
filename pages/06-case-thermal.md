@@ -63,15 +63,15 @@ layout: default
 <div class="text-sm text-[#6B6E80] mb-12">사람이 계속 지켜봐야 하는 일은 — 좋은 자동화 후보입니다</div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">BEYOND HARDWARE</div>
 <div class="text-base text-[#2A2D43]">열화상 카메라(체온이 색으로 보이는 카메라)만 있다고 끝이 아니다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RESPONSE TIME</div>
 <div class="text-base text-[#2A2D43]">이상이 생긴 상황을 빨리 알려줘야 한다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">RECORDS</div>
 <div class="text-base text-[#2A2D43]">기록도 남아야 나중에 확인할 수 있다</div>
 </div>
@@ -186,15 +186,15 @@ layout: default
 <div class="text-4xl leading-tight font-bold text-[#1A1A2E] mt-12 mb-12">자동화는 <span class="text-[#F96167]">"사람이 계속 지켜보는 일"</span>을<br/>줄여 줍니다</div>
 
 <div class="space-y-5 mt-10">
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">센서 + 코드 + 알림이 연결되면 — 유용해진다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">문제 해결은 한 가지 기술이 아니라 — 여러 조각의 연결이다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">사람을 편하게 하는 것이 — 좋은 개발이다</span>
 </div>

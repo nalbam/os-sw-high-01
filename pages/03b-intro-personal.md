@@ -76,7 +76,7 @@ layout: default
 
 <div class="bg-white p-5 rounded shadow-sm border-t-4 border-[#F96167]">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">지금은</div>
-<div class="text-base text-[#2A2D43]">중고거래에서 시작해 이웃과 동네 가게까지 연결하는 — <span class="text-[#F96167] font-semibold">4,000만명</span>이 사용하는 <span class="font-semibold">동네 생활 플랫폼</span>으로 커졌습니다</div>
+<div class="text-base text-[#2A2D43]">중고거래에서 시작해 이웃과 동네 가게까지 연결하는 — <span class="text-[#F96167] font-semibold"><CountUp :to="4000" suffix="만명" /></span>이 사용하는 <span class="font-semibold">동네 생활 플랫폼</span>으로 커졌습니다</div>
 </div>
 
 </div>

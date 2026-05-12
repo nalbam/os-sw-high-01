@@ -62,15 +62,15 @@ layout: default
 <div class="text-sm text-[#6B6E80] mb-12">작은 LCD 화면에서 시작한 아이디어였습니다</div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">VISIBILITY</div>
 <div class="text-base text-[#2A2D43]">AI가 생각 중인지, 작업 중인지 보고 싶다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">TIMING</div>
 <div class="text-base text-[#2A2D43]">언제 끝나는지 바로 알고 싶다</div>
 </div>
-<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click>
+<div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">DELIGHT</div>
 <div class="text-base text-[#2A2D43]">그냥 텍스트보다 — 재미있게 보여 주고 싶다</div>
 </div>
@@ -107,31 +107,31 @@ layout: default
 <div class="text-3xl mt-2 mb-8 font-bold text-white">작은 시작이 점점 커졌습니다</div>
 
 <div class="grid grid-cols-4 gap-4 mt-12">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">1</div>
 <div class="text-sm text-[#CADCFC]">작은 화면으로<br/>먼저 만들어 봤다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">2</div>
 <div class="text-sm text-[#CADCFC]">웹에서<br/>미리 보게 했다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">3</div>
 <div class="text-sm text-[#CADCFC]">내 컴퓨터에서<br/>쓰는 앱으로 키웠다</div>
 </div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-bold text-[#F96167] mb-3 font-mono">4</div>
 <div class="text-sm text-[#CADCFC]">웹사이트로<br/>누구나 보게 했다</div>
 </div>
 </div>
 
-<div class="mt-8 grid grid-cols-3 gap-3" v-click>
+<div class="mt-8 grid grid-cols-3 gap-3" v-click.fade>
 <div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
-<div class="text-3xl font-bold text-[#F96167] font-mono">16일</div>
+<div class="text-3xl font-bold text-[#F96167] font-mono"><CountUp :to="16" suffix="일" :start="$clicks >= 5" /></div>
 <div class="text-xs text-[#CADCFC] mt-1">총 작업 기간</div>
 </div>
 <div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
-<div class="text-3xl font-bold text-[#F96167] font-mono">600+</div>
+<div class="text-3xl font-bold text-[#F96167] font-mono"><CountUp :to="600" suffix="+" :start="$clicks >= 5" /></div>
 <div class="text-xs text-[#CADCFC] mt-1">커밋(작업 기록)</div>
 </div>
 <div class="bg-[#F96167]/10 border border-[#F96167]/30 p-4 rounded text-center">
@@ -181,31 +181,31 @@ layout: default
 
 <div class="grid grid-cols-5 gap-4 mt-8">
 
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-mono text-[#CADCFC] mb-3">■ ■</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">IDLE</div>
 <div class="text-xs text-[#CADCFC]">대기 중<br/>(깜빡깜빡)</div>
 </div>
 
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl mb-3">💭</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">THINKING</div>
 <div class="text-xs text-[#CADCFC]">생각 중<br/>(말풍선)</div>
 </div>
 
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl mb-3">🕶️</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">WORKING</div>
 <div class="text-xs text-[#CADCFC]">작업 중<br/>(매트릭스 모드)</div>
 </div>
 
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-mono text-[#CADCFC] mb-3">&gt; &lt;</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">DONE</div>
 <div class="text-xs text-[#CADCFC]">끝<br/>(뿌듯한 눈)</div>
 </div>
 
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click>
+<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded text-center" v-click.fade>
 <div class="text-4xl font-mono text-[#CADCFC] mb-3">─ ─ Z</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">SLEEP</div>
 <div class="text-xs text-[#CADCFC]">잠<br/>(5분 비활성)</div>
@@ -261,15 +261,15 @@ layout: default
 <div class="text-4xl leading-tight font-bold text-[#1A1A2E] mt-12 mb-12">작은 장난감처럼 시작한 것도<br/><span class="text-[#F96167]">진짜 프로젝트</span>가 될 수 있습니다</div>
 
 <div class="space-y-5 mt-10">
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">재미가 있어야 — 오래 만든다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">직접 쓰는 도구는 — 더 빨리 좋아진다</span>
 </div>
-<div class="flex items-center gap-4" v-click>
+<div class="flex items-center gap-4" v-click.fade>
 <span class="text-2xl text-[#F96167] font-bold">→</span>
 <span class="text-lg text-[#2A2D43]">기록하면 — 다음 프로젝트의 재료가 된다</span>
 </div>
