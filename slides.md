@@ -54,25 +54,21 @@ src: ./pages/09-case-thermal.md
 ---
 
 ---
-src: ./pages/10-case-vibemon.md
+src: ./pages/10-recap-and-your-turn.md
 ---
 
 ---
-src: ./pages/11-recap-and-your-turn.md
+src: ./pages/11-formula-and-tips.md
 ---
 
 ---
-src: ./pages/12-formula-and-tips.md
+src: ./pages/12-closing-message.md
 ---
 
 ---
-src: ./pages/13-closing-message.md
+src: ./pages/13-handson-and-demo.md
 ---
 
 ---
-src: ./pages/14-handson-and-demo.md
----
-
----
-src: ./pages/15-thanks-qna.md
+src: ./pages/14-thanks-qna.md
 ---
