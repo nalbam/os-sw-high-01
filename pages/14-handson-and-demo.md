@@ -303,24 +303,6 @@ layout: default
 </div>
 
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">사례 제작기 · 직접 가서 보세요</div>
-<div class="grid grid-cols-3 gap-2 mt-2 text-xs">
-<div class="bg-white/5 p-2 rounded">
-<div class="text-sm font-bold text-white mb-1">DeepRacer Timer</div>
-<div class="text-[#AAB1C7] font-mono break-all">nalbam.github.io/2019/11/07/<br/>deepracer-timer-ko.html</div>
-</div>
-<div class="bg-white/5 p-2 rounded">
-<div class="text-sm font-bold text-white mb-1">체온 알람 서비스</div>
-<div class="text-[#AAB1C7] font-mono break-all">nalbam.github.io/2020/02/28/<br/>body-temperature-alarm-ko.html</div>
-</div>
-<div class="bg-white/5 p-2 rounded">
-<div class="text-sm font-bold text-white mb-1">VibeMon</div>
-<div class="text-[#AAB1C7] font-mono break-all">nalbam.github.io/2026/02/05/<br/>vibemon-ko.html</div>
-</div>
-</div>
-</div>
-
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">MINI MISSION · 이번 주 안에</div>
 <div class="text-lg text-white leading-snug">오늘 적은 한 줄 → <span class="text-[#F96167] font-semibold">한 화면</span>을 직접 만들어 보기</div>
 </div>
