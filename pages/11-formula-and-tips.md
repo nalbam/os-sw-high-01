@@ -5,7 +5,8 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="YOUR TURN" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">AI는 이렇게 쓰면 좋습니다</div>
+<div class="text-3xl mt-2 mb-2 font-bold text-white">AI는 이렇게 쓰면 좋습니다</div>
+<div class="text-base text-[#AAB1C7] mb-8">그러면 이걸 어떻게 만들까요? — 옛날엔 다 외워야 했지만, 요즘은 AI가 옆에서 도와줍니다</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 
@@ -48,7 +49,9 @@ layout: default
 <!--
 **[AI는 이렇게 쓰면 좋습니다 · 약 1분 30초]**
 
-요즘 여러분 세대한테는 진짜 중요한 얘기 하나만 드릴게요. **AI 사용법**.
+자, 학교 예시 다섯 가지 보셨죠. 그러면 이걸 **어떻게** 만들까요?
+옛날엔 다 외워야 했어요. 근데 요즘은 — **AI 가 옆에서 도와줍니다**.
+그래서 여러분 세대한테는 진짜 중요한 얘기 하나만 드릴게요. **AI 사용법**.
 
 솔직히 ChatGPT한테 '이거 코드 짜줘' 한 마디로 거의 다 됩니다. 안 해본 분 거의 없을 거예요.
 
@@ -59,6 +62,8 @@ layout: default
 
 AI는 — 완성된 답을 주는 도구가 아니라 **같이 만드는 동료** 라고 생각하세요.
 그래야 남는 게 있어요.
+
+→ 다음 슬라이드 전환: "그리고 — 고1 때 하면 좋은 다섯 가지."
 -->
 
 ---
@@ -117,6 +122,8 @@ layout: default
 - 05 반복되는 일을 그냥 넘기지 않기.
 
 다섯 개 다 못 하셔도 됩니다. 한 개라도 시작하시면 충분해요.
+
+→ 다음 슬라이드 전환: "그리고 마지막으로 — 만든 거 꼭 기록하세요."
 -->
 
 ---
@@ -126,7 +133,8 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="YOUR TURN" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">그리고 — 꼭 남겨 보세요</div>
+<div class="text-3xl mt-2 mb-2 font-bold text-white">그리고 — 꼭 남겨 보세요</div>
+<div class="text-base text-[#AAB1C7] mb-8">방금 5가지 중 <span class="text-[#F96167]">02번 (GitHub·블로그 기록)</span>을 좀 더 풀어 봅니다</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
 
@@ -181,4 +189,6 @@ layout: default
 기억해 두세요. 면접 갈 때 면접관이 보는 건 — '얼마나 똑똑하냐' 가 아니에요.
 **'문제를 보고, 시도하고, 배운 흔적이 있느냐'** 입니다.
 기록이 그걸 증명해 줍니다.
+
+→ 다음 슬라이드 전환: "오늘 하나만 가져가시면 됩니다."
 -->

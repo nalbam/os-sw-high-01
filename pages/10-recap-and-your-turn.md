@@ -53,6 +53,8 @@ layout: default
 
 이 다섯 단계는 — 자동차든, 카메라든 — **다 똑같이 적용됩니다**.
 도메인이 달라도 흐름은 같아요.
+
+→ 다음 슬라이드 전환: "이걸 한 줄 공식으로 정리해 볼게요."
 -->
 
 ---
@@ -64,6 +66,7 @@ layout: default
 <div class="absolute top-12 left-16 right-16">
 <SectionLabel section="RECAP" />
 <div class="text-3xl mt-2 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
+<div class="text-sm text-[#6B6E80] mt-2">5단계 중 <span class="text-[#F96167] font-semibold">01 발견 · 02 시작</span>을 한 문장으로 압축한 것입니다</div>
 </div>
 
 <div class="absolute top-32 bottom-20 left-16 right-16 flex flex-col justify-center">
@@ -124,16 +127,21 @@ layout: default
 
 **불편함 + 반복 + 작게 해결 = 좋은 시작**.
 
-외우진 마시고요, 이렇게만 기억하시면 돼요.
+새로운 거 외우지 않으셔도 돼요. 아까 5단계 중에 **01 발견 + 02 시작** — 거기를 한 문장으로 줄인 거예요.
+
+이렇게만 기억하시면 돼요.
 - 처음부터 크게 만들지 않는다.
 - 내가 이해할 수 있는 범위에서 시작한다.
 - 직접 써보면서 고친다.
 
 이게 다입니다. 어려운 거 아니에요.
+
+→ 다음 슬라이드 전환: "자, 사례 두 개로 패턴까지 봤어요. 이제 정말 — 여러분 차례입니다."
 -->
 
 ---
 layout: default
+transition: slide-up
 ---
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
@@ -236,4 +244,6 @@ layout: default
 다른 사람이 안 불편해도 — 내가 매일 불편하면 그게 좋은 출발점이에요.
 
 (★ 이 다섯 가지 — 잘 봐 두세요. 이따 슬리도에서 이 중에 **가장 불편한 거 하나** 를 골라 볼 거예요. 표가 가장 많은 걸로 같이 만들어 봅니다.)
+
+→ 다음 슬라이드 전환: "그러면 이걸 어떻게 만들까요? 요즘은 AI가 옆에서 도와줍니다."
 -->

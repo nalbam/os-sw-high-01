@@ -1,5 +1,6 @@
 ---
 layout: default
+transition: slide-up
 ---
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
@@ -9,7 +10,7 @@ layout: default
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 
 <div class="absolute top-12 left-16 right-16">
-<SectionLabel>CLOSING · 오늘의 마지막 문장</SectionLabel>
+<SectionLabel>KEY MESSAGE · 오늘 가져갈 한 문장</SectionLabel>
 </div>
 
 <div class="absolute top-24 bottom-16 left-16 right-16 flex flex-col justify-center">

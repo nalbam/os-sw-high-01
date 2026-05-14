@@ -145,7 +145,7 @@ layout: default
 </div>
 <div class="bg-white/5 border-l-4 border-[#F96167] p-4 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">열화상 카메라</div>
-<div class="text-sm text-[#CADCFC]"><strong class="text-white">FLIR Lepton 3.5</strong> — 사람 체온을 또렷이 볼 수 있는 열화상 센서</div>
+<div class="text-sm text-[#CADCFC]">사람 체온을 <strong class="text-white">색으로 보여주는 센서</strong> — 사람 눈에 안 보이는 열을 카메라가 본다</div>
 </div>
 </div>
 
@@ -167,13 +167,14 @@ layout: default
 
 라즈베리파이(작은 컴퓨터)를 쓴 이유는 — **열화상 카메라랑 일반 카메라, 둘 다 연결**해야 했거든요.
 
-열화상 카메라는 — **FLIR Lepton 3.5**. 사람 체온을 또렷하게 볼 수 있는 센서예요.
+열화상 카메라는 — 사람 체온을 색으로 보여주는 센서예요.
+사람 눈에 안 보이는 열을 카메라가 봐 주는 거죠.
 
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
 무엇을 감지해서, 어디에 저장하고, 누구한테 어떻게 알릴지 —
 이 흐름만 머릿속에 그려지면, 어떤 도구로 만들지는 그 다음 문제예요.
 
-(슬라이드의 'FLIR Lepton 3.5' 는 현재 V2 시스템 기준 — 다음 슬라이드에서 V1 → V2 진화를 같이 보겠습니다.)
+(어떤 센서를 썼는지는 다음 슬라이드에서 V1 → V2 진화와 함께 보겠습니다.)
 -->
 
 ---
@@ -236,6 +237,8 @@ layout: default
 
 여기서 배운 한 가지가 — **직접 써봐야 부족한 게 보인다**.
 머리로만 생각하면 모릅니다. 작게 만들어 보고, 직접 써보고 — 그래야 다음 단계가 보여요.
+
+→ 다음 슬라이드 전환: "그래서 이 프로젝트에서 배운 것 — 한 줄로 정리하면."
 -->
 
 ---

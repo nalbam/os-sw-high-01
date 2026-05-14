@@ -191,8 +191,9 @@ layout: default
 
 <div class="grid grid-cols-2 gap-8 items-center mt-10">
 
-<div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/image6.png" class="w-full h-auto" />
+<div class="bg-[#1A1A2E] text-white p-8 rounded-lg flex flex-col justify-center">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-4">DEBUG LOOP</div>
+<div class="text-3xl font-bold leading-tight">왜? <span class="text-[#F96167]">→</span><br/>다시 본다 <span class="text-[#F96167]">→</span><br/>다시 만든다</div>
 </div>
 
 <div class="text-2xl leading-snug font-semibold text-[#1A1A2E]">개발은 한 번에 완성하는 일이 아니라<br/><span class="text-[#F96167]">실패한 이유를 보고 다시 만드는 일</span>입니다</div>
