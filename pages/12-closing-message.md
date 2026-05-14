@@ -1,6 +1,5 @@
 ---
 layout: default
-transition: fade
 ---
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
