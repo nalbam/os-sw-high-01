@@ -2,59 +2,6 @@
 layout: default
 ---
 
-<div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
-
-<SectionLabel section="ABOUT ME" />
-<div class="text-3xl mt-2 mb-8 font-bold text-white">저는 이런 사람입니다</div>
-
-<div class="grid grid-cols-3 gap-5 mt-12">
-
-<div class="bg-white/5 border border-[#AAB1C7]/30 p-6 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">당근 SRE</div>
-<div class="text-base text-[#CADCFC] leading-relaxed">당근 서비스가 <strong class="text-white">안정적으로 잘 돌아가도록</strong> 돕는 엔지니어입니다</div>
-</div>
-
-<div class="bg-white/5 border border-[#AAB1C7]/30 p-6 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">개발자</div>
-<div class="text-base text-[#CADCFC] leading-relaxed">문제가 보이면 직접 도구를 만들고, <strong class="text-white">반복되는 일을 줄이는 쪽</strong>을 좋아합니다</div>
-</div>
-
-<div class="bg-white/5 border border-[#AAB1C7]/30 p-6 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">AWS AI Hero</div>
-<div class="text-base text-[#CADCFC] leading-relaxed">AWS 기술을 <strong class="text-white">써 보고, 배우고, 나누는</strong> 활동을 하고 있습니다</div>
-</div>
-
-</div>
-
-<div class="mt-12 rounded-lg overflow-hidden max-w-md mx-auto">
-<img src="./images/intro-sre.png" class="w-full h-auto opacity-90" />
-</div>
-
-<PageFooter />
-
-</div>
-
-<!--
-**[저는 이런 사람입니다 · 약 1분]**
-
-먼저 제가 어떤 사람인지 — 세 가지로 나눠서 풀어 볼게요.
-
-**1. 당근 SRE** — 당근 앱 들어가서 동네에서 물건 사고팔아 본 분 있어요?
-(손드는 거 확인) 네, 그 당근이 매일 안 멈추고 잘 돌아가게 만드는 게 제 일입니다.
-사이트가 갑자기 안 열리거나 느려지면 — 그걸 바로잡는 사람들이 SRE예요.
-
-**2. 개발자** — 저는 문제가 보이면 그냥 두지 못해서, 직접 도구를 만들어서
-반복되는 일을 줄이는 걸 좋아합니다. 오늘 강연의 절반은 사실 이 얘기예요.
-
-**3. AWS AI Hero** — AWS 기술을 **써 보고, 배우고, 나누는** 활동입니다. 이건 좀 이따 따로 설명할게요.
-
-→ 다음 슬라이드 전환: "당근이라는 회사 좀 더 익숙하게 소개해 드릴게요."
--->
-
----
-layout: default
----
-
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="WHERE I WORK" />

@@ -20,13 +20,13 @@ layout: default
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">03</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">FIX</div>
-<div class="text-sm text-[#CADCFC]">잘 안 되는 부분을 고쳤다</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">USE</div>
+<div class="text-sm text-[#CADCFC]">직접 써 보면서 부족한 부분을 발견했다</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">04</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">USE</div>
-<div class="text-sm text-[#CADCFC]">직접 써 보고 더 좋게 만들었다</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-3">FIX</div>
+<div class="text-sm text-[#CADCFC]">안 되는 부분을 고쳐 더 좋게 만들었다</div>
 </div>
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded" v-click.fade>
 <div class="text-3xl font-bold text-[#F96167] mb-2 font-mono">05</div>
@@ -47,8 +47,8 @@ layout: default
 
 - **01 DISCOVER** — 사람이 반복해서 하던 일을 발견했다.
 - **02 START SMALL** — 아주 작은 해결부터 시작했다.
-- **03 FIX** — 잘 안 되는 부분을 고쳤다.
-- **04 USE** — 직접 써보고 더 좋게 만들었다.
+- **03 USE** — 직접 써 보면서 부족한 부분을 발견했다.
+- **04 FIX** — 안 되는 부분을 고쳐 더 좋게 만들었다.
 - **05 RECORD** — 만든 것을 기록으로 남겼다.
 
 이 다섯 단계는 — 자동차든, 카메라든 — **다 똑같이 적용됩니다**.
@@ -157,7 +157,7 @@ layout: default
 </div>
 
 <!--
-**[25페이지 · 4교시 끝 / 5교시 시작 공유 페이지]**
+**[24페이지 · 4교시 끝 / 5교시 시작 공유 페이지]**
 
 이 페이지에서 4교시를 마치고, 점심 후 5교시를 같은 페이지로 다시 시작합니다.
 
