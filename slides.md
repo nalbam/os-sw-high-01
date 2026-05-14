@@ -26,23 +26,23 @@ src: ./pages/02-about.md
 ---
 
 ---
-src: ./pages/03-intro-personal.md
+src: ./pages/03-background.md
 ---
 
 ---
-src: ./pages/04-introduction.md
+src: ./pages/04-opening.md
 ---
 
 ---
-src: ./pages/05-mindset.md
+src: ./pages/05-programmer-definition.md
 ---
 
 ---
-src: ./pages/06-mindset-philosophy.md
+src: ./pages/06-five-step-cycle.md
 ---
 
 ---
-src: ./pages/07-fundamentals.md
+src: ./pages/07-automation-signals.md
 ---
 
 ---
@@ -54,21 +54,25 @@ src: ./pages/09-case-thermal.md
 ---
 
 ---
-src: ./pages/10-recap-and-your-turn.md
+src: ./pages/10-recap.md
 ---
 
 ---
-src: ./pages/11-formula-and-tips.md
+src: ./pages/11-your-turn.md
 ---
 
 ---
-src: ./pages/12-closing-message.md
+src: ./pages/12-tips.md
 ---
 
 ---
-src: ./pages/13-handson-and-demo.md
+src: ./pages/13-key-message.md
 ---
 
 ---
-src: ./pages/14-thanks-qna.md
+src: ./pages/14-handson.md
+---
+
+---
+src: ./pages/15-qna.md
 ---

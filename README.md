@@ -26,22 +26,23 @@ pnpm run export   # PDF 내보내기
 ## 구조
 
 ```
-slides.md             진입점 (페이지 임포트만 담당)
-pages/                슬라이드 본문 (발표 순서대로 정렬)
-  01-cover.md                  · 커버
-  02-about.md                  · 발표자 소개
-  03-intro-personal.md         · 당근 / AWS Hero 소개
-  04-introduction.md           · 도입
-  05-mindset.md                · 프로그래머의 정의
-  06-mindset-philosophy.md     · 5단계 사이클
-  07-fundamentals.md           · 자동화의 신호
-  08-case-deepracer.md         · 사례 1: DeepRacer Timer
-  09-case-thermal.md           · 사례 2: 체온 알람
-  10-recap-and-your-turn.md    · 정리·공식·과제
-  11-formula-and-tips.md       · 팁·기록
-  12-closing-message.md        · 마무리 메시지
-  13-handson-and-demo.md       · 핸즈온 / 데모
-  14-thanks-qna.md             · 감사 / Q&A
+slides.md                        진입점 (페이지 임포트만 담당)
+pages/                           슬라이드 본문 (발표 순서대로 정렬)
+  01-cover.md                    · 커버
+  02-about.md                    · 발표자 소개
+  03-background.md               · 당근 / AWS AI Hero 풀이
+  04-opening.md                  · 강연 도입 + 손들기
+  05-programmer-definition.md    · 프로그래머의 정의 + 나의 시작
+  06-five-step-cycle.md          · 5단계 사이클
+  07-automation-signals.md       · 자동화의 신호 + 거창하지 않아도
+  08-case-deepracer.md           · 사례 1: DeepRacer Timer
+  09-case-thermal.md             · 사례 2: 체온 알람
+  10-recap.md                    · 두 프로젝트 공통점 + 공식
+  11-your-turn.md                · 점심 분기 (24p) + 학교 자동화 예시
+  12-tips.md                     · AI 사용법 + 고1 5가지 + 기록
+  13-key-message.md              · 오늘 가져갈 한 문장
+  14-handson.md                  · 핸즈온 (슬리도 + 라이브 + 자료실)
+  15-qna.md                      · 감사 / Q&A
 components/           재사용 컴포넌트
   SectionLabel.vue    · 섹션 헤더 (`{currentPage} · SECTION`)
   PageFooter.vue      · 우하단 페이지 번호 (`{currentPage} / {total}`)
