@@ -66,10 +66,9 @@ layout: default
 <div class="absolute top-12 left-16 right-16">
 <SectionLabel section="RECAP" />
 <div class="text-3xl mt-2 font-bold text-[#1A1A2E]">좋은 프로젝트의 공식</div>
-<div class="text-sm text-[#6B6E80] mt-2">5단계 중 <span class="text-[#F96167] font-semibold">01 발견 · 02 시작</span>을 한 문장으로 압축한 것입니다</div>
 </div>
 
-<div class="absolute top-32 bottom-20 left-16 right-16 flex flex-col justify-center">
+<div class="absolute top-40 bottom-20 left-16 right-16 flex flex-col justify-center">
 
 <div class="grid grid-cols-8 gap-2 items-center">
 <div class="col-span-2 text-center bg-white p-5 rounded shadow-sm" v-click="1">
