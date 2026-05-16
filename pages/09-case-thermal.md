@@ -84,10 +84,11 @@ layout: default
 <!--
 **[문제는 여기에도 있었습니다 · 약 1분]**
 
-문제는 이거였어요. 어디 건물 들어가면 입구에 열화상 카메라 있던 거 기억나세요?
-체온이 색깔로 보이는 카메라요.
+아직 코로나 대응 메뉴얼이 없던 시기에 시작했어요.
+열이 나는데 회사에 와야 하나? 열이 있는 사람을 찾아서 집으로 빨리 보내야 하는 거 아냐?
+— 라는 질문에서 시작되었습니다.
 
-그 카메라 옆에 — **사람이 한 명 계속 서서 화면을 봐야 했어요**.
+그리고 그 카메라 옆에 — **사람이 한 명 계속 서서 화면을 봐야 하나?**
 누가 열이 있나 없나 보려고요.
 
 사람이 계속 지켜봐야 하는 일 — 이게 좋은 자동화 후보예요.
@@ -117,7 +118,7 @@ layout: default
 <div class="col-span-1 text-center" v-click="2">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PROCESS</div>
-<div class="text-sm text-[#CADCFC]">안면인식 +<br/>온도 비교</div>
+<div class="text-sm text-[#CADCFC]">안면인식으로<br/>누군지 + 온도 비교</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]" v-click="3">→</div>
@@ -161,20 +162,20 @@ layout: default
 그래서 흐름을 이렇게 만들었어요.
 
 - **01 DETECT** — 열화상카메라로 체온을, 일반 카메라로 얼굴을 본다.
-- **02 PROCESS** — 작은 컴퓨터가 안면인식을 하고, 정해둔 온도와 비교한다.
+- **02 PROCESS** — 작은 컴퓨터가 안면인식을 하고 누군지 파악하고, 정해둔 온도와 비교한다.
 - **03 STORE** — 누가 언제 어떤 체온이었는지 서버에 기록한다.
 - **04 NOTIFY** — 온도를 넘으면 메신저로 바로 알려준다.
 
 라즈베리파이(작은 컴퓨터)를 쓴 이유는 — **열화상 카메라랑 일반 카메라, 둘 다 연결**해야 했거든요.
 
-열화상 카메라는 — 사람 체온을 색으로 보여주는 센서예요.
+그리고 열화상 카메라는 — 사람 체온을 색으로 보여주는 센서예요.
 사람 눈에 안 보이는 열을 카메라가 봐 주는 거죠.
 
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
 무엇을 감지해서, 어디에 저장하고, 누구한테 어떻게 알릴지 —
 이 흐름만 머릿속에 그려지면, 어떤 도구로 만들지는 그 다음 문제예요.
 
-(어떤 센서를 썼는지는 다음 슬라이드에서 V1 → V2 진화와 함께 보겠습니다.)
+그런데 — 사실 처음부터 완벽하게 만든 건 아니에요.
 -->
 
 ---
@@ -190,11 +191,11 @@ layout: default
 
 <div class="bg-white p-6 rounded shadow-sm border-l-4 border-[#AAB1C7]" v-click.fade>
 <div class="text-xs uppercase tracking-widest text-[#6B6E80] font-mono mb-2">V1 · 2020.02</div>
-<div class="text-xl font-bold text-[#2A2D43] mb-4">"되긴 됐다"</div>
+<div class="text-xl font-bold text-[#2A2D43] mb-4">"좀 거칠었다"</div>
 <div class="space-y-3 text-sm text-[#2A2D43]">
 <div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>AMG8833</strong> (8×8 픽셀)</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>한 대 — 한 출입구</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람 얼굴이 격자 한두 칸 — <strong>흐릿함</strong></span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>한 대 — 한 출입구, 추적 안 됨</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람 얼굴이 격자 한두 칸 — <strong>얼굴인지 확인 힘듦</strong></span></div>
 </div>
 </div>
 
@@ -222,11 +223,11 @@ layout: default
 <!--
 **[직접 써보니 — 더 키우게 됐어요 · 약 1분 30초]**
 
-근데 처음 만든 V1 는 — 솔직히 좀 거칠었어요.
+처음 만든 V1 은 — 솔직히 좀 거칠었어요.
 
 첫 센서가 **AMG8833** 이라는 거였는데 — 8×8, 그러니까 가로 8칸 세로 8칸 격자입니다.
 손바닥에 그릴 수 있는 크기죠. 사람 얼굴이 한두 칸 안에 들어가요.
-**되긴 되는데 흐릿했습니다.**
+**이게 사람 얼굴인가 확인이 힘들었어요.**
 
 그리고 한 곳에만 설치돼 있었어요. 누가 어디 갔는지 추적이 안 됐고요.
 

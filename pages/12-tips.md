@@ -6,7 +6,7 @@ layout: default
 
 <SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-2 font-bold text-white">AI는 이렇게 쓰면 좋습니다</div>
-<div class="text-base text-[#AAB1C7] mb-8">그러면 이걸 어떻게 만들까요? — 옛날엔 다 외워야 했지만, 요즘은 AI가 옆에서 도와줍니다</div>
+<div class="text-base text-[#AAB1C7] mb-8">그러면 이걸 어떻게 만들까요? — 옛날엔 한땀 한땀 코드를 짜야 했지만, 요즘은 AI가 옆에서 도와줍니다</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 
@@ -49,13 +49,13 @@ layout: default
 <!--
 **[AI는 이렇게 쓰면 좋습니다 · 약 1분 30초]**
 
-자, 학교 예시 다섯 가지 보셨죠. 그러면 이걸 **어떻게** 만들까요?
-옛날엔 다 외워야 했어요. 근데 요즘은 — **AI 가 옆에서 도와줍니다**.
+자, 예시 다섯 가지 보셨죠. 그러면 이걸 **어떻게** 만들까요?
+옛날엔 한땀 한땀 코드를 짜야 했어요. 그런데 요즘은 — **AI 가 옆에서 도와줍니다**.
 그래서 여러분 세대한테는 진짜 중요한 얘기 하나만 드릴게요. **AI 사용법**.
 
-솔직히 ChatGPT한테 '이거 코드 짜줘' 한 마디로 거의 다 됩니다. 안 해본 분 거의 없을 거예요.
+솔직히 ChatGPT한테 '이거 코드 짜줘' 한 마디로 거의 다 됩니다.
 
-근데 그것만 하면 — 늘지 않아요. 두 가지만 약속해 주세요.
+근데 그것만 하면 — 늘지 않아요. 두 가지만 꼭 기억하세요.
 
 - **DON'T** 코드 대신 짜 달라고만 하지 않기 → **DO** 먼저 내가 뭘 만들고 싶은지 한 줄로 적기
 - **DON'T** AI가 준 답을 그대로 믿어버리기 → **DO** 직접 실행해 보고, 틀린 부분 고치면서 배우기
@@ -113,7 +113,7 @@ layout: default
 <!--
 **[고1 때 하면 좋은 다섯 가지 · 약 1분 30초]**
 
-고1 때 진짜 하면 좋은 다섯 가지.
+그래서 — 고1 때 하면 좋은 다섯 가지.
 
 - 01 작은 것 하나라도 직접 만들어 보기.
 - 02 GitHub — 코드를 올리는 사이트인데 — 거기나 블로그에 기록 남기기.
@@ -123,7 +123,7 @@ layout: default
 
 다섯 개 다 못 하셔도 됩니다. 한 개라도 시작하시면 충분해요.
 
-→ 다음 슬라이드 전환: "그리고 마지막으로 — 만든 거 꼭 기록하세요."
+→ 다음 슬라이드 전환: "그리고 다시 강조하지만 — 만든 거 꼭 기록하세요."
 -->
 
 ---
@@ -133,7 +133,7 @@ layout: default
 <div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
 
 <SectionLabel section="YOUR TURN" />
-<div class="text-3xl mt-2 mb-2 font-bold text-white">그리고 — 꼭 남겨 보세요</div>
+<div class="text-3xl mt-2 mb-2 font-bold text-white">다시 강조하지만 — 꼭 남겨 보세요</div>
 <div class="text-base text-[#AAB1C7] mb-8">방금 5가지 중 <span class="text-[#F96167]">02번 (GitHub·블로그 기록)</span>을 좀 더 풀어 봅니다</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
@@ -174,7 +174,7 @@ layout: default
 <!--
 **[꼭 남겨 보세요 · 약 1분]**
 
-그리고 마지막으로 — 만든 거 꼭 **기록** 하세요.
+그리고 다시 강조하지만 — 만든 거 꼭 **기록** 하세요.
 
 만든 것을 기록하면 — **경험이 실력으로 바뀝니다**.
 

@@ -5,7 +5,7 @@ layout: default
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="MINDSET" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">제가 좋아하는 개발은 이런 것입니다</div>
+<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">제가 생각하는 개발은 이런 것입니다</div>
 
 <div class="grid grid-cols-5 gap-4 mt-12">
 <div class="text-center" v-click.fade>
@@ -46,8 +46,7 @@ layout: default
 <!--
 **[5단계 사이클 · 약 1분 30초]**
 
-제가 좋아하는 개발은 — 이런 다섯 단계로 굴러갑니다.
-오늘 강연의 뼈대니까 한 번씩 짚고 갈게요.
+제가 생각하는 개발은 — 이런 다섯 단계로 굴러갑니다.
 
 - **01 발견** — 불편함을 발견한다.
 - **02 시작** — 작게 만든다.
@@ -56,9 +55,6 @@ layout: default
 - **05 기록** — 배운 걸 기록한다.
 
 멋진 기술보다 먼저 필요한 건 — **불편함을 그냥 지나치지 않는 태도** 예요.
-
-이 다섯 단계, 이따 사례 두 개 보실 때 똑같이 반복돼서 나옵니다.
-'아 또 똑같네' 싶으실 거예요. 의도한 거예요.
 
 → 다음 슬라이드 전환: "프로그래머의 기본은 — 한 마디로 반복된 일의 자동화입니다."
 -->
