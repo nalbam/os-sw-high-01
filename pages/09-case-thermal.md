@@ -56,11 +56,13 @@ layout: default
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="CASE STUDY 02" />
-<div class="text-3xl mt-2 mb-8 font-bold text-[#1A1A2E]">문제는 여기에도 있었습니다</div>
+<div class="text-3xl mt-2 mb-6 font-bold text-[#1A1A2E]">문제는 여기에도 있었습니다</div>
 
-<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mt-10 mb-4">누군가가 계속 옆에 서서<br/><span class="text-[#F96167]">화면을 보고 있어야</span> 했다</div>
+<div class="inline-block px-3 py-1 bg-[#F96167]/10 border-l-4 border-[#F96167] text-sm text-[#2A2D43] mb-6">코로나 대응 매뉴얼이 없던 시기 — "열 있는 사람을 빨리 찾아 보내야 하지 않나?"</div>
 
-<div class="text-sm text-[#6B6E80] mb-12">사람이 계속 지켜봐야 하는 일은 — 좋은 자동화 후보입니다</div>
+<div class="text-3xl leading-snug font-semibold text-[#2A2D43] mb-4">그리고 그 카메라 옆에 —<br/><span class="text-[#F96167]">사람이 한 명 계속 서서 화면을</span> 봐야 했다</div>
+
+<div class="text-sm text-[#6B6E80] mb-10">사람이 계속 지켜봐야 하는 일은 — 좋은 자동화 후보입니다</div>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div class="bg-white p-6 rounded shadow-sm border-t-4 border-[#F96167]" v-click.fade>

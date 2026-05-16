@@ -90,10 +90,10 @@ layout: default
 
 <div class="mt-8 grid grid-cols-2 gap-6">
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">스스로 지원해서 되는 게 아니라, AWS가 직접 추천해서 받게 되는 <strong class="text-[#F96167]">명예</strong>입니다</div>
+<div class="text-sm leading-relaxed"><strong class="text-[#F96167]">AWSKRUG</strong> (AWS 한국 사용자 그룹) 에서 2018년부터 — 써 보고, 배우고, 나누는 활동을 해 왔습니다</div>
 </div>
 <div class="bg-[#1A1A2E] text-white rounded-lg p-5">
-<div class="text-sm leading-relaxed">DeepRacer(AWS의 자율주행 자동차)가 2018년에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다 — <strong class="text-[#F96167]">올해로 햇수로 6년차</strong></div>
+<div class="text-sm leading-relaxed">DeepRacer(AWS의 자율주행 자동차)가 2018년 말에 나온 뒤로 발표·블로그·예제 코드로 나누어 왔고, 2020년에 AWS AI Hero가 되었습니다 — <strong class="text-[#F96167]">올해로 햇수로 6년차</strong></div>
 </div>
 </div>
 
