@@ -326,7 +326,8 @@ layout: default
 
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">MINI MISSION · 이번 주 안에</div>
-<div class="text-lg text-white leading-snug"><span class="text-[#F96167] font-semibold">블로그 하나</span> 만들어서 — 무엇이든 글 하나 올려 보기</div>
+<div class="text-lg text-white leading-snug"><span class="text-[#F96167] font-semibold">매일 불편한 것 한 가지</span> — 한 줄이라도 적어 두기</div>
+<div class="text-xs text-[#AAB1C7] mt-2">메모장이든, 카톡 "나에게 보내기"든, GitHub든 — 어디든 OK</div>
 </div>
 
 <div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
@@ -359,9 +360,12 @@ layout: default
 그리고 — 오늘 보여드린 두 사례, **제작기를 블로그에 다 올려뒀어요**.
 부품 이름, 코드, 실패한 이유까지 적어 뒀으니 — 만들고 싶으시면 직접 가서 보세요.
 
-그리고 미니 미션 하나 — **이번 주 안에**, 블로그 하나 만들어서 — 무엇이든 글 하나 올려 보세요.
-오늘 만든 거든, 아니면 다른 거든 — 뭐든 좋습니다.
-**'내가 뭘 만들고 싶은지' 한 줄로 적는 것** 부터 시작해 보세요.
+그리고 미니 미션 하나 — **이번 주 안에** 딱 한 가지만요.
+**여러분이 매일 불편한 것 한 가지** 를 골라서 — **한 줄이라도 적어 두세요**.
+거창하게 블로그 안 만드셔도 돼요. 메모장이든, 카톡 "나에게 보내기"든, 어디든 좋습니다.
+**'이게 매일 귀찮다, 이거 컴퓨터한테 시킬 수 있을까?'** 한 줄. 그게 다입니다.
+
+한 줄이 모이면 — 다음 단계가 자연스럽게 보여요.
 
 연락처는 GitHub @nalbam, 블로그 nalbam.github.io 에 다 있어요.
 만든 거 있으면 자랑하러 오세요. 진심으로 환영합니다.

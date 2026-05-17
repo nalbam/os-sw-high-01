@@ -20,7 +20,7 @@ transition: slide-up
 <div class="text-4xl leading-tight font-bold text-[#F96167]" v-click.scale>반복되는 일을 발견하고<br/>컴퓨터에게 맡기는 것<span class="text-white">입니다</span></div>
 
 <div class="mt-6 p-4 border-l-4 border-[#F96167] bg-white/5 max-w-2xl" v-click.fade>
-<div class="text-lg font-semibold text-white">작게 만들고, 고치고, <span class="text-[#F96167]">기록합시다</span></div>
+<div class="text-lg font-semibold text-white">작게 만들고, 고치고, <span class="text-[#F96167]">다음 나를 위해 남깁시다</span></div>
 </div>
 
 </div>
@@ -38,7 +38,7 @@ transition: slide-up
 
 **반복되는 일을 발견하고 — 컴퓨터에게 맡기는 것** 입니다.
 
-작게 만들고, 고치고, **기록합시다**. 이거예요.
+작게 만들고, 고치고, **다음 나를 위해 남깁시다**. 이거예요.
 
 → 다음 슬라이드 전환: "자, 이제 진짜 같이 해볼 시간이에요."
 -->

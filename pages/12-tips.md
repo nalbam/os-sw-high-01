@@ -134,12 +134,13 @@ layout: default
 
 <SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-2 font-bold text-white">다시 강조하지만 — 꼭 남겨 보세요</div>
-<div class="text-base text-[#AAB1C7] mb-8">방금 5가지 중 <span class="text-[#F96167]">02번 (GitHub·블로그 기록)</span>을 좀 더 풀어 봅니다</div>
+<div class="text-base text-[#AAB1C7] mb-8">기록 안 하면 — <span class="text-[#F96167]">미래의 내가 또 처음부터 합니다</span>. 그것도 결국 귀찮은 일이에요</div>
 
 <div class="grid grid-cols-2 gap-10 items-center mt-8">
 
 <div>
-<div class="text-3xl leading-snug font-bold text-[#CADCFC] mb-8">만든 것을 기록하면<br/><span class="text-[#F96167]">경험이 실력</span>이 됩니다</div>
+<div class="text-3xl leading-snug font-bold text-[#CADCFC] mb-4">만든 것을 기록하면<br/><span class="text-[#F96167]">경험이 실력</span>이 됩니다</div>
+<div class="text-sm text-[#AAB1C7] leading-relaxed">기록은 — <span class="text-white font-semibold">미래의 나를 위한 자동화</span>입니다.<br/>같은 문제를 또 처음부터 안 풀게.</div>
 </div>
 
 <div class="rounded-lg overflow-hidden">
@@ -172,9 +173,11 @@ layout: default
 </div>
 
 <!--
-**[꼭 남겨 보세요 · 약 1분]**
+**[꼭 남겨 보세요 · 약 1분 30초]**
 
-그리고 다시 강조하지만 — 만든 거 꼭 **기록** 하세요.
+그리고 — 만든 거 꼭 **기록** 하세요.
+
+이유 한 가지만 말씀드릴게요. 기록 안 하면 — **다음에 똑같은 문제를 만났을 때, 미래의 내가 또 처음부터 풀어야 합니다**. 같은 시간을 한 번 더 써요. 그것도 결국 — 귀찮은 일이잖아요. 그래서 — **기록은 미래의 나를 위한 자동화** 입니다.
 
 만든 것을 기록하면 — **경험이 실력으로 바뀝니다**.
 
@@ -186,9 +189,7 @@ layout: default
 
 — 뭐든 좋습니다.
 
-기억해 두세요. 면접 갈 때 면접관이 보는 건 — '얼마나 똑똑하냐' 가 아니에요.
-**'문제를 보고, 시도하고, 배운 흔적이 있느냐'** 입니다.
-기록이 그걸 증명해 줍니다.
+면접 갈 때도 — 면접관이 보는 건 '얼마나 똑똑하냐' 가 아니라 **'문제를 보고, 시도하고, 배운 흔적이 있느냐'** 예요. 기록이 그걸 증명해 줍니다.
 
 → 다음 슬라이드 전환: "오늘 하나만 가져가시면 됩니다."
 -->
