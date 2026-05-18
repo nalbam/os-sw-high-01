@@ -5,7 +5,7 @@ transition: slide-up
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
 
-<img src="./images/image6.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
+<img src="./images/deepracer-timer-system.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
 
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 
@@ -141,7 +141,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/image6.png" class="w-full h-auto" />
+<img src="./images/deepracer-timer-system.png" class="w-full h-auto" />
 </div>
 
 </div>

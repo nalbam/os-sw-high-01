@@ -43,7 +43,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/image5.png" class="w-full h-auto" />
+<img src="./images/automate-repeat-save.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -97,7 +97,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/image4.png" class="w-full h-auto" />
+<img src="./images/small-idea-big-journey.png" class="w-full h-auto" />
 </div>
 
 </div>

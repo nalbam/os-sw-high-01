@@ -6,38 +6,32 @@ layout: default
 
 <SectionLabel section="YOUR TURN" />
 <div class="text-3xl mt-2 mb-2 font-bold text-white">AI는 이렇게 쓰면 좋습니다</div>
-<div class="text-base text-[#AAB1C7] mb-8">그러면 이걸 어떻게 만들까요? — 옛날엔 한땀 한땀 코드를 짜야 했지만, 요즘은 AI가 옆에서 도와줍니다</div>
+<div class="text-base text-[#AAB1C7] mb-8">AI가 옆에서 도와주는 시대 — 잘 쓰는 사람은 결국 <span class="text-white">이 두 가지</span>를 잘 합니다</div>
 
 <div class="grid grid-cols-2 gap-8 items-center mt-8">
 
-<div class="space-y-4">
+<div class="space-y-5">
 
-<div class="grid grid-cols-2 gap-3 items-stretch">
-<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded" v-click="1">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DON'T</div>
-<div class="text-sm text-[#CADCFC]">코드를 대신 짜 달라고만 하지 않기</div>
+<div class="bg-white/10 border-l-4 border-[#CADCFC] p-5 rounded" v-click="1">
+<div class="flex items-baseline gap-3 mb-2">
+<div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono">ABILITY 01</div>
+<div class="text-lg font-bold text-white">맥락(context)을 챙기며 일 시키기</div>
 </div>
-<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded" v-click="2">
-<div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-2">DO</div>
-<div class="text-sm text-white">먼저 내가 뭘 만들고 싶은지 한 줄로 적기</div>
-</div>
+<div class="text-sm text-[#CADCFC] leading-relaxed">내가 뭘 만들고 싶은지, 지금 어디까지 왔는지 — 끝까지 같이 챙기면서 AI에게 한 단계씩 일을 맡기는 능력</div>
 </div>
 
-<div class="grid grid-cols-2 gap-3 items-stretch">
-<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-4 rounded" v-click="3">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">DON'T</div>
-<div class="text-sm text-[#CADCFC]">AI가 준 답을 그대로 믿어 버리기</div>
+<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-5 rounded" v-click="2">
+<div class="flex items-baseline gap-3 mb-2">
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono">ABILITY 02</div>
+<div class="text-lg font-bold text-white">"자신 있게 틀릴 때" 빨리 알아채기</div>
 </div>
-<div class="bg-white/10 border-l-4 border-[#CADCFC] p-4 rounded" v-click="4">
-<div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono mb-2">DO</div>
-<div class="text-sm text-white">직접 실행해 보고, 틀린 부분을 고치면서 배우기</div>
-</div>
+<div class="text-sm text-[#CADCFC] leading-relaxed">AI는 모를 때도 당당하게 답합니다 — 직접 돌려보고, 어색한 부분을 의심하는 눈</div>
 </div>
 
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/image9.png" class="w-full h-auto" />
+<img src="./images/ai-two-abilities.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -51,17 +45,15 @@ layout: default
 
 자, 예시 다섯 가지 보셨죠. 그러면 이걸 **어떻게** 만들까요?
 옛날엔 한땀 한땀 코드를 짜야 했어요. 그런데 요즘은 — **AI 가 옆에서 도와줍니다**.
-그래서 여러분 세대한테는 진짜 중요한 얘기 하나만 드릴게요. **AI 사용법**.
+솔직히 'ChatGPT한테 이거 짜줘' 한 마디로 절반은 됩니다.
 
-솔직히 ChatGPT한테 '이거 코드 짜줘' 한 마디로 거의 다 됩니다.
+근데 — 그것만 하면 늘지 않아요. 제가 생각하는 **AI를 잘 쓰는 사람의 차이**는 결국 이 두 가지입니다.
 
-근데 그것만 하면 — 늘지 않아요. 두 가지만 꼭 기억하세요.
+- **하나, 맥락(context)을 챙기며 일을 시키는 능력.** AI한테 한 번에 다 떠넘기지 말고 — 내가 뭘 만들고 싶은지, 지금 어디까지 왔는지, 다음에 뭘 할 건지를 같이 챙겨야 합니다. 그래야 AI도 제대로 도와줘요. 통째로 던지면 — 그럴듯한데 엉뚱한 게 나옵니다.
 
-- **DON'T** 코드 대신 짜 달라고만 하지 않기 → **DO** 먼저 내가 뭘 만들고 싶은지 한 줄로 적기
-- **DON'T** AI가 준 답을 그대로 믿어버리기 → **DO** 직접 실행해 보고, 틀린 부분 고치면서 배우기
+- **둘, AI가 "자신 있게 틀릴 때" 그걸 빨리 알아채는 능력.** 이게 진짜 중요해요. AI는 모를 때도 당당하게 답합니다. 말투에 자신감이 있다고 정답인 게 아니에요. 그래서 — 직접 돌려보고, 결과가 어색하면 의심하는 눈이 필요합니다.
 
-AI는 — 완성된 답을 주는 도구가 아니라 **같이 만드는 동료** 라고 생각하세요.
-그래야 남는 게 있어요.
+이 두 가지가 되면 — AI는 완성된 답을 주는 도구가 아니라 **같이 만드는 동료**가 됩니다. 그래야 남는 게 있어요.
 
 → 다음 슬라이드 전환: "그리고 — 고1 때 하면 좋은 다섯 가지."
 -->
@@ -101,7 +93,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/image10.png" class="w-full h-auto" />
+<img src="./images/students-collaboration.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -144,7 +136,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/image4.png" class="w-full h-auto" />
+<img src="./images/small-idea-big-journey.png" class="w-full h-auto" />
 </div>
 
 </div>
