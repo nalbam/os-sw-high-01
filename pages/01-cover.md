@@ -4,7 +4,7 @@ layout: default
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
 
-<img src="./images/cover-classroom.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
+<img src="./images/generated/cover-classroom.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
 
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 

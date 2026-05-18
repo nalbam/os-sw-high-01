@@ -5,7 +5,7 @@ transition: slide-up
 
 <div class="absolute inset-0 bg-[#1A1A2E] text-white overflow-hidden">
 
-<img src="./images/deepracer-timer-system.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
+<img src="./images/generated/deepracer-timer-system.png" class="absolute inset-0 w-full h-full object-cover opacity-25" />
 
 <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A2E]/95 via-[#1A1A2E]/85 to-[#1A1A2E]/60"></div>
 
@@ -25,7 +25,7 @@ transition: slide-up
 
 <div class="flex justify-center items-center">
 <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#F96167]/30 max-w-md">
-<img src="./images/deepracer.jpg" class="w-full h-auto" />
+<img src="./images/assets/deepracer.jpg" class="w-full h-auto" />
 </div>
 </div>
 
@@ -141,7 +141,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/deepracer-timer-system.png" class="w-full h-auto" />
+<img src="./images/generated/deepracer-timer-system.png" class="w-full h-auto" />
 </div>
 
 </div>

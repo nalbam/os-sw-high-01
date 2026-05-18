@@ -99,7 +99,7 @@ layout: default
 <div class="flex flex-col items-center">
 
 <div class="bg-white p-4 rounded-lg shadow-md">
-<img src="./images/qr-slido.png" class="w-[240px] h-[240px] block" alt="QR · slido" />
+<img src="./images/assets/qr-slido.png" class="w-[240px] h-[240px] block" alt="QR · slido" />
 </div>
 
 <div class="mt-4 text-xs uppercase tracking-widest text-[#6B6E80] font-mono">QR — 슬리도 (Slido)</div>
@@ -296,7 +296,7 @@ layout: default
 <div class="col-span-1 flex flex-col items-center">
 
 <div class="bg-white p-3 rounded-lg">
-<img src="./images/qr-slides.png" class="w-[200px] h-[200px] block" alt="QR · slides" />
+<img src="./images/assets/qr-slides.png" class="w-[200px] h-[200px] block" alt="QR · slides" />
 </div>
 
 <div class="mt-3 text-xs uppercase tracking-widest text-[#F96167] font-mono">SLIDES</div>

@@ -16,7 +16,7 @@ layout: default
 <div class="space-y-5">
 
 <div class="flex items-center gap-4">
-<img src="./images/ico-karrot.png" class="w-12 h-12 object-contain" />
+<img src="./images/assets/ico-karrot.png" class="w-12 h-12 object-contain" />
 <div>
 <div class="text-2xl font-semibold text-white">당근 SRE</div>
 <div class="text-sm text-[#AAB1C7]">당근 서비스가 안정적으로 잘 돌아가도록 돕는 엔지니어</div>
@@ -24,7 +24,7 @@ layout: default
 </div>
 
 <div class="flex items-center gap-4">
-<img src="./images/ico-aws-hero.png" class="w-12 h-12 object-contain" />
+<img src="./images/assets/ico-aws-hero.png" class="w-12 h-12 object-contain" />
 <div>
 <div class="text-2xl font-semibold text-white">AWS AI Hero</div>
 <div class="text-sm text-[#AAB1C7]">AWS 기술을 써 보고, 배우고, 나누는 활동</div>
@@ -45,7 +45,7 @@ layout: default
 
 <div class="flex justify-center items-center">
 <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#F96167]/30 max-w-md">
-<img src="./images/nalbam-2022.png" class="w-full h-auto" />
+<img src="./images/assets/nalbam-2022.png" class="w-full h-auto" />
 </div>
 </div>
 

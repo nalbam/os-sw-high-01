@@ -23,7 +23,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/programmer-desk.png" class="w-full h-auto" />
+<img src="./images/generated/programmer-desk.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -64,7 +64,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/my-story-tinkering.png" class="w-full h-auto" />
+<img src="./images/generated/my-story-coding.png" class="w-full h-auto" />
 </div>
 
 </div>

@@ -29,7 +29,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/intro-daangn.png" class="w-full h-auto" />
+<img src="./images/assets/intro-daangn.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -64,7 +64,7 @@ layout: default
 
 <SectionLabel section="ABOUT ME" />
 <div class="flex items-center gap-3 mt-2 mb-8">
-<img src="./images/ico-aws-hero.png" class="w-10 h-10 object-contain" />
+<img src="./images/assets/ico-aws-hero.png" class="w-10 h-10 object-contain" />
 <div class="text-3xl font-bold text-[#1A1A2E]">AWS AI Hero란?</div>
 </div>
 

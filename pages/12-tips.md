@@ -31,7 +31,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/ai-two-abilities.png" class="w-full h-auto" />
+<img src="./images/generated/ai-two-abilities.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -93,7 +93,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden shadow-lg">
-<img src="./images/students-collaboration.png" class="w-full h-auto" />
+<img src="./images/generated/your-turn-pair-coding.png" class="w-full h-auto" />
 </div>
 
 </div>
@@ -136,7 +136,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/small-idea-big-journey.png" class="w-full h-auto" />
+<img src="./images/generated/small-idea-big-journey.png" class="w-full h-auto" />
 </div>
 
 </div>

@@ -82,7 +82,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/school-automation-board.png" class="w-full h-auto" />
+<img src="./images/generated/school-automation-board.png" class="w-full h-auto" />
 </div>
 
 </div>
