@@ -20,9 +20,9 @@ layout: default
 <div class="text-sm text-[#CADCFC] leading-relaxed">내가 뭘 만들고 싶은지, 지금 어디까지 왔는지 — 끝까지 같이 챙기면서 AI에게 한 단계씩 일을 맡기는 능력</div>
 </div>
 
-<div class="bg-[#F96167]/10 border-l-4 border-[#F96167] p-5 rounded" v-click="2">
+<div class="bg-white/10 border-l-4 border-[#CADCFC] p-5 rounded" v-click="2">
 <div class="flex items-baseline gap-3 mb-2">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono">ABILITY 02</div>
+<div class="text-xs uppercase tracking-widest text-[#CADCFC] font-mono">ABILITY 02</div>
 <div class="text-lg font-bold text-white">"자신 있게 틀릴 때" 빨리 알아채기</div>
 </div>
 <div class="text-sm text-[#CADCFC] leading-relaxed">AI는 모를 때도 당당하게 답합니다 — 직접 돌려보고, 어색한 부분을 의심하는 눈</div>
