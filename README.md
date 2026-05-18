@@ -39,7 +39,7 @@ pages/                           슬라이드 본문 (발표 순서대로 정렬
   09-case-thermal.md             · 사례 2: 체온 알람
   10-recap.md                    · 두 프로젝트 공통점 + 공식
   11-your-turn.md                · 점심 분기 (24p) + 학교 자동화 예시
-  12-tips.md                     · AI 사용법 + 고1 5가지 + 기록
+  12-tips.md                     · AI 사용법 + 고1 세 가지
   13-key-message.md              · 오늘 가져갈 한 문장
   14-handson.md                  · 핸즈온 (슬리도 + 라이브 + 자료실)
   15-qna.md                      · 감사 / Q&A

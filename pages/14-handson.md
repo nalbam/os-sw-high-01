@@ -3,92 +3,6 @@ layout: default
 transition: slide-up
 ---
 
-<div class="absolute inset-0 bg-[#1A1A2E] text-white px-16 py-12 overflow-hidden">
-
-<SectionLabel section="HANDS-ON" />
-<div class="text-3xl mt-2 mb-6 font-bold text-white">핸드폰을 꺼내 — <span class="text-[#F96167]">슬리도에서 골라봅시다</span></div>
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
-<div class="text-2xl font-bold text-[#F96167] font-mono mb-2">01</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">SCAN</div>
-<div class="text-lg font-bold text-white mb-1">QR 찍기</div>
-<div class="text-xs text-[#CADCFC]">다음 슬라이드 QR로 접속</div>
-</div>
-
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
-<div class="text-2xl font-bold text-[#F96167] font-mono mb-2">02</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">VOTE</div>
-<div class="text-lg font-bold text-white mb-1">한 가지 고르기</div>
-<div class="text-xs text-[#CADCFC]">다섯 가지 중 가장 불편한 것</div>
-</div>
-
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-5 rounded">
-<div class="text-2xl font-bold text-[#F96167] font-mono mb-2">03</div>
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">SUBMIT</div>
-<div class="text-lg font-bold text-white mb-1">제출하기</div>
-<div class="text-xs text-[#CADCFC]">한 번 클릭이면 OK</div>
-</div>
-
-</div>
-
-<div class="mt-6 p-4 bg-[#F96167]/10 border-l-4 border-[#F96167] rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">FORMAT</div>
-<div class="text-xl font-semibold text-white">"다섯 가지 중 가장 불편한 것 — 한 표"</div>
-</div>
-
-<div class="grid grid-cols-5 gap-2 mt-5">
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">DEADLINE</div>
-<div class="text-xs text-[#CADCFC]">수행평가 마감</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">DUTY</div>
-<div class="text-xs text-[#CADCFC]">청소 당번</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">SCHEDULE</div>
-<div class="text-xs text-[#CADCFC]">학원·방과후</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">STUDY</div>
-<div class="text-xs text-[#CADCFC]">매일 복습</div>
-</div>
-<div class="bg-white/5 border border-[#AAB1C7]/20 p-3 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-1">NOTICE</div>
-<div class="text-xs text-[#CADCFC]">단톡방·공지</div>
-</div>
-</div>
-
-<div class="mt-5 text-center text-sm text-[#AAB1C7] font-mono">시간 · 약 3분</div>
-
-<PageFooter />
-
-</div>
-
-<!--
-**[슬리도에서 투표하기 · 약 3분 — 인터랙션]**
-
-핸드폰 꺼내 주세요. 3분만 시간 드릴 거예요.
-
-다음 슬라이드에 QR 코드 띄울 테니까 — 슬리도(Slido)로 들어와서 —
-**아까 본 다섯 가지 중에 가장 불편한 것 한 가지** 만 골라 주세요.
-
-다섯 가지 다시 한 번 짚어 드릴게요.
-**DEADLINE** 수행평가 마감, **DUTY** 청소 당번,
-**SCHEDULE** 학원·방과후, **STUDY** 매일 복습, **NOTICE** 단톡방·공지.
-
-한 번 클릭이면 충분합니다. 익명이고, 정답 없어요.
-**가장 많은 표를 받은 것** 을 — 다음에 같이 만들어 볼 거예요.
-
-→ 다음 슬라이드 전환: "QR 코드 띄울게요."
--->
-
----
-layout: default
----
-
 <div class="absolute inset-0 bg-[#F7F6F3] text-[#1A1A2E] px-16 py-12 overflow-hidden">
 
 <SectionLabel section="SLIDO" />
@@ -124,6 +38,14 @@ layout: default
 <div class="bg-[#1A1A2E] text-white p-3 rounded text-center">익명·정답 없음</div>
 </div>
 
+<div class="grid grid-cols-5 gap-2 text-xs">
+<div class="bg-white p-2 rounded text-center shadow-sm">DEADLINE</div>
+<div class="bg-white p-2 rounded text-center shadow-sm">DUTY</div>
+<div class="bg-white p-2 rounded text-center shadow-sm">SCHEDULE</div>
+<div class="bg-white p-2 rounded text-center shadow-sm">STUDY</div>
+<div class="bg-white p-2 rounded text-center shadow-sm">NOTICE</div>
+</div>
+
 </div>
 
 </div>
@@ -133,11 +55,18 @@ layout: default
 </div>
 
 <!--
-**[QR · 한 표면 충분합니다 — QR 띄우는 동안]**
+**[QR · 한 표면 충분합니다 — 약 3분]**
+
+핸드폰 꺼내 주세요. 3분만 시간 드릴 거예요.
 
 QR 찍고 슬리도(Slido)로 들어오세요.
+아까 본 다섯 가지 중에 가장 불편한 것 한 가지만 골라 주세요.
 
-시간 3분 드립니다. 5개 중에 가장 불편한 거 하나만 골라서 클릭해 주세요.
+다섯 가지는 **DEADLINE** 수행평가 마감, **DUTY** 청소 당번,
+**SCHEDULE** 학원·방과후, **STUDY** 매일 복습, **NOTICE** 단톡방·공지.
+
+한 번 클릭이면 충분합니다. 익명이고, 정답 없어요.
+**가장 많은 표를 받은 것** 을 — 다음에 같이 만들어 볼 거예요.
 
 (3분 대기. 학생들이 투표하는 동안 슬리도 결과 화면을 띄워두기 — 실시간으로 막대가 올라가는 게 학생 핸드폰에도 보임)
 
