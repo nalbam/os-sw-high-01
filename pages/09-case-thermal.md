@@ -43,7 +43,7 @@ transition: slide-up
 두 번째 — **체온 알람 서비스** 입니다.
 
 이건 코로나 시기에 만든 거예요.
-**열화상카메라로 체온을 재고, 일반 카메라로 안면인식을 해서,
+**카메라가 체온을 보고,
 정해둔 온도를 넘으면 알림을 보내는** 시스템이에요.
 
 한 줄로 정리하면 — **사람이 계속 보고 있던 화면을, 컴퓨터가 보게 만든 이야기**.
@@ -120,7 +120,7 @@ layout: default
 <div class="col-span-1 text-center" v-click="2">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">02</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">PROCESS</div>
-<div class="text-sm text-[#CADCFC]">안면인식으로<br/>누군지 + 온도 비교</div>
+<div class="text-sm text-[#CADCFC]">정해둔 기준과<br/>비교한다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]" v-click="3">→</div>
@@ -128,7 +128,7 @@ layout: default
 <div class="col-span-1 text-center" v-click="3">
 <div class="w-20 h-20 mx-auto rounded-full bg-[#F96167] text-white flex items-center justify-center text-2xl font-bold font-mono mb-3">03</div>
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">STORE</div>
-<div class="text-sm text-[#CADCFC]">기록을<br/>서버에 남긴다</div>
+<div class="text-sm text-[#CADCFC]">상황을<br/>기록한다</div>
 </div>
 
 <div class="text-center text-3xl text-[#F96167]" v-click="4">→</div>
@@ -143,12 +143,12 @@ layout: default
 
 <div class="mt-12 grid grid-cols-2 gap-4">
 <div class="bg-white/5 border-l-4 border-[#F96167] p-4 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">왜 라즈베리파이?</div>
-<div class="text-sm text-[#CADCFC]"><strong class="text-white">열화상 카메라 + 일반 카메라</strong> 둘 다 연결하려고요</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">핵심 질문</div>
+<div class="text-sm text-[#CADCFC]">무엇을 보고, 언제 이상하다고 판단할까?</div>
 </div>
 <div class="bg-white/5 border-l-4 border-[#F96167] p-4 rounded">
-<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">열화상 카메라</div>
-<div class="text-sm text-[#CADCFC]">사람 체온을 <strong class="text-white">색으로 보여주는 센서</strong> — 사람 눈에 안 보이는 열을 카메라가 본다</div>
+<div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">중요한 연결</div>
+<div class="text-sm text-[#CADCFC]">이상이 생기면 <strong class="text-white">기록하고 바로 알려주는 것</strong></div>
 </div>
 </div>
 
@@ -163,14 +163,12 @@ layout: default
 
 그래서 흐름을 이렇게 만들었어요.
 
-- **01 DETECT** — 열화상카메라로 체온을, 일반 카메라로 얼굴을 본다.
-- **02 PROCESS** — 작은 컴퓨터가 안면인식을 하고 누군지 파악하고, 정해둔 온도와 비교한다.
-- **03 STORE** — 누가 언제 어떤 체온이었는지 서버에 기록한다.
+- **01 DETECT** — 열화상카메라로 체온을 본다.
+- **02 PROCESS** — 작은 컴퓨터가 정해둔 온도와 비교한다.
+- **03 STORE** — 언제 어떤 상황이었는지 기록한다.
 - **04 NOTIFY** — 온도를 넘으면 메신저로 바로 알려준다.
 
-라즈베리파이(작은 컴퓨터)를 쓴 이유는 — **열화상 카메라랑 일반 카메라, 둘 다 연결**해야 했거든요.
-
-그리고 열화상 카메라는 — 사람 체온을 색으로 보여주는 센서예요.
+열화상 카메라는 — 사람 체온을 색으로 보여주는 센서예요.
 사람 눈에 안 보이는 열을 카메라가 봐 주는 거죠.
 
 핵심은 — **기술의 이름** 이 아니에요. **흐름** 입니다.
@@ -195,9 +193,9 @@ layout: default
 <div class="text-xs uppercase tracking-widest text-[#6B6E80] font-mono mb-2">V1 · 2020.02</div>
 <div class="text-xl font-bold text-[#2A2D43] mb-4">"좀 거칠었다"</div>
 <div class="space-y-3 text-sm text-[#2A2D43]">
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>AMG8833</strong> (8×8 픽셀)</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>한 대 — 한 출입구, 추적 안 됨</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람 얼굴이 격자 한두 칸 — <strong>얼굴인지 확인 힘듦</strong></span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>화면이 거칠어서 <strong>판단이 어려웠다</strong></span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>한 곳에서만 쓸 수 있었다</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>기록과 알림 흐름이 부족했다</span></div>
 </div>
 </div>
 
@@ -205,9 +203,9 @@ layout: default
 <div class="text-xs uppercase tracking-widest text-[#F96167] font-mono mb-2">V2 · 2020.06 (4개월 뒤)</div>
 <div class="text-xl font-bold text-[#1A1A2E] mb-4">직접 써보고 키웠다</div>
 <div class="space-y-3 text-sm text-[#2A2D43]">
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>열화상 센서 — <strong>FLIR Lepton 3.5</strong> (160×120 픽셀)</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>여러 곳에 설치 가능</span></div>
-<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>사람별 — 한 달 안에 어디 갔는지 추적</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>더 정밀한 센서로 바꿨다</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>여러 곳에서 쓸 수 있게 했다</span></div>
+<div class="flex gap-2"><span class="text-[#F96167]">·</span><span>필요한 사람에게 바로 알려주게 했다</span></div>
 </div>
 </div>
 
@@ -227,16 +225,13 @@ layout: default
 
 처음 만든 V1 은 — 솔직히 좀 거칠었어요.
 
-첫 센서가 **AMG8833** 이라는 거였는데 — 8×8, 그러니까 가로 8칸 세로 8칸 격자입니다.
-손바닥에 그릴 수 있는 크기죠. 사람 얼굴이 한두 칸 안에 들어가요.
-**이게 사람 얼굴인가 확인이 힘들었어요.**
-
-그리고 한 곳에만 설치돼 있었어요. 누가 어디 갔는지 추적이 안 됐고요.
+처음에는 화면이 거칠어서 판단이 어려웠어요.
+한 곳에서만 쓸 수 있었고, 기록과 알림 흐름도 부족했습니다.
 
 그래서 **4개월 뒤 V2** 를 만들었어요.
-- 센서를 **FLIR Lepton 3.5** 로 바꿨어요. **160×120 픽셀** — 8×8 (64 픽셀) 에서 19,200 픽셀로, **약 300배** 정밀해졌어요. 사람 얼굴 표정까지 또렷이 보입니다.
-- 여러 곳에 설치할 수 있게 만들었고요.
-- 사람별로 — 한 달 안에 어디 갔다 왔는지 기록을 봤어요.
+- 더 정밀한 센서로 바꿨습니다.
+- 여러 곳에서 쓸 수 있게 했고요.
+- 필요한 사람에게 바로 알려주게 했습니다.
 
 여기서 배운 한 가지가 — **직접 써봐야 부족한 게 보인다**.
 머리로만 생각하면 모릅니다. 작게 만들어 보고, 직접 써보고 — 그래야 다음 단계가 보여요.
