@@ -64,7 +64,7 @@ layout: default
 </div>
 
 <div class="rounded-lg overflow-hidden">
-<img src="./images/small-idea-big-journey.png" class="w-full h-auto" />
+<img src="./images/my-story-tinkering.png" class="w-full h-auto" />
 </div>
 
 </div>
